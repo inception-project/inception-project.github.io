@@ -1,0 +1,6 @@
+- menu_name: "Mailing lists"
+
+- name: "Users"
+  url: "https://groups.google.com/d/forum/inception-users"
+  class: "services-newsletter"
+  title: "Users"

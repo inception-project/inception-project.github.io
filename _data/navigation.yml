@@ -1,0 +1,44 @@
+- title: INCEpTION
+  url: "/"
+  side: left
+
+- title: Downloads
+  url: "/downloads"
+  side: left
+  dropdown:
+  - title: "Release versions"
+    url: "/downloads"
+  - title: "Beta versions"
+    url: "/downloads-beta"
+
+# - title: Documentation
+#   url: "/documentation"
+#   side: left
+#   dropdown:
+#   - title: "Overview"
+#     url: "/documentation"
+#   - title: "User Guide"
+#     url: "/releases/!LATEST!/docs/user-guide.html"
+#   - title: "Admin Guide"
+#     url: "/releases/!LATEST!/docs/admin-guide.html"
+
+- title: "Issues"
+  url: "http://github.com/inception-project/inception/issues"
+  side: left
+
+- title: Source
+  url: "http://github.com/inception-project/inception"
+  side: left
+
+- title: "Contact"
+  url: "/contact"
+  side: left
+  dropdown:
+  - title: "Mailing lists"
+    url: "/mailinglists"
+  - title: "Contributors"
+    url: "http://github.com/inception-project/inception/blob/master/CONTRIBUTORS.txt"
+
+- title: "About"
+  url: "/info"
+  side: left
