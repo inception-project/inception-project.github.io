@@ -5,7 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "INCEpTION"
+title: "Welcome"
 #header:
 header-1:
     title: Towards an Infrastructure for the Distributed Exploration and Annotation of Large Corpora and Knowledge Bases
