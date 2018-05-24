@@ -11,16 +11,16 @@
   - title: "Beta versions"
     url: "/downloads-beta"
 
-# - title: Documentation
-#   url: "/documentation"
-#   side: left
-#   dropdown:
-#   - title: "Overview"
-#     url: "/documentation"
-#   - title: "User Guide"
-#     url: "/releases/!LATEST!/docs/user-guide.html"
-#   - title: "Admin Guide"
-#     url: "/releases/!LATEST!/docs/admin-guide.html"
+ - title: Documentation
+   url: "/documentation"
+   side: left
+   dropdown:
+   - title: "Overview"
+     url: "/documentation"
+   - title: "User Guide"
+     url: "/releases/!LATEST!/docs/user-guide.html"
+   - title: "Admin Guide"
+     url: "/releases/!LATEST!/docs/admin-guide.html"
 
 - title: "Issues"
   url: "http://github.com/inception-project/inception/issues"
