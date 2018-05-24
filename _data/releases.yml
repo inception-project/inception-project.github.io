@@ -4,12 +4,20 @@
 #   user_guide_url: ...
 #   admin_guide_url: ...
 #   developer_guide_url: ...
+
+- version: 0.3.1
+  date: 2018-05-24
+  status: stable
+
+- version: 0.3.0
+  date: 2018-05-09
+  status: stable
   
 - version: 0.2.2
   date: 2018-04-05
   status: stable
 
-- version: 0.3.0-SNAPSHOT
+- version: 0.4.0-SNAPSHOT
   status: unstable
   user_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/
   admin_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
