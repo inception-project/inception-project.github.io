@@ -12,9 +12,13 @@ header-1:
     text: INCEpTION provides a semantic annotation platform offering intelligent annotation assistance and knowledge management.
 ---
 
-The annotation of specific semantic phenomena often require compiling task-specific corpora and creating or extending task-specific knowledge bases. Presently, researchers require a broad range of skills and tools to address such semantic annotation tasks.
+The annotation of specific semantic phenomena often require compiling task-specific corpora and
+creating or extending task-specific knowledge bases. Presently, researchers require a broad range
+of skills and tools to address such semantic annotation tasks.
 
-In the recently funded INCEpTION project, UKP Lab at TU Darmstadt aims towards building an annotation platform that incorporates all the related tasks into a joint web-based platform. The following sections briefly outline the involved tasks.
+In the recently funded INCEpTION project, UKP Lab at TU Darmstadt aims towards building an 
+annotation platform that incorporates all the related tasks into a joint web-based platform. 
+
 
 ### License
 
