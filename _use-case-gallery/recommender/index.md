@@ -18,14 +18,14 @@ Two following recommenders are configured in this project to give suggestions of
 * Token String Matcher
 * Token Sequence Classifier(OpenNLP POS)
 
-After importing the project, this project appears in “Projects”. A user can click on this 
-project, then switch to “Documents” to view the uploaded documents, and switch to “Recommenders” 
+After importing the project, this project appears in _Projects_. A user can click on this 
+project, then switch to _Documents_ to view the uploaded documents, and switch to _Recommenders_ 
 to view the configured two recommenders:
 ![projects_settings](recommenders_projects_settings.png)
 
-After that, a user can switch to the annotation page and open the document “Noam_Chomsky.txt”. 
+After that, a user can switch to the annotation page and open the document **Noam_Chomsky.txt**. 
 The recommendations are shown above the tokens. A user can find the detailed description for 
-using active learning to do the annotations in the INCEpTION User Guide. By clicking “Help”, a 
+using active learning to do the annotations in the INCEpTION User Guide. By clicking _Help_, a 
 user can view this user guide.
 ![annotation_page](annotation_page_with_active_learning.png)
 
