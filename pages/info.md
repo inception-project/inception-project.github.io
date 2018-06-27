@@ -7,16 +7,20 @@ permalink: "/info/"
 INCEpTION is a project undertaken at the The Ubiquitous Knowledge Processing (UKP) Lab at 
 the Department of Computer Science, Technische Universität Darmstadt.
 
-## People
+## Current project members
 
 * Dr. Richard Eckart de Castilho
 * Prof. Dr. Iryna Gurevych
 * Beto Boullosa
 * Jan-Christoph Klie
-* Michael Bugert
 * Naveen Kumar
 * Peter Jiang 
 * Wei Ding
+* Marcel de Boer
+
+## Former project members
+
+* Michael Bugert
 
 ## Acknowledgments
 
