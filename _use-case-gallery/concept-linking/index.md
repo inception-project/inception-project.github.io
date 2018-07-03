@@ -1,8 +1,7 @@
 ---
 title: Smart Concept Linking
 permalink: /use-case-gallery/concept-linking/
-# screenshot: screenshot.png
-# thumbnail: screenshot-thumb.png
+# Smart Concept Linking
 ---
 
 This project serves as an example for using Interactive Concept Linking supported by 
@@ -31,7 +30,7 @@ Wikidata offers canonical [RDF dumps](https://dumps.wikimedia.org/wikidatawiki/e
 The mapping is described [here](ttps://www.mediawiki.org/wiki/Wikibase/Indexing/RDF_Dump_Format).
 
 After importing the project, this project appears in _Projects_. A user can click on this 
-project, then switch to _Documents_ to view the uploaded documents, and switch to _Recommenders_ 
+project, then switch to _Documents_ to view the uploaded documents or _Recommenders_ 
 to view the configured recommenders:
 ![projects_settings](recommenders_projects_settings.png)
 
@@ -41,7 +40,9 @@ The user can click on an existing annotation and type in the **identifier** fiel
 or he can mark any mention in a text.
 After opening the project for the first time, it takes a while until automatic recommendations are shown.
 
-Detailed descriptions for using Interactive Concept Linking in the INCEpTION User Guide.
-![annotation_page](annotation_page_with_concept_linking.png)
+Detailed descriptions for using Interactive Concept Linking can be found in the INCEpTION User Guide.
 
-**Download**: [Smart Concept Linking example project](Recommendation+and+Active+Learning+Example+Project_2018-06-18_1046.zip)
+![annotation_page](annotation_page_with_concept_linking_1.png)
+![annotation_page](annotation_page_with_concept_linking_2.png)
+
+**Download**: [Smart Concept Linking example project](ConceptLinking-Example_2018-07-03_2059.zip)
