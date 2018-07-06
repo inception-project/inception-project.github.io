@@ -5,8 +5,12 @@
 #   admin_guide_url: ...
 #   developer_guide_url: ...
 
+- version: 0.4.0
+  date: 2018-07-10
+  status: stable
+
 - version: 0.3.3
-  date: 2018-06-10
+  date: 2018-06-27
   status: stable
   
 - version: 0.3.2
