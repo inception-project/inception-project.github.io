@@ -29,4 +29,4 @@ using active learning to do the annotations in the INCEpTION User Guide. By clic
 user can view this user guide.
 ![annotation_page](annotation_page_with_active_learning.png)
 
-**Download**: [INCEpTION example project](Recommendation+and+Active+Learning+Example+Project_2018-06-18_1046.zip)
+**Download**: [INCEpTION example project](Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip)
