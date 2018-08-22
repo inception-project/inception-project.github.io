@@ -18,6 +18,8 @@ of skills and tools to address such semantic annotation tasks.
 In the recently funded INCEpTION project, UKP Lab at TU Darmstadt aims towards building an 
 annotation platform that incorporates all the related tasks into a joint web-based platform. 
 
+<img width="100%" src="{{ site.url }}/images/screenshot-annotation.png"/>
+
 ### How to cite
 
 If you use INCEpTION in scientific work or want to learn more about it, please have a look at
