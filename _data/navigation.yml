@@ -26,13 +26,20 @@
   - title: "Admin Guide"
     url: "/releases/!LATEST!/docs/admin-guide.html"
 
-- title: "Issues"
-  url: "http://github.com/inception-project/inception/issues"
+- title: Publications
+  url: "/publications/"
   side: left
 
-- title: Source
-  url: "http://github.com/inception-project/inception"
+- title: GitHub
+  url: "/http://github.com/inception-project"
   side: left
+  dropdown:
+  - title: "Issues"
+    url: "http://github.com/inception-project/inception/issues"
+    side: left
+  - title: Source
+    url: "http://github.com/inception-project/inception"
+    side: left
 
 - title: "Contact"
   url: "/contact"
