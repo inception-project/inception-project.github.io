@@ -26,6 +26,8 @@ If you use INCEpTION in scientific work or want to learn more about it, please h
 
 > Klie, J.-C., Bugert, M., Boullosa, B., Eckart de Castilho, R. and Gurevych, I. (2018): **The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation.** In Proceedings of System Demonstrations of the 27th International Conference on Computational Linguistics (COLING 2018), Santa Fe, New Mexico, USA ([pdf][COLING-2018-PDF]) ([bib][COLING-2018-BIB]) ([flyer][COLING-2018-FLYER])
 
+For publications on more specific aspects of the platform, have a look at our [complete publications list]({{ site.url }}/publications).
+
 ### License
 
 INCEpTION is provided as open source under the Apache License v2.0.
