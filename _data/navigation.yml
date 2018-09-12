@@ -2,7 +2,7 @@
   url: "/"
   side: left
 
-- title: Downloads
+- title: Download
   url: "/downloads"
   side: left
   dropdown:
@@ -49,7 +49,6 @@
     url: "/mailinglists"
   - title: "Contributors"
     url: "http://github.com/inception-project/inception/blob/master/CONTRIBUTORS.txt"
-
-- title: "About"
-  url: "/info"
-  side: left
+  - title: "About"
+    url: "/info"
+    side: left
