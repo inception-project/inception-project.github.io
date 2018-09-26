@@ -14,21 +14,45 @@ of an OWL-based ontology.
 
 For downloading the project [click here](Search+Example.zip).
 
+In this project, we give a brief introduction of how to set up a knowledge base and its related configuration.
+
+## Knowledge Base
+
+The knowledge base (KB) module of INCEpTION enables the user to create a KB from scratch or to import it from an RDF file. Alternatively, the user can connect to a remote KB using SPARQL. However, editing the content of remote KBs is currently not supported. The knowledge base enables the user to annotate the text with entities from KB. 
+
+This section briefly describes how to set up a KB in the KB management page on Projects Settings, explains the functionalities provided by the __Knowledge Base__ page and covers the __concept__ and  __property__ feature types. 
+
+
 ## Project structure and configuration 
 
 After importing the project, it will appear as __Search Example__ in _Projects_. The user can click 
 on this project, then switch to the _Documents_ tab to view the uploaded documents:
 
 * __closvougeot.txt__: A text about Clos de Vougeot wines.
-* __sauternes..txt__: A text about Sauternes wines.
+* __sauternes.txt__: A text about Sauternes wines.
 * __wine-document.txt__: A text about Chateau d'Yquem wines.
 * __yquem.txt__: Another text about Chateau d'Yquem wines.
+
 
 ### Knowledge base configuration
 
 Switching to the _Knowledge bases_ tab will show the configuration of the knowledge base. 
 It has been previously created and imported using the RDF file available 
 [here](https://www.w3.org/TR/owl-guide/wine.rdf).
+
+### Knowledge Base scope setting for feature layer
+
+In the __Projects Settings__, switch to the __Layers__ tab where the user can edit the configuration 
+for the pre-defined layers or create a new layer clicking the __Create__ button on the bottom of the panel. 
+The user can define several features for each of the layers as shown in the figure below.
+
+![layer_config](kb-layer-config.png)
+
+The feature configuration needs a name along with the __Type__ which sets the primary scope of the feature. The dropdown provides the user with one of the option as __KB: Concept/Instance__, which sets the scope of the feature to knowledge base entities. 
+
+Furthermore, this feature which has been configured, if set to __KB: Concept/Instance__, asks for the __Allowed values__ which has three values as options: __Any Concept/Instance__, __Only Concept__ and __Only Instance__. When the user annotates the text with the particular layer for this feature which has been configures for __Any Concept/Instance__ , the auto complete field lists all the concept and instances, while for __Only Concept__ and __Only Instance__ it list only concept or only instance respectively.
+
+The feature configuration allows her to set up the configuration to list the values from a specific knowledge base. The __Scope__ field allows her to set the scope of KB entities with a specific concept limiting the annotation values to sub class and instances of the concept defined as scope. In case the user selects __Any Concept/Instance__, the values will be instances of the specified concept and the child concepts (which includes the hierarchy of child concepts) including their instances, of the specified concept in the __Scope__. Likewise, the choice of __Only Concept__ limit the values to the child concepts (which includes the hierarchy of child concepts) and  __Only Instance__ limit the values to all of the instances and the instances for the child concepts of the specified concept. 
 
 ### Custom layers and features
 
@@ -47,6 +71,7 @@ Named entities can be linked to the knowledge base through the __identifier__ fe
 given wine annotation can be directly linked to the corresponding _Wine_ 
 concept (or subconcepts), or a grape annotation can be linked to the _Grape_
 concept in the knowledge base.
+
 
 ### Knowledge base contents
 
@@ -146,5 +171,4 @@ within (<Claim/> containing ”expensive.*”)
 
 To learn more about MTAS implementation of CQP and its syntax, 
 access [this link](https://meertensinstituut.github.io/mtas/search_cql.html).
-
 
