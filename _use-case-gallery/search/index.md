@@ -3,6 +3,7 @@ title: Knowledge Supported Search
 permalink: /use-case-gallery/search/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
+example-project: Search+Example.zip
 ---
 
 This project is an example for using the search functionalities of 
@@ -11,8 +12,6 @@ INCEpTION in order to search for raw text, conventional and knowledge base linke
 In this project, we use a local knowledge base containing the wine ontology from the 
 [W3C’s OWL Web Ontology Language Guide](https://www.w3.org/TR/owl-guide), a popular example 
 of an OWL-based ontology. 
-
-For downloading the project [click here](Search+Example.zip).
 
 In this project, we give a brief introduction of how to set up a knowledge base and its related configuration.
 
