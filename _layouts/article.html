@@ -3,7 +3,7 @@ layout: default
 format: post
 ---
 <div class="row t30" style="max-width: none;">
-    <div class="medium-4 columns {% if page.sidebar == 'left' %} medium-push-3{% endif %}">
+    <div class="medium-6 columns {% if page.sidebar == 'left' %} medium-push-3{% endif %}">
         <article itemscope itemtype="http://schema.org/Article">
             <header>
                 {% if page.image.title %}
@@ -50,9 +50,17 @@ format: post
     </div><!-- /.medium-6.columns -->
 
     {% if page.sidebar == "left" %}
-    <div class="medium-5 medium-push-3 columns">
+    <div class="medium-3 medium-push-3 columns">
       {% if page.screenshot %}
         <a href="{{ page.screenshot }}"><img src="{{ page.thumbnail }}" width="100%" style="border: solid grey 1px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"/></a>
+      {% endif %}
+      {% if page.example-project %}
+      <div style="text-align: center;">
+        <a href="{{ page.example-project }}">
+        <span class="icon-archive" style="font-size: 400%;"></span> <br>
+        Download example project
+        </a>
+      </div>
       {% endif %}
     </div><!-- /.medium-3.columns -->
     <div class="medium-3 medium-pull-9 columns">
