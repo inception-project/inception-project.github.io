@@ -1,7 +1,7 @@
 ---
 title: Interactive Concept Linking
 permalink: /use-case-gallery/concept-linking/
-# Interactive Concept Linking
+example-project: Example%3A+Concept+Linking_2018-10-31_1947.zip
 ---
 
 This project serves as an example for using Interactive Concept Linking supported by 
@@ -34,5 +34,3 @@ Detailed descriptions for using Interactive Concept Linking can be found in the 
 
 ![annotation_page](annotation_page_with_concept_linking_1.png)
 ![annotation_page](annotation_page_with_concept_linking_2.png)
-
-**Download**: [Interactive Concept Linking Example Project](Concept+Linking+Example+Project_2018-10-15_1405.zip)
