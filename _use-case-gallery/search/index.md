@@ -1,5 +1,6 @@
 ---
 title: Knowledge Supported Search 
+subheadline: Example project
 permalink: /use-case-gallery/search/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png

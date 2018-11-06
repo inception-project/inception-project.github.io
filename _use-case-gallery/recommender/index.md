@@ -1,5 +1,6 @@
 ---
 title: Recommenders and Active Learning
+subheadline: Example project
 permalink: /use-case-gallery/recommender/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png

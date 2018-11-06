@@ -1,5 +1,6 @@
 ---
 title: Cited Loci
+subheadline: Use-case
 # subheadline: indexing of canonical references
 permalink: /use-case-gallery/cited-loci/
 screenshot: screenshot.png

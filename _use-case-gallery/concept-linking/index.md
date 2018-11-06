@@ -1,5 +1,6 @@
 ---
 title: Interactive Concept Linking
+subheadline: Example project
 permalink: /use-case-gallery/concept-linking/
 example-project: Example%3A+Concept+Linking_2018-10-31_1947.zip
 ---
