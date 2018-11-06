@@ -44,4 +44,7 @@ Features that we consider of particular importance to our use-case are:
 [3]: http://www.quaero.org/media/files/bibliographie/quaero-guide-annotation-2011.pdf
 [4]: https://github.com/dkpro/dkpro-cassis
 
-# (desideratum): ability to store and display document metadata; in impresso it's crucial to provide the annotator with a link to the IIIF page image to which the document being annotated belongs
+
+{% comment %}
+(desideratum): ability to store and display document metadata; in impresso it's crucial to provide the annotator with a link to the IIIF page image to which the document being annotated belongs
+{% endcomment %} 

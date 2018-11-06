@@ -9,7 +9,7 @@ hidden: true
 ---
 
 **Source**: <i>This example was kindly contributed by 
-<a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_41920.en.jsp>Claudia Schulz</a>,
+<a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/detailseite_mitarbeiter_1_41920.en.jsp">Claudia Schulz</a>,
  Ubiquitous Knowledge Processing (UKP) Lab, Technische Universität Darmstadt , Germany</i>
 
 Diagnostic reasoning is a key competence in many professions. Examples are diagnosing diseases and 
