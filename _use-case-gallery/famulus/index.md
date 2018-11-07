@@ -2,10 +2,10 @@
 title: FAMULUS
 subheadline: Use-case
 permalink: /use-case-gallery/famulus/
-# screenshot: screenshot.png
-# thumbnail: screenshot-thumb.png
+screenshot: screenshot.png
+thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
-hidden: true
+hidden: false
 ---
 
 **Source**: <i>This example was kindly contributed by 
