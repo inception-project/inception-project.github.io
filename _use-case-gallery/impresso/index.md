@@ -5,7 +5,7 @@ permalink: /use-case-gallery/impresso/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
-hidden: true
+hidden: false
 ---
 
 **Source**: <i>This example was kindly contributed by <a href="https://twitter.com/mr56k">Matteo Romanello</a>,
