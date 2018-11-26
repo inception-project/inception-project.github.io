@@ -8,7 +8,7 @@ thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
 ---
 
-**Source**: <i>This example was kindly contributed by <a href="https://twitter.com/mr56k">Matteo Romanello</a>,
+**Source**: <i>This example was kindly contributed by <a href="http://orcid.org/0000-0002-7406-6286">Matteo Romanello</a>,
  Digital Humanities Laboratory, EPFL, Switzerland</i>
 
 The [Cited Loci][1] project, developed to index canonical references found in 

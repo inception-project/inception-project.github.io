@@ -8,7 +8,7 @@ permalink: /use-case-gallery/impresso/
 hidden: false
 ---
 
-**Source**: <i>This example was kindly contributed by <a href="https://twitter.com/mr56k">Matteo Romanello</a>,
+**Source**: <i>This example was kindly contributed by <a href="http://orcid.org/0000-0002-7406-6286">Matteo Romanello</a>,
  Digital Humanities Laboratory, EPFL, Switzerland</i>
 
 The [Impresso][1] project aims to enable critical text mining of newspaper archives with the 
