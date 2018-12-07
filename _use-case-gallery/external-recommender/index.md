@@ -7,30 +7,29 @@ permalink: /use-case-gallery/external-recommender/
 example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
 ---
 
-This project is an example for using external recommender in INCEpTION to annotate named entities
-and part-of-speech tags. Recommender in INCEpTION provide interactive annotation support by suggesting
-potential labels. A special kind of recommenders are external ones.
+This example provides a ready-to-use project show-casing the use of an *External Recommender* in INCEpTION for annotating named entities
+and part-of-speech tags. Recommenders provide interactive annotation support by suggesting
+potential labels.
 
 External recommenders are web services that expose a machine learning classifier over a HTTP web service.
-They can predict annotations for given documents and optionally be trained on new data. In contrast to
-internal recommender, i.e. recommender that are built into the INCEpTION executable, external recommender 
-allow to e.g. integrate recommenders written in a different programming language or to use an already
-pre-trained model.
+They can predict annotations for given documents and optionally be trained on new data. The external recommender
+support in INCEpTION allows to e.g. integrate custom classifiers written in a different programming language
+or to use an already pre-trained model.
 
-In order to implement a proper external recommender by onself, certain HTTP endpoints need to be implemented.
- The protocol itself is documented in the [INCEpTION Developer Guide](https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/#_external_recommender_api_overview).
+The protocol used by INCEpTION to communitcate with an external recommender is documented in the [INCEpTION Developer Guide](https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/#_external_recommender_api_overview).
 
-When getting started with external recommender, it might be easier to use an existing implementation. Right
-now, there are two external recommender implemented which serve as an example. They are described in the
-following. The links to the Github repositories contain documentation installation guides. :
+To get started with external recommenders, we provide several external recommender implementations that 
+can serve as examples and as a basis for custom implementations. They are described in the
+following. The links to the GitHub repositories contain documentation installation guides:
 
 ## DKPro TC external recommender
 
 [DKPro TC](https://dkpro.github.io/dkpro-tc/) is an UIMA-based text classification Java framework built
-on top of DKPro Core and DKPro Lab. It is intended to facilitate supervised machine learning experiments
-with any kind of textual data. It supports predicting and training for token and span annotations.
+on top of DKPro Core and DKPro Lab. It facilitates supervised machine learning experiments
+with any kind of textual data. It supports predicting and training for sequence classification tasks (e.g.
+part-of-speech tagging, named entity recognition, etc.)
 
-The recommender itself is available on [Github](https://github.com/inception-project/external-recommender-dkpro-tc).
+The DKPro TC recommender is available on [Github](https://github.com/inception-project/external-recommender-dkpro-tc).
 
 ## spaCy external recommender
 
@@ -39,11 +38,11 @@ Python. It currently offers statistical neural network models for e.g. part-of-s
 parsing, named entity recognition in many different languages. The corresponding INCEpTION external recommender
 uses the [Flask](http://flask.pocoo.org/) Python framework to expose POS and NER prediction.
 
-The recommender itself is available on [Github](https://github.com/inception-project/external-recommender-spacy).
+The spaCy recommender is available on [Github](https://github.com/inception-project/external-recommender-spacy).
 
 ## Example INCEpTION project
 
-The INCEpTION project for this use case contains two documents without annotations. They contain many named 
+The INCEpTION project for this example contains two documents without annotations. They contain many named 
 entities and tokens with diverse part of speech:
 
 * __Tesla-Britannica.txt__: A short article about Nicola Tesla, the Serbian-American inventor, electrical engineer, mechanical engineer, and futurist.
@@ -54,7 +53,7 @@ The following recommenders are configured in this project:
 * Named entity value: External recommender
 * Parts-of-speech: External recommender
 
-They are configured with a dummy remote URL and are disabled by default. In order to make them use, set up an
+They are configured with a dummy remote URL and are disabled by default. In order to use them, set up an
 external recommender by either starting an instance of the DKPro TC or spaCy recommender according to the
 respective documentation in its repository. 
 
