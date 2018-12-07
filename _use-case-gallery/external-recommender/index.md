@@ -4,7 +4,7 @@ subheadline: Example project
 permalink: /use-case-gallery/external-recommender/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
-example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
+example-project: External+Recommender+Example+Project_2018-12-07_1608.zip
 ---
 
 This example provides a ready-to-use project show-casing the use of an *External Recommender* in INCEpTION for annotating named entities
@@ -45,8 +45,8 @@ The spaCy recommender is available on [Github](https://github.com/inception-proj
 The INCEpTION project for this example contains two documents without annotations. They contain many named 
 entities and tokens with diverse part of speech:
 
-* __Tesla-Britannica.txt__: A short article about Nicola Tesla, the Serbian-American inventor, electrical engineer, mechanical engineer, and futurist.
-* __Wikipedia-Obama.txt__: A short excerpt from the Wikipedia page of Barack Obama.
+* **Michael\_Jordan\_scientist.txt**: A short article about Michael I. Jordan (scientist).
+* **Wikipedia-Obama.txt**: A short excerpt from the Wikipedia page of Barack Obama.
 
 The following recommenders are configured in this project:
 
@@ -61,7 +61,7 @@ Back in INCEpTION, go to the _Project settings_ under the _Recommender_ tab, ent
 correct remote URL and enable it. It is recommended to not enable both POS and NER at the same time, as it adds
 visual clutter.
 
-![projects_settings](recommenders_projects_settings.png)
+![projects_settings](external_recocmmender_settings.png)
 
 When everything is configured, switch to the annotation page and open the document a document. After performing an action,
 e.g. making an annotation, the recommendations are shown above the tokens. A detailed description for using recommender 
@@ -70,7 +70,7 @@ can be found in the [INCEpTION user guide](https://inception-project.github.io//
 The following images show the spaCy recommender in action. The first picture shows suggestions for named entites, the
 second one for parts-of-speech tags.
 
-![annotation_ner](https://raw.githubusercontent.com/inception-project/external-recommender-spacy/master/images/ner_jordan.png)
+![annotation_ner](external_recocmmender_ner.png)
 
-![annotation_pos](https://raw.githubusercontent.com/inception-project/external-recommender-spacy/master/images/pos_obama.png)
+![annotation_pos](external_recocmmender_pos.png)
 
