@@ -115,20 +115,20 @@ Bordeaux
 * All occurrences of named entities of type _LOCATION_
 
 ```
-<Named entity.value=”LOC”/>
+<Named_entity.value="LOC"/>
 ```
 
 * All occurrences of named entities of type _WINE_
 
 ```
-<Named entity.value=”WINE”/>
+<Named_entity.value="WINE"/>
 ```
 
 * All occurrences of named entities regardless of their types
 
 
 ```
-<Named entity/>
+<Named_entity/>
 ```
 
 ### Queries over annotations linked to knowledge base concepts
@@ -136,24 +136,24 @@ Bordeaux
 * All mentions of wines under the _Bordeaux_ branch of the wine ontology
 
 ```
-<Named entity.identifier=”Bordeaux”/>
+<Named_entity.identifier="Bordeaux"/>
 ```
 
-* Appending -exact to the identifier field will limit the above query to only mentions directly 
-linked to the Bordeaux branch of the ontology. No mentions linked to the Bordeaux subtypes
+* Appending `-exact` to the identifier field will limit the above query to only mentions directly 
+linked to the _Bordeaux_ branch of the ontology. No mentions linked to the _Bordeaux_ subtypes
 will be retrieved:
 
 
 ```
-<Named entity.identifier-exact=”Bordeaux”/>
+<Named_entity.identifier-exact="Bordeaux"/>
 ```
 
 * A query can also directly refer the concept URI instead of its label. For retrieving all
- exact mentions of the Clos de Vougeot wine:
+ exact mentions of the _Clos de Vougeot_ wine:
 
 ```
-<Named entity.identifier-exact =
-”http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeVougeotCotesDOr”/>
+<Named_entity.identifier-exact =
+"http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#ClosDeVougeotCotesDOr"/>
 ```
 
 ### Complex queries
@@ -163,8 +163,8 @@ of wines belonging to the _Burgundy_ or _Bordeaux_ types (and their subtypes), l
 inside a claim that matches the regular expression pattern __expensive.*__
 
 ```
-(<Named entity.identifier=”Burgundy”/> | <Named entity.identifier=”Bordeaux”/>)
-within (<Claim/> containing ”expensive.*”)
+(<Named_entity.identifier="Burgundy"/> | <Named_entity.identifier="Bordeaux"/>)
+within (<Claim/> containing "delicious.*")
 ```
 
 ### To learn more
