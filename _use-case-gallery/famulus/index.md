@@ -28,5 +28,14 @@ categories of diagnostic reasoning. To improve the annotation efficiency, FAMULU
 the annotated data to train a [deep learning LSTM-CRF model][2] which is then connected to INCEpTION
 as an external recommender to provide annotators with automatic annotation suggestions.
 
+##### References
+* Schulz, Claudia ; Sailer, Michael ; Kiesewetter, Jan ; Bauer, Elisabeth ; Fischer, Frank ; 
+  Fischer, Martin R. ; Gurevych, Iryna : Automatic Recommendations for Data Coding:
+  a use case from medical and teacher education. In: The 14th eScience IEEE International 
+  Conference, 29.10.2018--01.11.2018, Amsterdam, Netherlands. Proceedings of the 14th eScience IEEE International Conference 
+  (2018)
+  [[PDF](https://tubiblio.ulb.tu-darmstadt.de/107254/)]
+  [[BIB](https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/107254/BibTeX/tubiblio-eprint-107254.bib)]
+
 [1]: http://www.famulus-project.de
 [2]: https://tubiblio.ulb.tu-darmstadt.de/107254/
