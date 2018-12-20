@@ -24,10 +24,10 @@ Proceedings of the 14th eScience IEEE International Conference, Amsterdam, Nethe
 
 > Boullosa, B., Eckart de Castilho, R., Kumar, N.,  Klie, J.-C., Gurevych, I. (2018): <br/> 
 **Integrating Knowledge-Supported Search into the INCEpTION Annotation Platform.** <br/> 
-Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), Brussels, Belgium. <br/>
+Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 127-132, Brussels, Belgium. <br/>
 ([pdf][EMNLP-2018-PDF]) ([bib][EMNLP-2018-BIB])
 
-[EMNLP-2018-PDF]: https://fileserver.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2018/inception-emnlp-2018_camera-ready_3.pdf
+[EMNLP-2018-PDF]: http://www.aclweb.org/anthology/D18-2022
 [EMNLP-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106849/BibTeX/tubiblio-eprint-106849.bib
 
 
