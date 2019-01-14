@@ -551,7 +551,7 @@ table.CodeRay td.code>pre{padding:0}
 </li>
 <li><a href="#_running_via_embedded_tomcat_jar">Running via embedded Tomcat (JAR)</a>
 <ul class="sectlevel2">
-<li><a href="#_installing_webanno_as_a_service">Installing WebAnno as a service</a></li>
+<li><a href="#_installing_as_a_service">Installing as a service</a></li>
 <li><a href="#_running_the_standalone_behind_httpd">Running the standalone behind HTTPD</a></li>
 </ul>
 </li>
@@ -613,7 +613,7 @@ do not test this. Instructions for other Linux distributions and other platforms
 Windows) likely deviate significantly.</p>
 </div>
 <div class="paragraph">
-<p>It is further assumed that the use <strong>www-data</strong> already exists on the system and that it shall be used to run WebAnno.</p>
+<p>It is further assumed that the use <strong>www-data</strong> already exists on the system and that it shall be used to run the application.</p>
 </div>
 <div class="paragraph">
 <p>All commands assume that you are logged in as the <strong>root</strong> user.</p>
@@ -707,23 +707,23 @@ $ apt-get install oracle-java8-set-default</code></pre>
 <h2 id="_application_home_folder"><a class="anchor" href="#_application_home_folder"></a>Application home folder</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The WebAnno home folder is the place where WebAnno&#8217;s configuration file <code>settings.properties</code>
-resides and where WebAnno stores its data. Mind that if you are using a MySQL database server
-(recommended), then WebAnno also stores some data in the MySQL database. This is important when
+<p>The INCEpTION home folder is the place where INCEpTION&#8217;s configuration file <code>settings.properties</code>
+resides and where INCEpTION stores its data. Mind that if you are using a MySQL database server
+(recommended), then INCEpTION also stores some data in the MySQL database. This is important when
 you plan to perform a backup, as both the home folder and the database content need to be
 included in the backup.</p>
 </div>
 <div class="paragraph">
-<p>Now, let&#8217;s go through the steps of setting up a home folder for WebAnno and creating a
-configuration file instructing WebAnno to access the previously prepared MySQL database.</p>
+<p>Now, let&#8217;s go through the steps of setting up a home folder for INCEpTION and creating a
+configuration file instructing INCEpTION to access the previously prepared MySQL database.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Create WebAnno home folder. This is the directory where WebAnno settings files and projects (documents, annotations, etc.) are stored</p>
+<p>Create INCEpTION home folder. This is the directory where INCEpTION settings files and projects (documents, annotations, etc.) are stored</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ mkdir /srv/webanno</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ mkdir /srv/inception</code></pre>
 </div>
 </div>
 </li>
@@ -732,13 +732,13 @@ configuration file instructing WebAnno to access the previously prepared MySQL d
 <div class="ulist">
 <ul>
 <li>
-<p>Edit <code>/srv/webanno/settings.properties</code> to define the database connection as well as internal backup properties:</p>
+<p>Edit <code>/srv/inception/settings.properties</code> to define the database connection as well as internal backup properties:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="text">database.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
 database.driver=com.mysql.jdbc.Driver
-database.url=jdbc:mysql://localhost:3306/webanno?useSSL=false&amp;serverTimezone=UTC
-database.username=webanno
+database.url=jdbc:mysql://localhost:3306/inception?useSSL=false&amp;serverTimezone=UTC
+database.username=inception
 database.password=t0t4llYSecreT
 
 # 60 * 60 * 24 * 30 = 30 days
@@ -752,10 +752,10 @@ backup.keep.number=10</code></pre>
 </div>
 </li>
 <li>
-<p>Fix permissions in WebAnno home folder</p>
+<p>Fix permissions in INCEpTION home folder</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ chown -R www-data /srv/webanno</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ chown -R www-data /srv/inception</code></pre>
 </div>
 </div>
 </li>
@@ -966,31 +966,31 @@ the <code>settings.properties</code> file:</p>
 <h2 id="_running_via_embedded_tomcat_jar"><a class="anchor" href="#_running_via_embedded_tomcat_jar"></a>Running via embedded Tomcat (JAR)</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The WebAnno standalone JAR with an embedded Tomcat server and can be easily set up as a
-UNIX service. This is the recommended way of running WebAnno on a server.</p>
+<p>The INCEpTION standalone JAR with an embedded Tomcat server and can be easily set up as a
+UNIX service. This is the recommended way of running INCEpTION on a server.</p>
 </div>
 <div class="sect2">
-<h3 id="_installing_webanno_as_a_service"><a class="anchor" href="#_installing_webanno_as_a_service"></a>Installing WebAnno as a service</h3>
+<h3 id="_installing_as_a_service"><a class="anchor" href="#_installing_as_a_service"></a>Installing as a service</h3>
 <div class="paragraph">
 <p>To set it up as a service, you can do the following steps. For the following
-example, I assume that you install WebAnno in <code>/srv/webanno</code>:</p>
+example, I assume that you install INCEpTION in <code>/srv/inception</code>:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Copy the standalone JAR file webanno-standalone-{revnumber}.jar to <code>/srv/webanno/webanno.jar</code>.
-Note the change of the filename to <code>webanno.jar</code>.</p>
+<p>Copy the standalone JAR file inception-app-standalone-{revnumber}.jar to <code>/srv/inception/inception.jar</code>.
+Note the change of the filename to <code>inception.jar</code>.</p>
 </li>
 <li>
-<p>Create the file <code>/srv/webanno/webanno.conf</code> with the following content</p>
+<p>Create the file <code>/srv/inception/inception.conf</code> with the following content</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="text">JAVA_OPTS=&quot;-Djava.awt.headless=true -Dwebanno.home=/srv/webanno&quot;</code></pre>
+<pre class="CodeRay highlight"><code data-lang="text">JAVA_OPTS=&quot;-Djava.awt.headless=true -Dinception.home=/srv/inception&quot;</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>In the previous step, you have already created the <code>/srv/webanno/settings.properties</code> file.
+<p>In the previous step, you have already created the <code>/srv/inception/settings.properties</code> file.
 You <strong>may optionally</strong> configure the Tomcat port using the following line</p>
 <div class="listingblock">
 <div class="content">
@@ -1003,55 +1003,55 @@ documentation of Spring Boot itself.</p>
 </div>
 </li>
 <li>
-<p>Make sure that the file <code>/srv/webanno/webanno.conf</code> is owned by the root user. If this is
-not the case, WebAnno will ignore it and any settings made there will not have any effect. If
-you start WebAnno and intead of using the MySQL database, it is using an embedded database,
-then you should double-check that <code>/srv/webanno/webanno.conf</code> is owned by the root user.</p>
+<p>Make sure that the file <code>/srv/inception/inception.conf</code> is owned by the root user. If this is
+not the case, INCEpTION will ignore it and any settings made there will not have any effect. If
+you start INCEpTION and intead of using the MySQL database, it is using an embedded database,
+then you should double-check that <code>/srv/inception/inception.conf</code> is owned by the root user.</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ chown root:root /srv/webanno/webanno.conf</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ chown root:root /srv/inception/inception.conf</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Change the owner/group of <code>/srv/webanno/webanno.jar</code> to <code>www-data</code>. When the service is started,
-it will run with the privileges of the user that owns the JAR file, i.e. in this case WebAnno
-will run as under the <code>www-data</code> user. <strong>Do NOT run WebAnno as root.</strong></p>
+<p>Change the owner/group of <code>/srv/inception/inception.jar</code> to <code>www-data</code>. When the service is started,
+it will run with the privileges of the user that owns the JAR file, i.e. in this case INCEpTION
+will run as under the <code>www-data</code> user. <strong>Do NOT run INCEpTION as root.</strong></p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ chown www-data:www-data /srv/webanno/webanno.jar</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ chown www-data:www-data /srv/inception/inception.jar</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Create a symlink from <code>/etc/init.d</code> to the <code>/srv/webanno/webanno.jar</code>:</p>
+<p>Create a symlink from <code>/etc/init.d</code> to the <code>/srv/inception/inception.jar</code>:</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ ln -s /srv/webanno/webanno.jar /etc/init.d/webanno</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ ln -s /srv/inception/inception.jar /etc/init.d/inception</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Enable the WebAnno service using</p>
+<p>Enable the INCEpTION service using</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ systemctl enable webanno</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ systemctl enable inception</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Start WebAnno using</p>
+<p>Start INCEpTION using</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ service webanno start</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ service inception start</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Stop WebAnno using</p>
+<p>Stop INCEpTION using</p>
 <div class="listingblock">
 <div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ service webanno stop</code></pre>
+<pre class="CodeRay highlight"><code data-lang="bash">$ service inception stop</code></pre>
 </div>
 </div>
 </li>
@@ -1061,7 +1061,7 @@ will run as under the <code>www-data</code> user. <strong>Do NOT run WebAnno as 
 <div class="sect2">
 <h3 id="_running_the_standalone_behind_httpd"><a class="anchor" href="#_running_the_standalone_behind_httpd"></a>Running the standalone behind HTTPD</h3>
 <div class="paragraph">
-<p>These are <strong>optional</strong> instructions if you want to run WebAnno behind an Apache web-server instead
+<p>These are <strong>optional</strong> instructions if you want to run INCEpTION behind an Apache web-server instead
 of accessing it directly. This assumes that you already have the following packages installed:</p>
 </div>
 <div class="ulist">
@@ -1076,30 +1076,30 @@ of accessing it directly. This assumes that you already have the following packa
 <p>mod_proxy_ajp</p>
 </li>
 <li>
-<p>Add the following lines to <code>/srv/webanno/settings.properties</code>:</p>
+<p>Add the following lines to <code>/srv/inception/settings.properties</code>:</p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="text">tomcat.ajp.port=18009
-server.contextPath=/webanno
+server.contextPath=/inception
 server.use-forward-headers=true</code></pre>
 </div>
 </div>
 </li>
 <li>
-<p>Edit <code>/etc/apache2/conf.d/webanno.local.conf</code></p>
+<p>Edit <code>/etc/apache2/conf.d/inception.local.conf</code></p>
 <div class="listingblock">
 <div class="content">
 <pre class="CodeRay highlight"><code data-lang="xml">ProxyPreserveHost On
 
-<span class="tag">&lt;Proxy</span> <span class="attribute-name">ajp:</span><span class="error">/</span><span class="error">/</span><span class="attribute-name">localhost</span><span class="error">/</span><span class="attribute-name">webanno</span> <span class="tag">&gt;</span>
+<span class="tag">&lt;Proxy</span> <span class="attribute-name">ajp:</span><span class="error">/</span><span class="error">/</span><span class="attribute-name">localhost</span><span class="error">/</span><span class="attribute-name">inception</span> <span class="tag">&gt;</span>
   Order Deny,Allow
   Deny from none
   Allow from all
 <span class="tag">&lt;/Proxy&gt;</span>
 
-<span class="tag">&lt;Location</span> <span class="error">/</span><span class="attribute-name">webanno</span> <span class="tag">&gt;</span>
-  ProxyPass ajp://localhost:18009/webanno timeout=1200
-  ProxyPassReverse http://localhost/webanno
+<span class="tag">&lt;Location</span> <span class="error">/</span><span class="attribute-name">inception</span> <span class="tag">&gt;</span>
+  ProxyPass ajp://localhost:18009/inception timeout=1200
+  ProxyPassReverse http://localhost/inception
 <span class="tag">&lt;/Location&gt;</span></code></pre>
 </div>
 </div>
@@ -1134,10 +1134,10 @@ changes to the database schema or to the data on disk.
 <div class="ulist">
 <ul>
 <li>
-<p>Make a copy of your WebAnno home folder</p>
+<p>Make a copy of your INCEpTION home folder</p>
 </li>
 <li>
-<p>If you are using MySQL, make a backup of your WebAnno database, e.g. using the <a href="http://dev.mysql.com/doc/refman/5.0/en/mysqldump.html">mysqldump</a> command.</p>
+<p>If you are using MySQL, make a backup of your INCEpTION database, e.g. using the <a href="http://dev.mysql.com/doc/refman/5.0/en/mysqldump.html">mysqldump</a> command.</p>
 </li>
 </ul>
 </div>
@@ -1149,16 +1149,16 @@ changes to the database schema or to the data on disk.
 <div class="ulist">
 <ul>
 <li>
-<p>Stop the WebAnno service</p>
+<p>Stop the INCEpTION service</p>
 </li>
 <li>
-<p>Replace the <code>webanno.jar</code> file with the new version</p>
+<p>Replace the <code>inception.jar</code> file with the new version</p>
 </li>
 <li>
 <p>Ensure that the file has the right owner/group (usually <code>www-data</code>)</p>
 </li>
 <li>
-<p>Start the WebAnno service again</p>
+<p>Start the INCEpTION service again</p>
 </li>
 </ul>
 </div>
@@ -1304,7 +1304,7 @@ application home folder. The file is optional. If it does not exist, default val
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">user.profile.accessible</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Whether regular users can access their own profile to change their password and other profile information. This setting has no effect if WebAnno is running in pre-authentication mode.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Whether regular users can access their own profile to change their password and other profile information. This setting has no effect when running in pre-authentication mode.</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">false</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">true</p></td>
 </tr>
@@ -1347,7 +1347,7 @@ application home folder. The file is optional. If it does not exist, default val
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">database.url</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JDBC connection string</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>location in WebAnno home</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>location in application home</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">jdbc:mysql://localhost:3306/weblab?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC</p></td>
 </tr>
 <tr>
@@ -1411,31 +1411,31 @@ The following environment variables can be used:</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>WEBANNO_DB_DIALECT</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INCEPTION_DB_DIALECT</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Database dialect</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">org.hibernate.dialect.HSQLDialect</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">org.hibernate.dialect.MySQL5InnoDBDialect</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>WEBANNO_DB_DRIVER</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INCEPTION_DB_DRIVER</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Database driver</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">org.hsqldb.jdbc.JDBCDriver</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">com.mysql.jdbc.Driver</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>WEBANNO_DB_URL</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INCEPTION_DB_URL</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">JDBC connection string</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><em>location in WebAnno home</em></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">jdbc:mysql://localhost:3306/weblab?useUnicode=true&amp;characterEncoding=UTF-8</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><em>location in application home</em></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">jdbc:mysql://localhost:3306/inception?useUnicode=true&amp;characterEncoding=UTF-8</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>WEBANNO_DB_USERNAME</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INCEPTION_DB_USERNAME</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Database username</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">sa</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">user</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><code>WEBANNO_DB_PASSWORD</code></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><code>INCEPTION_DB_PASSWORD</code></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Database password</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock"><em>unset</em></p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">pass</p></td>
@@ -1448,9 +1448,9 @@ The following environment variables can be used:</p>
 <h2 id="_internal_backup"><a class="anchor" href="#_internal_backup"></a>Internal backup</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>WebAnno stores its annotations internally in files. Whenever a user performs an action on a
-document, the file is updated. It is possible to configure WebAnno to keep internal backups of
-these files, e.g. to safeguard against crashes or bugs.</p>
+<p>INCEpTION stores its annotations internally in files. Whenever a user performs an action on a
+document, the file is updated. It is possible to configure INCEpTION to keep internal backups
+of these files, e.g. to safeguard against crashes or bugs.</p>
 </div>
 <div class="paragraph">
 <p>The internal backups are controlled through three properties:</p>
@@ -1536,7 +1536,7 @@ backup.keep.time   = 604800</pre>
 <h2 id="_custom_header_icons"><a class="anchor" href="#_custom_header_icons"></a>Custom header icons</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>WebAnno allows adding custom icons to the page header. You can declare such custom icons in the WebAnno settings file as shown in the example below. Each declaration begins with the prefix <code>style.header.icon.</code> followed by an identifier (here <code>myOrganization</code> and <code>mySupport</code>). The suffixes <code>.linkUrl</code> and <code>.imageUrl</code> indicate the URL of the target page and of the icon image respectively. Images are automatically resized via CSS. However, to keep loading times low, you should point to a reasonably small image.</p>
+<p>INCEpTION allows adding custom icons to the page header. You can declare such custom icons in the  <code>settings.properties</code> file as shown in the example below. Each declaration begins with the prefix <code>style.header.icon.</code> followed by an identifier (here <code>myOrganization</code> and <code>mySupport</code>). The suffixes <code>.linkUrl</code> and <code>.imageUrl</code> indicate the URL of the target page and of the icon image respectively. Images are automatically resized via CSS. However, to keep loading times low, you should point to a reasonably small image.</p>
 </div>
 <div class="paragraph">
 <p>The order of the icons is controlled by the ID, not by the order in the configuration file!</p>
@@ -2010,7 +2010,7 @@ an example of how the parameter can be configured below:</p>
 <div id="footer">
 <div id="footer-text">
 Version 0.7.0<br>
-Last updated 2019-01-13 23:14:10 CET
+Last updated 2019-01-14 10:54:10 CET
 </div>
 </div>
 </body>
