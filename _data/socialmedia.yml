@@ -1,3 +1,8 @@
+- name: Twitter
+  url: https://twitter.com/search?q=%23tap_inception
+  class: icon-twitter
+  title: "Twitter: #tap_inception"
+
 #- name: Facebook
 #  url: http://www.facebook.com/phlow.media
 #  class: icon-facebook
