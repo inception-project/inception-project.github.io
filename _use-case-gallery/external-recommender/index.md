@@ -22,15 +22,6 @@ To get started with external recommenders, we provide several external recommend
 can serve as examples and as a basis for custom implementations. They are described in the
 following. The links to the GitHub repositories contain documentation installation guides:
 
-## DKPro TC external recommender
-
-[DKPro TC](https://dkpro.github.io/dkpro-tc/) is an UIMA-based text classification Java framework built
-on top of DKPro Core and DKPro Lab. It facilitates supervised machine learning experiments
-with any kind of textual data. It supports predicting and training for sequence classification tasks (e.g.
-part-of-speech tagging, named entity recognition, etc.)
-
-The DKPro TC recommender is available on [Github](https://github.com/inception-project/external-recommender-dkpro-tc).
-
 ## spaCy external recommender
 
 [spaCy](https://spacy.io/) is an open-source software library for advanced Natural Language Processing for 
