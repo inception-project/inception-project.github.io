@@ -4,7 +4,7 @@ subheadline: Example project
 permalink: /use-case-gallery/lener-br/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
-example-project: Example%3A+Named+entity+recommendation+on+Brazilian+Legal+Text+%28LeNER-BR%29_2018-11-27_1000.zip
+example-project: Example+A+Named+entity+recommendation+on+Brazilian+Legal+Text_2019-03-26_1452.zip
 ---
 
 This project show-cases the OpenNLP named entity recommender on a sample of texts from 

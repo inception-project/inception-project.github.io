@@ -4,7 +4,7 @@ subheadline: Example project
 permalink: /use-case-gallery/search/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
-example-project: Example_Knowledge_Supported_Search_2018-12-11_1703.zip
+example-project: Example_A_Knowledge_Supported_Search_2019-03-26_1512.zip
 ---
 
 This project is an example for using the search functionalities of 
@@ -28,10 +28,10 @@ This section briefly describes how to set up a KB in the KB management page on P
 After importing the project, it will appear as __Search Example__ in _Projects_. The user can click 
 on this project, then switch to the _Documents_ tab to view the uploaded documents:
 
-* __closvougeot.txt__: A text about Clos de Vougeot wines.
-* __sauternes.txt__: A text about Sauternes wines.
-* __wine-document.txt__: A text about Chateau d'Yquem wines.
-* __yquem.txt__: Another text about Chateau d'Yquem wines.
+* __closvougeot.tsv__: A text about Clos de Vougeot wines.
+* __sauternes.tsv__: A text about Sauternes wines.
+* __wine-document.tsv__: A text about Chateau d'Yquem wines.
+* __yquem.tsv__: Another text about Chateau d'Yquem wines.
 
 
 ### Knowledge base configuration
