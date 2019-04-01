@@ -4,7 +4,7 @@ subheadline: Example project
 permalink: /use-case-gallery/search/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
-example-project: Example_A_Knowledge_Supported_Search_2019-03-26_1512.zip
+example-project: Example_A+Knowledge+Supported+Search_2019-03-26_1512.zip
 ---
 
 This project is an example for using the search functionalities of 
