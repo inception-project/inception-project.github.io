@@ -9,8 +9,8 @@ hidden: false
 ---
 
 **Source**: <i>This example was kindly contributed by 
-<a href="https://github.com/rgabbard">Ryan Gabbard</a>,
- VISTA group at the Information Sciences Institute at the University of Southern California, USA</i>
+<a href="https://github.com/rgabbard">Ryan Gabbard</a> and Marjorie Freedman, 
+VISTA group at the Information Sciences Institute at the University of Southern California, USA</i>
 
 The VISTA group at the Information Sciences Institute at the [University of Southern California][1]
 is using INCEpTION to enable rapid adaptation of event detection and event argument attachment 
