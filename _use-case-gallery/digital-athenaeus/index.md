@@ -3,13 +3,14 @@ title: Digital Athenaeus - Named Entity Annotation for Ancient Greek with INCEpT
 subheadline: Use-case
 permalink: /use-case-gallery/digital-athenaeus/
 hidden: true
+screenshot: image3.png
+thumbnail: thumbnail.png
 ---
 
-**Source**: *This use-case was kindly contributed by Monica Berti
-(<http://www.monicaberti.com>), Department of Digital Humanities,
+**Source**: *This use-case was kindly contributed by [Monica Berti](http://www.monicaberti.com), Department of Digital Humanities,
 Universität Leipzig, Germany.*
 
-The **Digital Athenaeus** project (<http://www.digitalathenaeus.org>) is
+The [Digital Athenaeus project](<http://www.digitalathenaeus.org>)  is
 focused on annotating quotations and text reuses in the Greek text of
 the *Deipnosophists* of Athenaeus of Naucratis (2nd-3rd century CE). The
 goal is to provide an inventory of authors and works cited by Athenaeus
@@ -41,20 +42,20 @@ of single ancient Greek named entities that have been semi-automatically
 extracted. Data has been imported into INCEpTION as TSV files generated
 according to the WebAnno TSV 3.2 file format. Each file includes the
 text of single paragraphs of the *Deipnosophists* with sentences split
-in separate lines. Figure 1 shows an example of a TSV file with
+in separate lines. <a href="#figure1">Figure 1</a> shows an example of a TSV file with
 annotated named entities and corresponding lemmata (Ath., *Deipn*. 1.7):
 
-<figure>
+<figure id="figure1">
   <img src="image1.jpeg" alt="my alt text"/>
   <figcaption>Figure 1. TSV 3.2 file format (NEs and lemmata in Ath., Deipn. 1.7)</figcaption>
 </figure>
 
-Figure 2 shows how pre-annotated data is visualized in INCEpTION in
+<a href="#figure2">Figure 2</a> shows how pre-annotated data is visualized in INCEpTION in
 separate numbered lines. Single entities are annotated with two layers:
 one for the named entity tag, and the other for the lemma (Ath.,
 *Deipn*. 1.7):
 
-<figure>
+<figure id="figure2">
   <img src="image2.jpg" alt="my alt text"/>
   <figcaption>Figure 2. INCEpTION: pre-annotated data (Ath., Deipn. 1.7)</figcaption>
 </figure>
@@ -67,17 +68,18 @@ titles of works in order to produce a text-based catalog of Greek
 literature with annotations of ancient Greek inflected forms and their
 corresponding lemmata.
 
-Figure 3 shows the same paragraph of figures 1 and 2 with the *Ancient
+<a href="#figure3">Figure 3</a> shows the same paragraph of figures 
+<a href="#figure1">1</a> and <a href="#figure2">2</a> with the *Ancient
 Greek Catalog* layer, whose values correspond to CTS URNS that uniquely
 identify authors and works. Also, individual entities have been linked
 together in spans corresponding to real entities, as for example
 Ἀρχέστρατος ὁ Συρακούσιος ἣ Γελῷος (Archestratus from Gela or Syracuse),
-who is identified as *urn:cts:greekLit:tlg1175*. In the same line,
+who is identified as [urn:cts:greekLit:tlg1175](http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1175). In the same line,
 different forms of the title of Archestratus’ work are identified with a
 CTS URN that also includes a reference to the author:
-*urn:cts:greekLit:tlg1175.tlg002*.
+*urn:cts:greekLit:tlg1175.tlg0020*.
 
-<figure>
+<figure id="figure3">
   <img src="image3.png" alt="my alt text"/>
   <figcaption>Figure 3. INCEpTION: Ancient Greek Catalog layer (Ath., Deipn. 1.7)</figcaption>
 </figure>
