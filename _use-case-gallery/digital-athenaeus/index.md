@@ -1,5 +1,5 @@
 ---
-title: Digital Athenaeus - Named Entity Annotation for Ancient Greek with INCEpTION
+title: Digital Athenaeus - Named Entity Annotation for Ancient Greek
 subheadline: Use-case
 permalink: /use-case-gallery/digital-athenaeus/
 hidden: true
