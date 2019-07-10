@@ -22,6 +22,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: 0.10.1
+  date: 2019-07-10
+  status: stable
+  
 - version: 0.10.0
   date: 2019-06-24
   status: stable
