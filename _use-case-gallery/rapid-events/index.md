@@ -2,14 +2,14 @@
 title: Rapid adaptation of event detection
 subheadline: Use-case
 permalink: /use-case-gallery/rapid-events/
-# screenshot: screenshot.png
-# thumbnail: screenshot-thumb.png
+screenshot: screenshot.png
+thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
 hidden: false
 ---
 
 **Source**: <i>This example was kindly contributed by 
-<a href="https://github.com/rgabbard">Ryan Gabbard</a> and Marjorie Freedman, 
+<a href="https://github.com/rgabbard">Ryan Gabbard</a> and <a href="https://www.isi.edu/people/mrf/about">Marjorie Freedman</a>, 
 VISTA group at the Information Sciences Institute at the University of Southern California, USA</i>
 
 The VISTA group at the Information Sciences Institute at the [University of Southern California][1]
