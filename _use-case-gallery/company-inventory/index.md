@@ -16,7 +16,7 @@ entity types, which would enable us to capture notions of *duration*, *company s
 
 The main goal of using INCEpTION at this stage of the project was to prepare a gold standard data 
 for training a recurrent neural network for the task of named entity recognition.
-Features of INCEPtION that turned to be especially helpful in our scenario are:
+Features of INCEpTION that turned to be especially helpful in our scenario are:
 
 * **Active learning.** This feature considerably reduces time required for the annotation.
 * **Ability to work with multiple languages.** Experience shows, that availability of language and 
