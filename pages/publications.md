@@ -11,15 +11,15 @@ If you use INCEpTION in scientific work or want to learn more about it, please h
 {% endcomment %}
 
 
-### Published
+### Core publications
 
 > Eckart de Castilho, R., Klie, J.-C., Kumar, N., Boullosa, B., Gurevych, I. (2018): <br/> 
 **Linking Text and Knowledge using the INCEpTION annotation platform.** <br/> 
 Proceedings of the 14th eScience IEEE International Conference, Amsterdam, Netherlands. <br/>
 ([pdf][ESCIENCE-2018-PDF]) ([bib][ESCIENCE-2018-BIB])
 
-[ESCIENCE-2018-PDF]: https://fileserver.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2018/2018_IEEE_eScience_INCEpTION-submitted.pdf
-[ESCIENCE-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106983/BibTeX/tubiblio-eprint-106983.bib
+[ESCIENCE-2018-PDF]: {{ site.url }}/publications/ESCIENCE-2018.pdf
+[ESCIENCE-2018-BIB]: {{ site.url }}/publications/ESCIENCE-2018.bib
 
 
 > Boullosa, B., Eckart de Castilho, R., Kumar, N.,  Klie, J.-C., Gurevych, I. (2018): <br/> 
@@ -27,8 +27,8 @@ Proceedings of the 14th eScience IEEE International Conference, Amsterdam, Nethe
 Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 127-132, Brussels, Belgium. <br/>
 ([pdf][EMNLP-2018-PDF]) ([bib][EMNLP-2018-BIB])
 
-[EMNLP-2018-PDF]: http://www.aclweb.org/anthology/D18-2022
-[EMNLP-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106849/BibTeX/tubiblio-eprint-106849.bib
+[EMNLP-2018-PDF]: {{ site.url }}/publications/D18-2022.pdf
+[EMNLP-2018-BIB]: {{ site.url }}/publications/D18-2022.bib
 
 
 > Eckart de Castilho, R., Klie, J.-C., Kumar, N., Boullosa, B., Gurevych, I. (2018): <br/>
@@ -36,8 +36,8 @@ Proceedings of the 2018 Conference on Empirical Methods in Natural Language Proc
 In: Digital Infrastructures for Research (DI4R) 2018, 9-11 October 2018, Lisbon, Portugal. <br/>
 ([pdf][DI4R-2018-PDF]) ([bib][DI4R-2018-BIB]) ([poster][DI4R-2018-POSTER])
 
-[DI4R-2018-PDF]: https://fileserver.ukp.informatik.tu-darmstadt.de/UKP_Webpage/publications/2018/2018_DI4R_INCEpTION-abstract.pdf
-[DI4R-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106982/BibTeX/tubiblio-eprint-106982.bib
+[DI4R-2018-PDF]: {{ site.url }}/publications/DI4R-2018.pdf
+[DI4R-2018-BIB]: {{ site.url }}/publications/DI4R-2018.bib
 [DI4R-2018-POSTER]: {{ site.url }}/publications/INCEpTION-DI4R-Poster.pdf
 
 
@@ -46,8 +46,8 @@ In: Digital Infrastructures for Research (DI4R) 2018, 9-11 October 2018, Lisbon,
 Proceedings of the First Biennial Conference on Design of Experimental Search & Information Retrieval Systems (DESIRES), Bertinoro, Italy. <br/>
 ([pdf][DESIRES-2018-PDF]) ([bib][DESIRES-2018-BIB])
 
-[DESIRES-2018-PDF]: http://ceur-ws.org/Vol-2167/short8.pdf
-[DESIRES-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106627/BibTeX/tubiblio-eprint-106627.bib
+[DESIRES-2018-PDF]: {{ site.url }}/publications/DESIRES-2018.pdf
+[DESIRES-2018-BIB]: {{ site.url }}/publications/DESIRES-2018.bib
 
 
 > Klie, J.-C., Bugert, M., Boullosa, B., Eckart de Castilho, R. and Gurevych, I. (2018): <br/>
@@ -57,5 +57,25 @@ In Proceedings of System Demonstrations of the 27th International Conference on 
 
 [COLING-2018-PDF]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.pdf
 [COLING-2018-FLYER]: {{ site.url }}/publications/INCEpTION-COLING2018-Flyer.pdf
-[COLING-2018-BIB]: https://tubiblio.ulb.tu-darmstadt.de/cgi/export/eprint/106270/BibTeX/tubiblio-eprint-106270.bib
+[COLING-2018-BIB]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.pdf
+
+
+### Related publications
+
+> Eckart de Castilho, R., Ide, N., Kim, J.-D., Klie, J.-C., Suderman, K. (2019): <br/> 
+**A Multi-Platform Annotation Ecosystem for Domain Adaptation.** <br/> 
+Proceedings of the 13th Linguistic Annotation Workshop (LAW 2019). <br/>
+([pdf][LAW-2019-PDF]) ([bib][LAW-2019-BIB])
+
+[LAW-2019-PUB]: {{ site.url }}/publications/W19-4021.pdf
+[LAW-2019-BIB]: {{ site.url }}/publications/W19-4021.bib
+
+
+> Eckart de Castilho, R., Ide, N., Kim, J.-D., Klie, J.-C., Suderman, K. (2019): <br/> 
+**Towards cross-platform interoperability for machine-assisted text annotation.** <br/> 
+Genomics & Informatics, Vol. 17, Issue 2, Korea Genome Organization. <br/>
+([online][GI-2019-PUB]) ([bib][GI-2019-BIB])
+
+[GI-2019-PUB]: https://doi.org/10.5808/GI.2019.17.2.e19
+[GI-2019-BIB]: {{ site.url }}/publications/GI-2019.bib
 
