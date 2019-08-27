@@ -57,7 +57,7 @@ In Proceedings of System Demonstrations of the 27th International Conference on 
 
 [COLING-2018-PDF]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.pdf
 [COLING-2018-FLYER]: {{ site.url }}/publications/INCEpTION-COLING2018-Flyer.pdf
-[COLING-2018-BIB]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.pdf
+[COLING-2018-BIB]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.bib
 
 
 ### Related publications
