@@ -79,3 +79,12 @@ Genomics & Informatics, Vol. 17, Issue 2, Korea Genome Organization. <br/>
 [GI-2019-PUB]: https://doi.org/10.5808/GI.2019.17.2.e19
 [GI-2019-BIB]: {{ site.url }}/publications/GI-2019.bib
 
+
+### Other resources
+
+> Eckart de Castilho, R., Klie, J.-C., Winchenbach, U., Gurevych, I. (2019): <br/> 
+**Beyond WebAnno: The INCEpTION Text Annotation Platform** <br/> 
+CLARIN Annual Conference 2019 Bazaar <br/>
+([poster][CAC-2019-POSTER])
+
+[CAC-2019-POSTER]: {{ site.url }}/publications/CAC-2019-Poster.pdf
