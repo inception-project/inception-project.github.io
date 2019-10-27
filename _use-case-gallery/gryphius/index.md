@@ -16,7 +16,7 @@ hidden: false
 <a href="https://www.slm.uni-hamburg.de/germanistik/personen/fladrich.html">Marcel Fladrich</a>,
  Linguistik des Deutschen / Medienlinguistik, Universität Hamburg, Germany</i>
 
-The project aims to examine the language of the early modern German author Andreas Gryphius' pieces 
+The [project][1] aims to examine the language of the early modern German author Andreas Gryphius' pieces 
 on drama by analyzing it from a linguistic and literary studies perspective as well by annotating 
 phenomena of interactional language from both disciplines. Therefore all of the dramas by Gryphius
 (Leo Armenius, Catharina von Georgien, Cardenio und Celinde, Sterbender Papinianus, Carolus Stuardus,
