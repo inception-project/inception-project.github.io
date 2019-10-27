@@ -1,5 +1,5 @@
 ---
-title: Efficient annotation of company inventory data.
+title: Efficient annotation of company inventory data
 subheadline: Use-case
 permalink: /use-case-gallery/company-inventory/
 hidden: hidden
@@ -7,7 +7,8 @@ screenshot: screenshot.png
 thumbnail: thumbnail.png
 ---
 
-**Source**: *This use-case was kindly contributed by Maria Biryukov.*
+**Source**: *This use-case was kindly contributed by Maria Biryukov, University of Luxembourg, 
+Center for Contemporary and Digital History.*
 
 We used INCEpTION to annotate multi-lingual company inventory data with various entity types. 
 Besides widely used classes, such as *PERSON*, *LOCATION*, *ORGANIZATION*, we introduced additional
