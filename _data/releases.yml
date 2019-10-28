@@ -22,9 +22,9 @@
 ###
 ### RELEASE VERSIONS
 ###
-- version: 0.12.3
-  date: 2019-10-27
-  status: stable
+#- version: 0.12.3
+#  date: 2019-10-27
+#  status: stable
 
 - version: 0.12.2
   date: 2019-10-16
