@@ -1,13 +1,19 @@
 <aside>
 
 <div class="radius b20 center">
-<div style="border: 1px grey solid;"><a href="{{ site.url }}/downloads">
+<table style="width: 100%;">
+<col width="30%"/>
+<col width="70%"/>
+<tr style="background: white;">
+<td><a href="{{ site.url }}/downloads"><span class="icon-archive" style="font-size: 400%;"></span></a></td>
+<td>
 {% assign stable = (site.data.releases | where:"status", "stable" | first) %}
-Latest release: {{ stable.version }} ({{ stable.date }})<br>
-<span class="icon-archive" style="font-size: 400%;"></span><br>
-Download now!</a>
-</div>
-</div>
+<a href="{{ site.url }}/downloads"><span style="font-size: 100%;">Download</span><br/> 
+<b style="font-size: 120%">INCEpTION {{ stable.version }}</b></a><br/>
+<span style="font-size: 70%;">(Released on {{ stable.date }})</span>
+</td>
+</tr>
+</table>
 
 <div class="radius b20">
 <iframe id="ytplayer" type="text/html" height="227" src="https://www.youtube-nocookie.com/embed/?listType=playlist&list=PL5Hz5pttaj96SlXHGRZf8KzlYvpVHIoL-&color=white&showinfo=1" frameborder="0" allowfullscreen></iframe>
@@ -39,6 +45,19 @@ October 31–November 4, Brussels, Belgium
 </p>
 -->
 </div>
+
+<div class="radius b20 pseudo-p">
+<table>
+<col width="30%"/>
+<col width="70%"/>
+<tr style="background: white;">
+<td colspan="2" style="text-align: center;">INCEpTION is also offered as a service to members of research institutions.</td>
+</tr>
+<tr style="background: white;">
+<td><img src="{{ site.url }}/images/logos/logo_clarinel.png"/></td>
+<td><a href="http://hdl.grnet.gr/11500/ATHENA-0000-0000-5CF0-A">CLARIN-EL INCEpTION</a>:</b><br/> The Athena Research Center hosts an instance as part of CLARIN-EL (accessible only to Greek researchers).</td>
+</tr>
+</table>
 
 <div class="center radius b20">
 <a href="https://twitter.com/search?q=%23tap_inception" target="_blank" class="icon-twitter" title="Twitter: #tap_inception">Find us on Twitter</a>
