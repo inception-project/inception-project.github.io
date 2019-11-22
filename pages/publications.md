@@ -88,3 +88,11 @@ CLARIN Annual Conference 2019 Bazaar <br/>
 ([poster][CAC-2019-POSTER])
 
 [CAC-2019-POSTER]: {{ site.url }}/publications/CAC-2019-Poster.pdf
+
+
+### Workshops
+
+> [INCEpTION: Towards Interactive Semantic Annotation][FIF-INCEPTION-2018]<br/>
+12.-13. March 2018, Lichtenberghaus, Technische Universität Darmstadt, Darmstadt, Germany
+
+[FIF-INCEPTION-2018]: https://www.fif.tu-darmstadt.de/fif_formats_structure/fif_workshops_structure/2018_4/inception/inception.en.jsp

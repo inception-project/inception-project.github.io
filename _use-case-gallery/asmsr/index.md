@@ -21,7 +21,7 @@ around the world. In Germany, more than 10.000 people die by suicide every year.
 of suicides is estimated at more than 800.000 every year. The goal of responsible media coverage of
 suicides plays a crucial role in national and international prevention concepts. The way in which 
 mass media report on suicides can have an impact on the development of the number actual suicides. 
-The existence of the so-called *"Werter effect"* - an increase in actual suicide after a certain type
+The existence of the so-called *"Werther effect"* - an increase in actual suicide after a certain type
 of media reporting on suicides - is internationally well confirmed and there are several 
 recommendations on how the media should (not) report on suicide to minimize the risk of copycat 
 behaviour. Unfortunately, very little is known about how suicide actually is reported, also because 
