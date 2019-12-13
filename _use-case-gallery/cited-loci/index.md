@@ -22,7 +22,7 @@ disambiguation of references, in particular in two contexts:
 * [Epische Bauformen project][2]: the index of cited passages of the printed publication (in 3 volumes)
   is produced by extracting references automatically, then corrected by student assistants
   manually in INCEpTION
-* [Center for Hellenic Studies (CHS) in Harvard][3]: summer interns have been a gold standard set, 
+* [Center for Hellenic Studies (CHS) in Harvard][3]: summer interns have been creating a gold standard set, 
   consisting of book chapters (from CHS' open access series) annotated with information about 
   canonical references and named entities
   
