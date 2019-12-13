@@ -27,7 +27,7 @@ To achieve this aim, several NLP techniques are employed, including:
 
 Due to the special nature of the text corpus, off-the-shelve models cannot be used for the above tasks.
 For this reason, INCEpTION will be used as the annotation environment for an extensive annotation
-campaign (running August 2018 -> June 2019). We will used it for annotating NE-related information
+campaign (running August 2018 -> June 2019). We will use it for annotating NE-related information
 in our data, either from scratch or with pre-annotated annotations.
 
 Features that we consider of particular importance to our use-case are:
