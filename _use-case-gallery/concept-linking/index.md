@@ -8,7 +8,7 @@ example-project: Example_Concept+Linking_2019-03-26_1502.zip
 This project serves as an example for using Interactive Concept Linking supported by 
 the recommendation functionalities of INCEpTION.
 
-There are two document in this example project:
+There are two documents in this example project:
 * __pets1.tsv__: A short annotated sample text about animals.
 * __pets2.txt__: A short annotated sample text about animals.
 
