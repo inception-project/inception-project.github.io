@@ -11,19 +11,20 @@ the Department of Computer Science, Technische Universität Darmstadt.
 
 * Dr. Richard Eckart de Castilho (project lead, primary contact)
 * Prof. Dr. Iryna Gurevych (project lead)
+* Anna-Felicitas Hausmann
 * Jan-Christoph Klie
 * Ute Winchenbach
-* Alexander Zap
-* Marcel de Boer
-* Sibgha Nazir
 
 ## Former project members
 
 * Beto Boullosa
+* Marcel de Boer
 * Michael Bugert
-* Naveen Kumar
-* Peter Jiang 
 * Wei Ding
+* Peter Jiang 
+* Naveen Kumar
+* Sibgha Nazir
+* Alexander Zap
 
 ## Acknowledgments
 
