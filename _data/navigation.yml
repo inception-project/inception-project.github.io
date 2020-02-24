@@ -12,8 +12,13 @@
     url: "/downloads-beta"
 
 - title: Examples
-  url: "/use-case-gallery/"
+  url: "/use-case-gallery"
   side: left
+  dropdown:
+  - title: "Use Cases"
+    url: "/use-case-gallery/use-cases"
+  - title: "Example Projects"
+    url: "/use-case-gallery/example-projects"
 
 - title: Documentation
   url: "/documentation"
