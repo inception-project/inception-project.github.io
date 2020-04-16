@@ -1,6 +1,6 @@
 # inception-project.github.io
 
-This repository hosts the code for the [INCEpTION website](inception-project.github.io).
+This repository hosts the code for the [INCEpTION website](https://inception-project.github.io/).
 
 ## Development
 

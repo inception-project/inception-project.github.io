@@ -17,4 +17,4 @@ For annotation of the data, two to three annotators worked with the extracted po
 
 ##### References
 
-* Haider, Thomas; Eger, Steffen; Kim, Evgeny; Klinger, Roman; Menninghaus, Winfried. PO-EMO: Conceptualization, Annotation, and Modeling of Aesthetic Emotions in German and English Poetry. LREC (accepted)
+* Haider, Thomas; Eger, Steffen; Kim, Evgeny; Klinger, Roman; Menninghaus, Winfried. PO-EMO: Conceptualization, Annotation, and Modeling of Aesthetic Emotions in German and English Poetry. LREC (accepted) [Preprint](https://arxiv.org/abs/2003.07723).
