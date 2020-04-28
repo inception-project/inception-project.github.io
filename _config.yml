@@ -100,13 +100,21 @@ defaults:
   -
     scope:
       path: ""        
-      type: "use-case-gallery"
+      type: "use-cases"
     values:
       show_meta: false   # Show metadata beneath all posts
       layout: article
       sidebar: left
-      sticky-link-url: "/use-case-gallery/"
-      sticky-link-title: "Examples"
+      comments: false
+#      author: "your_author_name"
+  -
+    scope:
+      path: ""        
+      type: "example-projects"
+    values:
+      show_meta: false   # Show metadata beneath all posts
+      layout: article
+      sidebar: left
       comments: false
 #      author: "your_author_name"
 
@@ -222,10 +230,15 @@ google_analytics_tracking_id: UA-119563989-1
 #    / /   / __ \/ / / _ \/ ___/ __/ / __ \/ __ \
 #   / /___/ /_/ / / /  __/ /__/ /_/ / /_/ / / / /
 #   \____/\____/_/_/\___/\___/\__/_/\____/_/ /_/ 
-#   
+# 
 collections:
-    use-case-gallery:
+    use-cases:
         output: true
         layout: article
         sidebar: left
-        permalink: /use-case-gallery/:path/
+        permalink: /use-cases/:path/
+    example-projects:
+        output: true
+        layout: article
+        sidebar: left
+        permalink: /example-projects/:path/
