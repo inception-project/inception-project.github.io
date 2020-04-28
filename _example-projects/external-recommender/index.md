@@ -1,7 +1,7 @@
 ---
 title: External recommender
 subheadline: Example project
-permalink: /use-case-gallery/example-projects/external-recommender/
+permalink: /example-projects/external-recommender/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 example-project: External+Recommender+Example+Project_2019-04-05_1142.zip

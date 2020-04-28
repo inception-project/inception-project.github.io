@@ -1,7 +1,7 @@
 ---
 title: Automated analysis of media suicide reporting
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/asmsr/
+permalink: /use-cases/asmsr/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

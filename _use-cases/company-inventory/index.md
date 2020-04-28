@@ -1,7 +1,7 @@
 ---
 title: Efficient annotation of company inventory data
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/company-inventory/
+permalink: /use-cases/company-inventory/
 hidden: hidden
 screenshot: screenshot.png
 thumbnail: thumbnail.png

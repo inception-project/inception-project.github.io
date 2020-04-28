@@ -1,7 +1,7 @@
 ---
 title: Use-Cases
 hidden: true
-permalink: /use-case-gallery/use-cases/
+permalink: /use-cases/
 ---
 
 **Use-cases** highlight the stories of users of INCEpTION and how they employ the platform for their

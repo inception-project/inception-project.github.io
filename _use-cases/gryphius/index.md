@@ -1,7 +1,7 @@
 ---
 title: The interactional language of Andreas Gryphius
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/gryphius/
+permalink: /use-cases/gryphius/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

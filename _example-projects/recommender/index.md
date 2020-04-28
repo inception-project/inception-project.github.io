@@ -1,7 +1,7 @@
 ---
 title: Recommenders and Active Learning
 subheadline: Example project
-permalink: /use-case-gallery/example-projects/recommender/
+permalink: /example-projects/recommender/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 example-project: Recommendation+and+Active+Learning+Example+Project_2019-03-26_1518.zip

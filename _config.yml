@@ -236,9 +236,9 @@ collections:
         output: true
         layout: article
         sidebar: left
-        permalink: /use-case-gallery/use-cases/:path/
+        permalink: /use-cases/:path/
     example-projects:
         output: true
         layout: article
         sidebar: left
-        permalink: /use-case-gallery/example-projects/:path/
+        permalink: /example-projects/:path/

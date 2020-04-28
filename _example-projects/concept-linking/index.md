@@ -1,7 +1,7 @@
 ---
 title: Interactive Concept Linking
 subheadline: Example project
-permalink: /use-case-gallery/example-projects/concept-linking/
+permalink: /example-projects/concept-linking/
 example-project: Example_Concept+Linking_2019-03-26_1502.zip
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Semantic annotation of modality in a diachronic Latin corpus
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/woposs/
+permalink: /use-cases/woposs/
 screenshot: screenshot.png
 thumbnail: screenshot_thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

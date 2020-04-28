@@ -1,7 +1,7 @@
 ---
 title: Knowledge Supported Search 
 subheadline: Example project
-permalink: /use-case-gallery/example-projects/search/
+permalink: /example-projects/search/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 example-project: Example+A+Knowledge+Supported+Search_2019-04-28.zip

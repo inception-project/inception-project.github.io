@@ -1,7 +1,7 @@
 ---
 title: Digital Athenaeus - Named Entity Annotation for Ancient Greek
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/digital-athenaeus/
+permalink: /use-cases/digital-athenaeus/
 hidden: false
 screenshot: image3.png
 thumbnail: thumbnail.png

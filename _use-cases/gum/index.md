@@ -1,7 +1,7 @@
 ---
 title: Georgetown University Multilayer Corpus (GUM)
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/gum/
+permalink: /use-cases/gum/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

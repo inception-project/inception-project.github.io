@@ -1,7 +1,7 @@
 ---
 title: PO-EMO
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/po-emo/
+permalink: /use-cases/po-emo/
 hidden: false
 ---
 

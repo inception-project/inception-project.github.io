@@ -1,7 +1,7 @@
 ---
 title: Rapid adaptation of event detection
 subheadline: Use-case
-permalink: /use-case-gallery/use-cases/rapid-events/
+permalink: /use-cases/rapid-events/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

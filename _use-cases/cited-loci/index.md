@@ -2,7 +2,7 @@
 title: Cited Loci
 subheadline: Use-case
 # subheadline: indexing of canonical references
-permalink: /use-case-gallery/use-cases/cited-loci/
+permalink: /use-cases/cited-loci/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png
 # example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip

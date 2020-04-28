@@ -1,7 +1,7 @@
 ---
 title: "Named entity recommendation on Brazilian Legal Text (LeNER-BR)"
 subheadline: Example project
-permalink: /use-case-gallery/example-projects/lener-br/
+permalink: /example-projects/lener-br/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png
 example-project: Example+A+Named+entity+recommendation+on+Brazilian+Legal+Text_2019-08-16_1139.zip

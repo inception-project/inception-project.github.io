@@ -1,7 +1,7 @@
 ---
 title: Example Projects
 hidden: true
-permalink: /use-case-gallery/example-projects/
+permalink: /example-projects/
 ---
 
 **Example projects** provide you with ready-made projects that you can import into the platform to
