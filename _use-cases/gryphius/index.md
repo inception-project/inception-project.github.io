@@ -1,6 +1,6 @@
 ---
-title: The interactional language of Andreas Gryphius
-subheadline: Use-case
+title: Andreas Gryphius
+subheadline: The interactional language of Andreas Gryphius
 permalink: /use-cases/gryphius/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png

@@ -1,6 +1,6 @@
 ---
 title: Impresso
-subheadline: Use-case
+subheadline: Critical text mining of newspaper archives 
 permalink: /use-cases/impresso/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png

@@ -1,6 +1,6 @@
 ---
-title: Semantic annotation of modality in a diachronic Latin corpus
-subheadline: Use-case
+title: A World of Possibilities
+subheadline: Semantic annotation of modality in a diachronic Latin corpus
 permalink: /use-cases/woposs/
 screenshot: screenshot.png
 thumbnail: screenshot_thumb.png
