@@ -1,6 +1,6 @@
 ---
-title: Automated analysis of media suicide reporting
-subheadline: Use-case
+title: ASMR
+subheadline: Automated analysis of media suicide reporting
 permalink: /use-cases/asmsr/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png

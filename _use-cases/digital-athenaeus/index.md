@@ -1,6 +1,6 @@
 ---
-title: Digital Athenaeus - Named Entity Annotation for Ancient Greek
-subheadline: Use-case
+title: Digital Athenaeus
+subheadline: Named Entity Annotation for Ancient Greek
 permalink: /use-cases/digital-athenaeus/
 hidden: false
 screenshot: image3.png

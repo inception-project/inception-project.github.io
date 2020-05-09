@@ -1,6 +1,6 @@
 ---
 title: Rapid adaptation of event detection
-subheadline: Use-case
+subheadline: Use external search to select and annotate training examples.
 permalink: /use-cases/rapid-events/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png

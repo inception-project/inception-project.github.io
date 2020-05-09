@@ -1,6 +1,6 @@
 ---
-title: Georgetown University Multilayer Corpus (GUM)
-subheadline: Use-case
+title: GUM Corpus
+subheadline: Georgetown University Multilayer Corpus (GUM)
 permalink: /use-cases/gum/
 # screenshot: screenshot.png
 # thumbnail: screenshot-thumb.png

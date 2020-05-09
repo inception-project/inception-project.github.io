@@ -1,6 +1,6 @@
 ---
 title: FAMULUS
-subheadline: Use-case
+subheadline: Annotate student essays with categories of diagnostic reasoning.
 permalink: /use-cases/famulus/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png

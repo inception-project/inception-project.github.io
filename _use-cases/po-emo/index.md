@@ -1,6 +1,6 @@
 ---
 title: PO-EMO
-subheadline: Use-case
+subheadline: Annotate poetry for its emotional impact 
 permalink: /use-cases/po-emo/
 hidden: false
 ---

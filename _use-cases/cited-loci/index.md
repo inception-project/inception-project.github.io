@@ -1,6 +1,6 @@
 ---
 title: Cited Loci
-subheadline: Use-case
+subheadline: Annotate references to classical authors and their works.
 # subheadline: indexing of canonical references
 permalink: /use-cases/cited-loci/
 screenshot: screenshot.png
