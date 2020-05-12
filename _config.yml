@@ -120,7 +120,16 @@ defaults:
       sidebar: left
       comments: false
 #      author: "your_author_name"
-
+  -    
+    scope:
+      path:            "publications/*.pdf"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "releases/*/docs/*.pdf"
+    values:
+      sitemap:         false      
 
 #       _   __            _             __  _           
 #      / | / /___ __   __(_)___ _____ _/ /_(_)___  ____ 
@@ -144,18 +153,6 @@ defaults:
 #google_site_verification:  "Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ"
 #bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 # alexa_verify_id:         ""
-
-defaults:
-  -
-    scope:
-      path:            "publications/*.pdf"
-    values:
-      sitemap:         false
-  -
-    scope:
-      path:            "releases/*/docs/*.pdf"
-    values:
-      sitemap:         false      
 
 #       ______            _                      
 #      / ____/___ __   __(_)________  ____  _____
