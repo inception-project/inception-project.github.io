@@ -1,0 +1,31 @@
+---
+# This layout is used to redirect pages, if you moved them.
+# Use the following settings in front matter:
+# 
+# title: "Latest Developer Documentation"
+# layout: latest-documentation
+# permalink: "/documentation/latest/developer-guide"
+# target: "developer-guide"
+#
+# The target has to be (user|developer|admin), it refers to an HTML file
+# in /releases/{{ stable.version }}/docs/{{ page.target }}.html
+---
+{% assign stable = site.data.releases | where: "status", "stable" | first %}
+{% assign unstable = site.data.releases | where: "status", "unstable" | first %}
+{% capture redirect_to %}
+{{ site.url }}/releases/{{ stable.version }}/docs/{{ page.target }}.html
+{% endcapture %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="canonical" href="{{ redirect_to }}"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="0;url={{ redirect_to }}" />
+</head>
+<body>
+    <h1>Redirecting...</h1>
+      {{ site.language.if_you_are_not_redirected_automatically }} <a href="{{ redirect_to }}">{{ site.language.click_here }}<a>.
+      <script>location='{{ redirect_to }}'</script>
+</body>
+</html>
