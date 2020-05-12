@@ -21,8 +21,11 @@ description: "Towards an Infrastructure for the Distributed Exploration and Anno
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "//inception-project.github.io/"
+url: "https://inception-project.github.io"
 baseurl: ""
+plugins:
+    - jekyll-sitemap
+    - jekyll-seo-tag
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -142,7 +145,17 @@ defaults:
 #bing_webmastertools_id:    "0FB4C028ABCF07C908C54386ABD2D97F"
 # alexa_verify_id:         ""
 
-
+defaults:
+  -
+    scope:
+      path:            "publications/*.pdf"
+    values:
+      sitemap:         false
+  -
+    scope:
+      path:            "releases/*/docs/*.pdf"
+    values:
+      sitemap:         false      
 
 #       ______            _                      
 #      / ____/___ __   __(_)________  ____  _____
