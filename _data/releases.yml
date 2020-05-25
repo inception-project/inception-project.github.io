@@ -1,7 +1,7 @@
 ###
 ### LATEST BLEEDING EDGE VERSION
 ###
-- version: 0.16.0-SNAPSHOT
+- version: 0.17.0-SNAPSHOT
   status: unstable
   user_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
   admin_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/INCEpTION%20(GitHub)%20(master)/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
@@ -22,6 +22,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: 0.16.0
+  date: 2020-05-25
+  status: stable
+
 - version: 0.15.2
   date: 2020-04-20
   status: stable
