@@ -22,6 +22,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: 0.16.1
+  date: 2020-06-19
+  status: stable
+
 - version: 0.16.0
   date: 2020-05-25
   status: stable
