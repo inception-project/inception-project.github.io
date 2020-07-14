@@ -13,6 +13,15 @@ If you use INCEpTION in scientific work or want to learn more about it, please h
 
 ### Core publications
 
+> Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2020): <br/>
+**From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains.** <br/>
+The 58th annual meeting of the Association for Computational Linguistics (ACL 2020), Virtual Conference.<br/>
+([pdf][ACL-2020-PDF]) ([video][ACL-2020-VIDEO]) ([bib][ACL-2020-BIB]) 
+
+[ACL-2020-PDF]: https://www.aclweb.org/anthology/2020.acl-main.624.pdf
+[ACL-2020-VIDEO]: https://slideslive.com/38929059/from-zero-to-hero-humanintheloop-entity-linking-in-low-resource-domains
+[ACL-2020-BIB]: https://www.aclweb.org/anthology/2020.acl-main.624.bib
+
 > Eckart de Castilho, R., Klie, J.-C., Kumar, N., Boullosa, B., Gurevych, I. (2018): <br/> 
 **Linking Text and Knowledge using the INCEpTION annotation platform.** <br/> 
 Proceedings of the 14th eScience IEEE International Conference, Amsterdam, Netherlands. <br/>
