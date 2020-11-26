@@ -11,9 +11,9 @@ the Department of Computer Science, Technische Universität Darmstadt.
 
 * Dr. Richard Eckart de Castilho (project lead, primary contact)
 * Prof. Dr. Iryna Gurevych (project lead)
-* Anna-Felicitas Hausmann
 * Jan-Christoph Klie
 * Ute Winchenbach
+* Nina Kolmar
 
 ## Former project members
 
@@ -21,6 +21,7 @@ the Department of Computer Science, Technische Universität Darmstadt.
 * Marcel de Boer
 * Michael Bugert
 * Wei Ding
+* Anna-Felicitas Hausmann
 * Peter Jiang 
 * Naveen Kumar
 * Sibgha Nazir
