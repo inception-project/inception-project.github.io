@@ -52,3 +52,4 @@ Disallow: /releases/0.15.0
 Disallow: /releases/0.15.2
 Disallow: /releases/0.16.0
 Disallow: /releases/0.16.1
+Disallow: /releases/0.17.0
