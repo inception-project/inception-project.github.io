@@ -17,6 +17,14 @@ goal is to provide an inventory of authors and works cited by Athenaeus
 and implement a data model for identifying, analyzing, and citing
 uniquely instances of text reuse in ancient Greek literature.
 
+<p style="text-align: center">
+<a href="http://videolectures.net/clarinannualconference2019_berti_named_entity/">
+<img src="http://videolectures.net/clarinannualconference2019_berti_named_entity/thumb.jpg" border="0"/>
+<br/>Named Entity Annotation for Ancient Greek with INCEpTION
+<br/>talk by Monica Berti recorded at the CLARIN Annual Conference 2019
+</a>
+</p>
+
 INCEpTION is used by the Digital Athenaeus project to extract and
 annotate named entities in the Greek text of the *Deipnosophists*, which
 is a rich collection of proper names pertaining to a wide variety of
