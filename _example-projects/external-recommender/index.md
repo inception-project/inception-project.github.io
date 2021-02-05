@@ -7,6 +7,8 @@ permalink: /example-projects/external-recommender/
 example-project: External+Recommender+Example+Project_2019-04-05_1142.zip
 ---
 
+See also: [Implementing an external recommender in Python - a tutorial][2]
+
 This example provides a ready-to-use project show-casing the use of an *External Recommender* in INCEpTION for annotating named entities
 and part-of-speech tags. Recommenders provide interactive annotation support by suggesting
 potential labels.
@@ -58,3 +60,4 @@ second one for parts-of-speech tags.
 
 ![annotation_pos](external_recocmmender_pos.png)
 
+[1]: https://github.com/inception-project/inception-external-recommender/blob/master/Tutorial.ipynb
