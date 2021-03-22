@@ -8,13 +8,13 @@ permalink: "/downloads/"
 
 ## INCEpTION {{ stable.version }}
 
-[Release notes](https://github.com/inception-project/inception/releases/tag/inception-app-{{ stable.version }})
+[Release notes](https://github.com/inception-project/inception/releases/tag/inception-{{ stable.version }})
 
 INCEpTION comes as a runnable Java JAR file. 
 You can start it by simply double-clicking on it in  your file manager. 
 You can also run it from the command line using `java -jar inception-app-webapp-{{ stable.version }}-standalone.jar`. 
 INCEpTION will create a directory called `.inception` under your home directory and store its database and files there.
 
-* [INCEpTION {{ stable.version }} (executable JAR)](https://github.com/inception-project/inception/releases/download/inception-app-{{ stable.version }}/inception-app-webapp-{{ stable.version }}-standalone.jar) <github-downloads user='inception-project' repo='inception' tag='inception-app-{{ stable.version }}' asset='inception-app-webapp-{{ stable.version }}-standalone.jar' ></github-downloads>
+* [INCEpTION {{ stable.version }} (executable JAR)](https://github.com/inception-project/inception/releases/download/inception-{{ stable.version }}/inception-app-webapp-{{ stable.version }}-standalone.jar) <github-downloads user='inception-project' repo='inception' tag='inception-app-{{ stable.version }}' asset='inception-app-webapp-{{ stable.version }}-standalone.jar' ></github-downloads>
 * [Installation instructions]({{ site.url }}/releases/{{ stable.version }}/docs/user-guide.html#sect_installation) 
 * [Upgrade instructions]({{ site.url }}/releases/{{ stable.version }}/docs/user-guide.html#sect_upgrade) 
