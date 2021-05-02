@@ -29,6 +29,7 @@ the annotated data to train a [deep learning LSTM-CRF model][2] which is then co
 as an external recommender to provide annotators with automatic annotation suggestions.
 
 ##### References
+
 * Schulz, Claudia ; Sailer, Michael ; Kiesewetter, Jan ; Bauer, Elisabeth ; Fischer, Frank ; 
   Fischer, Martin R. ; Gurevych, Iryna : Automatic Recommendations for Data Coding:
   a use case from medical and teacher education. In: The 14th eScience IEEE International 

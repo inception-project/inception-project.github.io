@@ -4,7 +4,6 @@ subheadline: Semantic annotation of modality in a diachronic Latin corpus
 permalink: /use-cases/woposs/
 screenshot: screenshot.png
 thumbnail: screenshot_thumb.png
-# example-project: Recommendation+and+Active+Learning+Example+Project_2018-07-05_1103.zip
 hidden: false
 ---
 
@@ -16,7 +15,7 @@ This project studies the evolution of modal meanings in Latin, analyzing modalit
 
 On the basis of the _[Woposs guidelines for annotation](https://zenodo.org/record/3560951)_, we formalized an annotation scheme by defining customized layers with their corresponding features and tagsets. In addition, constraints were declared in order to define the optional or mandatory nature of these elements as well as the relations between them. This [video](http://woposs.unil.ch/tutorial.php) shows how a modal passage is annotated in INCEpTION.
 
-## References:
+##### References
 
 * Bermúdez Sabel, Helena (in press). “Digital tools for semantic annotation: the WoPoss use case”. _Bulletin de linguistique et des sciences du langage_, 30. [Preprint](https://zenodo.org/record/3572410).
 * Dell’Oro, Francesca (2019). _WoPoss guidelines for annotation_. Zenodo. [doi:10.5281/zenodo.3560951](https://doi.org/10.5281/zenodo.3560951)
