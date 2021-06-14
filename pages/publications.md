@@ -105,3 +105,9 @@ CLARIN Annual Conference 2019 Bazaar <br/>
 12.-13. March 2018, Lichtenberghaus, Technische Universität Darmstadt, Darmstadt, Germany
 
 [FIF-INCEPTION-2018]: https://www.fif.tu-darmstadt.de/fif_formats_structure/fif_workshops_structure/2018_4/inception/inception.en.jsp
+
+> [Introduction to the semantic annotation platform INCEpTION][ZHAW-INCEPTION]<br/>
+09.-10. June 2021, Online, [Doctoral Programme in Applied Linguistics: Argumentation in Professional Practice][PHD-PROGRAMME]
+
+[ZHAW-INCEPTION]: https://www.zhaw.ch/storage/linguistik/studium/doktoratsprogramm/workshop-inception.pdf
+[PHD-PROGRAMME]: https://www.zhaw.ch/en/linguistics/study/ma-programme-cooperation/doctoral-programme/
