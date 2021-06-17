@@ -6,11 +6,6 @@ permalink: "/publications/"
 
 If you use INCEpTION in scientific work or want to learn more about it, please have a look at the following publications. INCEpTION is a multi-faceted project and each of the publications covers a different perspective.
 
-{% comment %}
-### Preprints / Accepted Submissions
-{% endcomment %}
-
-
 ### Core publications
 
 > Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2020): <br/>
@@ -69,6 +64,16 @@ In Proceedings of System Demonstrations of the 27th International Conference on 
 [COLING-2018-BIB]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.bib
 
 
+### Preprints
+
+> Lee, J.-U., Klie, J.-C. and Gurevych, I. (2021): <br/>
+**Annotation Curricula to Implicitly Train Non-Expert Annotators.** <br/>
+arxiv. <br/>
+([pdf][AC-2021-PDF])
+
+[AC-2021-PDF]: https://arxiv.org/abs/2106.02382
+
+
 ### Related publications
 
 > Eckart de Castilho, R., Ide, N., Kim, J.-D., Klie, J.-C., Suderman, K. (2019): <br/> 
@@ -76,7 +81,7 @@ In Proceedings of System Demonstrations of the 27th International Conference on 
 Proceedings of the 13th Linguistic Annotation Workshop (LAW 2019). <br/>
 ([pdf][LAW-2019-PDF]) ([bib][LAW-2019-BIB])
 
-[LAW-2019-PUB]: {{ site.url }}/publications/W19-4021.pdf
+[LAW-2019-PDF]: {{ site.url }}/publications/W19-4021.pdf
 [LAW-2019-BIB]: {{ site.url }}/publications/W19-4021.bib
 
 
@@ -111,3 +116,11 @@ CLARIN Annual Conference 2019 Bazaar <br/>
 
 [ZHAW-INCEPTION]: https://www.zhaw.ch/storage/linguistik/studium/doktoratsprogramm/workshop-inception.pdf
 [PHD-PROGRAMME]: https://www.zhaw.ch/en/linguistics/study/ma-programme-cooperation/doctoral-programme/
+
+### Talks
+
+> [Invited paper talk in "The 2nd Workshop on Data Science with Human-in-the-loop" (DaSH-LA)][DaSH-LA]<br/>
+June 11 2021, Online, Colocated with NAACL 2021
+
+[DaSH-LA]: https://sites.google.com/view/dash-la2021
+
