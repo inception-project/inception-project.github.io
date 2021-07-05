@@ -32,7 +32,7 @@ there.
 
 * [INCEpTION {{ beta.version }} standalone (executable JAR)](https://github.com/inception-project/inception/releases/download/inception-{{ beta.version }}/inception-app-webapp-{{ beta.version }}-standalone.jar) <github-downloads user='inception-project' repo='inception' tag='inception-{{ beta.version }}' asset='inception-app-webapp-{{ beta.version }}-standalone.jar' ></github-downloads>
 * [JAR installation instructions]({{ unstable.user_guide_url }}#sect_installation)
-* [JAR upgrade instructions]({{ unstable.user_guide_url }}#sect_upgrade) 
+* [JAR upgrade instructions]({{ unstable.admin_guide_url }}#sect_upgrade) 
 
 {% else %}
 Currently, there are no beta versions available.
