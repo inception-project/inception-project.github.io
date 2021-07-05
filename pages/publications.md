@@ -119,8 +119,20 @@ CLARIN Annual Conference 2019 Bazaar <br/>
 
 ### Talks
 
-> [Invited paper talk in "The 2nd Workshop on Data Science with Human-in-the-loop" (DaSH-LA)][DaSH-LA]<br/>
-June 11 2021, Online, Colocated with NAACL 2021
+> Invited talk at the **3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)**<br/>
+May 12th to 17th, 2019 at Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany <br/>
+([website][SD-LLOD-19])
+
+[SD-LLOD-19]: https://datathon2019.linguistic-lod.org
+
+> Invited paper talk at **The 2nd Workshop on Data Science with Human-in-the-loop** (DaSH-LA)<br/>
+June 11 2021, Online, Colocated with NAACL 2021 <br/>
+([website][DaSH-LA])
 
 [DaSH-LA]: https://sites.google.com/view/dash-la2021
 
+> Tutorial talk at **GSCL Talks series 2021**<br/>
+July 6 2021, Online<br/>
+([website][GSCL-TUTORIAL-2021])
+
+[GSCL-TUTORIAL-2021]: http://gscl.org/en/events/talks/juli-2021-tutorial-talk
