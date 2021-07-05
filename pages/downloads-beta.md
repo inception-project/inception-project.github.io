@@ -23,14 +23,14 @@ for documents with many annotations! If you get errors like "CAS Doctor found pr
 
 When (not if) you discover bugs or hit problems with these versions, please report them in our [issue tracker](http://github.com/inception-project/inception/issues).
 
-[Release notes](https://github.com/inception-project/inception/releases/tag/inception-app-{{ beta.version }})
+[Release notes](https://github.com/inception-project/inception/releases/tag/inception-{{ beta.version }})
 
 You download a runnable JAR that can be started using a double-click in your file manager or on
-the command line using `java -jar inception-app-standalone-{{ beta.version }}.jar`. INCEpTION will
+the command line using `java -jar inception-app-webapp-{{ beta.version }}-standalone.jar`. INCEpTION will
 create a directory called `.inception` under your home directory and store its database and files
 there.
 
-* [INCEpTION {{ beta.version }} standalone (executable JAR)](https://github.com/inception-project/inception/releases/download/inception-app-{{ beta.version }}/inception-app-standalone-{{ beta.version }}.jar) <github-downloads user='inception-project' repo='inception' tag='inception-app-{{ beta.version }}' asset='inception-app-standalone-{{ beta.version }}.jar' ></github-downloads>
+* [INCEpTION {{ beta.version }} standalone (executable JAR)](https://github.com/inception-project/inception/releases/download/inception-{{ beta.version }}/inception-app-webapp-{{ beta.version }}-standalone.jar) <github-downloads user='inception-project' repo='inception' tag='inception-{{ beta.version }}' asset='inception-app-webapp-{{ beta.version }}-standalone.jar' ></github-downloads>
 * [JAR installation instructions]({{ unstable.user_guide_url }}#sect_installation)
 * [JAR upgrade instructions]({{ unstable.user_guide_url }}#sect_upgrade) 
 
