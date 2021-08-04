@@ -136,3 +136,6 @@ July 6 2021, Online<br/>
 ([website][GSCL-TUTORIAL-2021])
 
 [GSCL-TUTORIAL-2021]: http://gscl.org/en/events/talks/juli-2021-tutorial-talk
+
+> Talk at the **Workshop Einführung in die Digital Humanities**<br/>
+July 23th, 2021, Online, Seminar für Lateinische Philologie des Mittelalters und der Neuzeit – Westfälische Wilhelms-Universität Münster<br/>
