@@ -24,3 +24,9 @@ _upcoming release - links may be temporarily broken while a build is in progress
 * [Admin Guide]({{ unstable.admin_guide_url }})
 * [Developer Guide]({{ unstable.developer_guide_url }})
 {% endif %}
+
+----
+
+#### Additional material
+
+* [INCEpTIOn 20.x Intro Slide Deck]({{ site.url }/publications/INCEpTION-20.x-Intro.pdf})
