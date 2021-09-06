@@ -29,4 +29,4 @@ _upcoming release - links may be temporarily broken while a build is in progress
 
 #### Additional material
 
-* [INCEpTIOn 20.x Intro Slide Deck]({{ site.url }}/publications/INCEpTION-20.x-Intro.pdf})
+* [INCEpTIOn 20.x Intro Slide Deck]({{ site.url }}/publications/INCEpTION-20.x-Intro.pdf)
