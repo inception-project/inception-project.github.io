@@ -22,9 +22,11 @@ the Department of Computer Science, Technische Universität Darmstadt.
 * Wei Ding
 * Anna-Felicitas Hausmann
 * Peter Jiang 
+* Wulf Pfeiffer
 * Naveen Kumar
 * Nina Kolmar
 * Sibgha Nazir
+* Christoph Scheunemann
 * Ute Winchenbach
 * Alexander Zap
 
