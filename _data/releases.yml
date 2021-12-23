@@ -12,8 +12,8 @@
 ### LATEST BETA
 ###
 
-- version: 0.22.0-rc-2
-  date: 2021-12-18
+- version: 0.22.0-rc-3
+  date: 2021-12-22
   status: beta
   user_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/view/INCEpTION/job/INCEpTION%2022.x/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
   admin_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/view/INCEpTION/job/INCEpTION%2022.x/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
@@ -23,6 +23,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: 21.5
+  date: 2021-12-23
+  status: stable
+
 - version: 21.4
   date: 2021-12-16
   status: stable
