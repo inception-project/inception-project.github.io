@@ -23,12 +23,16 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: 22.2
+  date: 2022-01-23
+  status: stable
+
 - version: 22.1
-  date: 2021-01-12
+  date: 2022-01-12
   status: stable
 
 - version: 22.0
-  date: 2021-01-07
+  date: 2022-01-07
   status: stable
 
 - version: 21.5
