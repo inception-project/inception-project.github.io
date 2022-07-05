@@ -1,6 +1,6 @@
 ---
 title: R Examples
-subheadline: Working with annotations using R
+subheadline: Code: Working with annotations using R
 permalink: /example-projects/r/
 ---
 
