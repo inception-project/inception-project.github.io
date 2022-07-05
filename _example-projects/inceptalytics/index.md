@@ -12,7 +12,7 @@ INCEpTALYTICS is an open-source easy-to-use API for analyzing INCEpTION annotati
 For more information, visit the [INCEpTALYTICS website][1].
 
 <figure id="figure1" style="text-align: center">
-  <img src="screenshot.png" width="75%"/>
+  <img src="/example-projects/inceptalytics/screenshot.png" width="75%"/>
   <figcaption>Dashboard built with INCEpTALYTICS</figcaption>
 </figure>
 
