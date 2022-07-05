@@ -19,5 +19,8 @@ The dataset, along with detailed annotation guidelines, is publicly available in
 
 ##### References
 
-* Annemarie Friedrich, Heike Adel, Federico Tomazic, Johannes Hingerl, Renou Benteau, Anika Maruscyk and Lukas Lange. The SOFC-Exp Corpus and Neural Approaches to Information Extraction in the Materials Science Domain. ACL 2020. [PDF](https://www.aclweb.org/anthology/2020.acl-main.116/)
+* Annemarie Friedrich, Heike Adel, Federico Tomazic, Johannes Hingerl, Renou Benteau, Anika Maruscyk and Lukas Lange. 
+  The SOFC-Exp Corpus and Neural Approaches to Information Extraction in the Materials Science Domain. 
+  ACL 2020. 
+  [[PDF](https://www.aclweb.org/anthology/2020.acl-main.116/)]
 

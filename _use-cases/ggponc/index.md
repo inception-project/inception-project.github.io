@@ -36,8 +36,16 @@ The following features of INCEpTION were used:
 
 ##### References
 
-* Florian Borchert, Christina Lohr, Luise Modersohn, Jonas Witt, Thomas Langer, Markus Follmann, Matthias Gietzelt, Bert Arnrich, Udo Hahn and Matthieu-P. Schapranow. GGPONC 2.0 - The German Clinical Guideline Corpus for Oncology: Curation Workflow, Annotation Policy, Baseline NER Taggers. LREC 2022 — Proceedings of the Language Resources and Evaluation Conference, pp. 3650‑3660. Marseille, France, European Language Resources Association, 2022 [PDF](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.389.pdf)
-* Florian Borchert\*, Christina Lohr\*, Luise Modersohn\*, Thomas Langer, Markus Follmann, Jan Philipp Sachs, Udo Hahn, Matthieu-P. Schapranow. GGPONC: A Corpus of German Medical Text with Rich Metadata Based on Clinical Practice Guidelines. In Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis, pp. 38–48. Online: Association for Computational Linguistics, 2020. (\* equal contribution) [PDF](https://www.aclweb.org/anthology/2020.louhi-1.5)
+* Florian Borchert, Christina Lohr, Luise Modersohn, Jonas Witt, Thomas Langer, Markus Follmann, Matthias Gietzelt, Bert Arnrich, Udo Hahn and Matthieu-P. Schapranow. 
+  GGPONC 2.0 - The German Clinical Guideline Corpus for Oncology: Curation Workflow, Annotation Policy, Baseline NER Taggers. 
+  LREC 2022 — Proceedings of the Language Resources and Evaluation Conference, pp. 3650‑3660. 
+  Marseille, France, European Language Resources Association, 2022 
+  [[PDF](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.389.pdf)]
+* Florian Borchert\*, Christina Lohr\*, Luise Modersohn\*, Thomas Langer, Markus Follmann, Jan Philipp Sachs, Udo Hahn, Matthieu-P. Schapranow. 
+  GGPONC: A Corpus of German Medical Text with Rich Metadata Based on Clinical Practice Guidelines. 
+  In Proceedings of the 11th International Workshop on Health Text Mining and Information Analysis, pp. 38–48. 
+  Online: Association for Computational Linguistics, 2020. (\* equal contribution) 
+  [[PDF](https://www.aclweb.org/anthology/2020.louhi-1.5)]
 
 [1]: https://www.leitlinienprogramm-onkologie.de/projekte/ggponc-english/
 [2]: https://github.com/ltl-ude/inceptalytics

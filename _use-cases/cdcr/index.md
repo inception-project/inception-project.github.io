@@ -21,4 +21,7 @@ We used the INCEpTION tool to extend the annotations of an existing CDCR corpus 
 * Utilities for monitoring annotator progress and computing inter-annotator agreement
 
 ##### References
-* Bugert, Michael ; Reimers, Nils ; Gurevych, Iryna: Cross-Document Event Coreference Resolution Beyond Corpus-Tailored Systems. In: CoRR, abs/2011.12249. (2020) [arXiv](https://arxiv.org/abs/2011.12249)
+* Bugert, Michael ; Reimers, Nils ; Gurevych, Iryna: 
+  Cross-Document Event Coreference Resolution Beyond Corpus-Tailored Systems. 
+  In: CoRR, abs/2011.12249. (2020) 
+  [[arXiv](https://arxiv.org/abs/2011.12249)]
