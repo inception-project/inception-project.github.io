@@ -4,7 +4,7 @@ subheadline: German Guideline Program in Oncology NLP Corpus
 permalink: /use-cases/ggponc/
 screenshot: screenshot.png
 thumbnail: screenshot-thumb.png
-hidden: true
+hidden: false
 ---
 
 <i>German Guideline Program in Oncology NLP Corpus</i>
