@@ -1,5 +1,5 @@
 ---
-title: Example Projects
+title: Examples
 hidden: true
 permalink: /example-projects/
 ---
