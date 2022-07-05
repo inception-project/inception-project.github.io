@@ -1,6 +1,6 @@
 ---
 title: Python Examples
-subheadline: Code: Working with annotations using Python
+subheadline: "[Code] Working with annotations using Python"
 permalink: /example-projects/python/
 ---
 

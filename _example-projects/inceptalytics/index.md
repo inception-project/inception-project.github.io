@@ -1,6 +1,6 @@
 ---
 title: INCEpTALYTICS
-subheadline: Tool: Analyzing INCEpTION annotation projects
+subheadline: "[Tool] Analyzing INCEpTION annotation projects"
 permalink: /example-projects/inceptalytics/
 ---
 
