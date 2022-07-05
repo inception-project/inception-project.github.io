@@ -11,7 +11,7 @@ hidden: true
 
 
 **Source**: <i>This example was kindly contributed by 
-<a href="https://hpi.de/digital-health-center/members/working-group-in-memory-computing-for-digital-health/florian-borchert.html">Florian Borchert</a>,
+<a href="https://florianborchert.de/">Florian Borchert</a>,
  Hasso-Plattner-Institut Digital Health Center, Universität Potstam, Germany</i>
 
 The [GGPONC project][1] aims to provide a freely distributable corpus of German medical text for NLP researchers. Clinical guidelines are particularly suitable to create such corpora, as they contain no protected health information (PHI), which distinguishes them from other kinds of medical text.
