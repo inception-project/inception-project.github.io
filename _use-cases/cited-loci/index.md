@@ -39,7 +39,7 @@ The overall workflow of the annotation project consisted of the following steps:
 
 To complete these tasks, we made in particular use of the following features of the INCEpTION platform:
 
-* the abiltiy to define custom layers for specialized relations/entities
+* the ability to define custom layers for specialized relations/entities
 * the knowledge base integration: entities are linked to the corresponding author/work instance in the KB
 * the active learning support to speed up the annotation process
 * the monitoring to manage the process

@@ -13,8 +13,7 @@ Communication Science Research Group, Johannes Gutenberg-Universität, Mainz, Ge
 
 The [project][1] described here aims to develop and test automated methods for identifying, 
 analysing and predicting risk factors of media suicide reporting. The project is conducted in
-the context of the [Centre for the Digital Foundation of Research in the Humanities, Social, and 
-Educational Sciences (CEDIFOR)][2].
+the context of the [Centre for the Digital Foundation of Research in the Humanities, Social, and Educational Sciences (CEDIFOR)][2].
 
 Effective measures to prevent suicide are of enormous importance for health policy in most societies 
 around the world. In Germany, more than 10.000 people die by suicide every year. The global number 
