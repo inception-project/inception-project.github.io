@@ -24,4 +24,4 @@ Within the project, corpora with instances of moralization practices from differ
 
 The resulting data set will be used in the future for automated detection and analysis of moralization practices - a diffuse concept that is to be operationalized as a term in descriptive linguistics.
 
-[1]: https://www.uni-heidelberg.de/en/research/research-profile/fields-of-focus/field-of-focus-iii/research-activities/annotation-of-moralizing-practices
+[1]: https://www.uni-heidelberg.de/fakultaeten/neuphil/gs/sprache02/mitarbeiter/moralisierung.html
