@@ -16,14 +16,14 @@ MAPA started by designing a three-level [Named Entity Hierarchy][3] that was lat
 
 Below follows an excerpt from the MAPA NE hierarchy, which covers information that may be considered as sensitive or personal and that needs to be de-identified within the texts:
 
-<figure id="figure1" style="width: 80%">
-  <img src="figure1.png"/>
+<figure id="figure1" style="text-align: center">
+  <img src="figure1.png" style="width: 80%"/>
 </figure>
 
 An example of French text annotated with INCEpTION for the legal domain (derived from the French Court of Cassation) is as follows:
 
-<figure id="figure2" style="width: 80%">
-  <img src="figure2.png"/>
+<figure id="figure2" style="text-align: center">
+  <img src="figure2.png" style="width: 80%"/>
 </figure>
 
 NE annotation with INCEpTION is simple while allowing for complex annotation, done at several levels, with entity linking (if required), and with a wide range of features. It also allows for different types of annotations (e.g., NEs, POS, dependencies, coreferences, etc.), which offers the possibility to annotate data with several linguistics layers.
