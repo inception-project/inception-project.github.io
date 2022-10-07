@@ -1,5 +1,5 @@
 ---
-title: Annotating the Portuguese Parish Memories (1758-1761)
+title: Portuguese Parish Memories (1758-1761)
 subheadline: Language variation and named entities
 permalink: /use-cases/parish-memories/
 hidden: false
