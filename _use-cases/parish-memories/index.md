@@ -6,11 +6,11 @@ hidden: false
 # screenshot: thematic_concept.png
 ---
 
-**Source**: <i>This use-case was kindly contributed by Helena Freire Cameron, Fernanda Olival and Renata Vieira from CIDEHUS, University of Évora and VALORIZA, Polytechnics of Portalegre, Portugal.</i>
+**Source**: <i>This use-case was kindly contributed by [Helena Freire Cameron](https://orcid.org/0000-0001-7719-6994), [Fernanda Olival](https://orcid.org/0000-0003-4762-3451) and [Renata Vieira](https://orcid.org/0000-0003-2449-5477) from CIDEHUS, University of Évora and VALORIZA, Polytechnics of Portalegre, Portugal.</i>
 
 The Parish Memories are an essential Portuguese historical source that have been manually transcribed to a digital version and is publicly available at [CIDEHUSDigital][1]. This source contains data of a very diverse nature: demographic, religious and artistic (on churches and convents, antiquities on-earth), economic (main productions, mines, resources and fish mills, mills, fairs, ports), medicinal herbs, festivities, etc.  
 
-The texts were automatically annotated for generating an entity data set regarding persons, locations, and organizations. In the resulting published dataset, we provide the tagged texts, the lists of extracted entities, and the frequency counts. The dataset is useful for historians. Its annotation may allow, for instance, comparative analyses between parishes and regions or to calculate the area of influence of a locality. Two researchers annotated a portion of it manually, using the INCEpTION tool, for evaluation purposes. 
+The texts were automatically annotated for generating an entity data set regarding persons, locations, and organizations. In the resulting [published dataset][2], we provide the tagged texts, the lists of extracted entities, and the frequency counts. The dataset is useful for historians. Its annotation may allow, for instance, comparative analyses between parishes and regions or to calculate the area of influence of a locality. Two researchers annotated a portion of it manually, using the INCEpTION tool, for evaluation purposes. 
 
 Currently, we are reviewing the annotation related to person, location and organisation, and defining new categories and sub categories valid for historian analysis. 
 An annotation of language variations with the help of INCEpTION was also made, allowing us to analyse the spelling variants in the Portuguese of the 18th century and to establish their correspondences with contemporary forms. 
@@ -42,5 +42,9 @@ We made use of the following features of the INCEpTION platform:
   Named entity annotation of an 18th century transcribed corpus: problems, challenges.
   In: Proceedings of the Second Workshop on Digital Humanities and Natural Language Processing, CEUR Workshop Proceedings, vol. 3128, pp. 18–25. 
   [[PDF](http://ceur-ws.org/Vol-3128/paper8.pdf)]
+* Cameron, H. F., Gonçalves, M. F., Olival, F., & Vieira, R. (2023).
+  Spelling variants in 18th-century Portuguese: Constraints on natural language processing.
+  In: Programming in Digital Humanities, M. Avillez, C. Castro, S. Boto (Eds.), Springer [in press].  
 
 [1]: http://www.cidehusdigital.uevora.pt/portugal1758
+[2]: https://zenodo.org/record/4946479 
