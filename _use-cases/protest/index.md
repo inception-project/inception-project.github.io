@@ -1,6 +1,6 @@
 ---
-title: Protest and Social Cohesion: Comparing Local Conflict Dynamics
-subheadline: Annotation of protest events in a German newspaper corpus
+title: "Protest and Social Cohesion"
+subheadline: Comparing Local Conflict Dynamics; Annotation of protest events in a German newspaper corpus
 permalink: /use-cases/protest/
 #screenshot: screenshot.png
 #thumbnail: screenshot-thumb.png
@@ -21,7 +21,7 @@ After an initial phase of manual coding, we use transformer models to
 
 <figure id="figure1" style="text-align: center">
   <img src="figure1.png" style="width: 80%"/>
-  <figcaption>sSample annotation within one article.</figcaption>
+  <figcaption>Sample annotation within one article.</figcaption>
 </figure>
 
 ##### References
