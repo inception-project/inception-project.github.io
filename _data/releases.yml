@@ -23,6 +23,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+- version: "25.5"
+  date: 2022-11-16
+  status: stable
+
 - version: "25.4"
   date: 2022-11-08
   status: stable
