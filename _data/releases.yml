@@ -23,9 +23,9 @@
 ###
 ### RELEASE VERSIONS
 ###
-- version: "27.5"
-  date: 2023-04-18
-  status: stable
+#- version: "27.5"
+#  date: 2023-04-18
+#  status: stable
 
 - version: "27.4"
   date: 2023-04-05
