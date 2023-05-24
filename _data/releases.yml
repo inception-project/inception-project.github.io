@@ -12,17 +12,21 @@
 ### LATEST BETA
 ###
 
-- version: 28.0-beta-1
-  date: 2023-05-18
-  status: beta
-  user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
-  admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
-  developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
+#- version: 28.0-beta-1
+#  date: 2023-05-18
+#  status: beta
+#  user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
+#  admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
+#  developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
 
 
 ###
 ### RELEASE VERSIONS
 ###
+- version: "28.0"
+  date: 2023-05-24
+  status: stable
+
 - version: "27.8"
   date: 2023-05-05
   status: stable
