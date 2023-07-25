@@ -23,7 +23,7 @@ We used INCEpTION (v22.3) for all annotation projects. In addition, we used the 
 
 All annotations were conducted using well-established annotation methods, including a guideline adaptation process by redundantly annotating documents by multiple annotators involving an inter-annotator agreement score (IAA) in an iterative approach  (Roberts et al, 2009).
 
-The corpus must be formally requested following instructions on the CARDIO:DE website in the Terms of Use section (https://doi.org/10.11588/data/AFYQDY).
+The corpus must be formally requested following instructions on the CARDIO:DE website in the [[Terms of Use section](https://doi.org/10.11588/data/AFYQDY)].
 
 The following features of INCEpTION were used:
 * Custom entity layers and tag sets
