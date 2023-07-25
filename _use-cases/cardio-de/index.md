@@ -17,13 +17,13 @@ CARDIO:DE includes two high-quality manual annotation layers:
 
 <a href="illustration.png" style="cursor: zoom-in" target="_blank"><img style="border: solid 1px black" src="illustration.png"></a>
 
-2. **2. CDA-compliant section classes**: The Section type annotation scheme is based on Lohr et al, 2018 31, but is more coarse-grained and carried out on paragraph-level. Fourteen section types were annotated: `Anrede`, `AktuellDiagnosen`, `Diagnosen`, `AllergienUnverträglichkeitenRisiken`, `Anamnese`, `AufnahmeMedikation`, `KUBefunde`, `Befunde`, `EchoBefunde`, `Labor`, `Zusammenfassung`, `Mix`, `EntlassMedikation`, `Abschluss`. Nine section types are mapped to HL7 CDA elements ([[Arztbrief Plus, v. 3.15](https://wiki.hl7.de/index.php?title=IG:Arztbrief_Plus)], accessed 06.10.2022). The final corpus contains in total 116,898 annotated paragraphs with section classes.
+2. **2. CDA-compliant section classes**: The Section type annotation scheme is based on Lohr et al, 2018 31, but is more coarse-grained and carried out on paragraph-level. Fourteen section types were annotated: `Anrede`, `AktuellDiagnosen`, `Diagnosen`, `AllergienUnverträglichkeitenRisiken`, `Anamnese`, `AufnahmeMedikation`, `KUBefunde`, `Befunde`, `EchoBefunde`, `Labor`, `Zusammenfassung`, `Mix`, `EntlassMedikation`, `Abschluss`. Nine section types are mapped to HL7 CDA elements ([Arztbrief Plus, v. 3.15](https://wiki.hl7.de/index.php?title=IG:Arztbrief_Plus), accessed 06.10.2022). The final corpus contains in total 116,898 annotated paragraphs with section classes.
 
 We used INCEpTION (v22.3) for all annotation projects. In addition, we used the tool to support manual de-identification of all letters using a pre-defined set of PHI classes, such as person, location and date.
 
 All annotations were conducted using well-established annotation methods, including a guideline adaptation process by redundantly annotating documents by multiple annotators involving an inter-annotator agreement score (IAA) in an iterative approach  (Roberts et al, 2009).
 
-The corpus must be formally requested following instructions on the CARDIO:DE website in the [[Terms of Use section](https://doi.org/10.11588/data/AFYQDY)].
+The corpus must be formally requested following instructions on the CARDIO:DE website in the [Terms of Use section](https://doi.org/10.11588/data/AFYQDY).
 
 The following features of INCEpTION were used:
 * Custom entity layers and tag sets
