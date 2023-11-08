@@ -12,12 +12,12 @@
 ### LATEST BETA
 ###
 
-#- version: 29.0-rc-1
-#  date: 2023-08-01
-#  status: rc
-#  user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
-#  admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
-#  developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
+- version: 30.0-beta-1
+  date: 2023-11-08
+  status: beta
+  user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
+  admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
+  developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/INCEpTION%20main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
 
 
 ###
