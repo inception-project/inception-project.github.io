@@ -40,6 +40,7 @@ Features of INCEpTION that we consider of particular importance to our use case 
   <figcaption>Figure 3. Linking work titles with Wikidata.</figcaption>
 </figure>
 
+A detailed documentation of the project-specific workflow can be found here: https://github.com/MiMoText/inception_themes/blob/main/documentation_inception_workflow.pdf.
 For more information and tutorials related to the MiMoTextBase, please refer to the [MiMoTextBase website][7].
 
 ##### References
