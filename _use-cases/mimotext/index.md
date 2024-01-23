@@ -40,11 +40,15 @@ Features of INCEpTION that we consider of particular importance to our use case 
   <figcaption>Figure 3. Linking work titles with Wikidata.</figcaption>
 </figure>
 
-A detailed documentation of the project-specific workflow can be found here: https://github.com/MiMoText/inception_themes/blob/main/documentation_inception_workflow.pdf.
+Please refer to our [detailed documentation of the project-specific workflow][8] for an in-depth description.
 For more information and tutorials related to the MiMoTextBase, please refer to the [MiMoTextBase website][7].
 
 ##### References
-Schöch, Christof, Maria Hinzmann, Röttgermann Julia, Anne Klee, and Katharina Dietz. "Smart Modelling for Literary History." IJHAC: International Journal of Humanities and Arts Computing [Special Issue on Linked Open Data] 16, no. 1 (2022): 78–93. doi: https://doi.org/10.3366/ijhac.2022.0278
+Schöch, Christof, Maria Hinzmann, Röttgermann Julia, Anne Klee, and Katharina Dietz. "Smart Modelling for Literary History." IJHAC: International Journal of Humanities and Arts Computing [Special Issue on Linked Open Data] 16, no. 1 (2022): 78–93. 
+[[doi: 10.3366/ijhac.2022.0278](https://doi.org/10.3366/ijhac.2022.0278)]
+[[PDF](https://www.euppublishing.com/doi/epdf/10.3366/ijhac.2022.0278)]
+
+
 
 [1]: https://www.mimotext.uni-trier.de/en
 [2]: https://tcdh.uni-trier.de/en
@@ -53,4 +57,5 @@ Schöch, Christof, Maria Hinzmann, Röttgermann Julia, Anne Klee, and Katharina 
 [5]: https://github.com/MiMoText/inception_themes
 [6]: https://github.com/dkpro/dkpro-cassis
 [7]: https://docs.mimotext.uni-trier.de
+[8]: https://github.com/MiMoText/inception_themes/blob/main/documentation_inception_workflow.pdf
 
