@@ -30,6 +30,12 @@ The following features of INCEpTION were used:
 * Individual projects per annotators
 * Remote API for exporting projects as WebAnno TSV and UIMA CAS
 
+##### Example project
+
+You can download an example project below. Do not extract this ZIP file. On the INCEpTION project overview page, select **Import project** to import it.
+
+* [Example project (zip)](https://github.com/hpi-dhc/ggponc_annotation/raw/master/inception/ggponc_inception_uima_cas_json_0.4.0.zip)
+
 ##### Code and annotation guide
 
 * https://github.com/hpi-dhc/ggponc_annotation 
