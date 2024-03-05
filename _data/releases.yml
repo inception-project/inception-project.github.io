@@ -1,7 +1,7 @@
 ###
 ### LATEST BLEEDING EDGE VERSION
 ###
-- version: 31.0-SNAPSHOT
+- version: 32.0-SNAPSHOT
   status: unstable
   user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
   admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
@@ -23,6 +23,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+
+- version: "31.2"
+  date: 2024-03-05
+  status: stable
 
 - version: "31.1"
   date: 2024-02-20
