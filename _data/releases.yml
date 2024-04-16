@@ -1,7 +1,7 @@
 ###
 ### LATEST BLEEDING EDGE VERSION
 ###
-- version: 32.0-SNAPSHOT
+- version: 33.0-SNAPSHOT
   status: unstable
   user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
   admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
@@ -12,17 +12,21 @@
 ### LATEST BETA
 ###
 
-- version: 32.0-beta-1
-  date: 2024-04-03
-  status: beta
-  user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
-  admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
-  developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
+# - version: 32.0-beta-1
+#   date: 2024-04-03
+#   status: beta
+#   user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
+#   admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
+#   developer_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/3/
 
 
 ###
 ### RELEASE VERSIONS
 ###
+
+- version: "32.0"
+  date: 2024-04-16
+  status: stable
 
 - version: "31.4"
   date: 2024-04-02
