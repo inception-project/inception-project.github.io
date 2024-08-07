@@ -12,8 +12,8 @@
 ### LATEST BETA
 ###
 
-- version: 34.0-beta-2
-  date: 2024-07-23
+- version: 34.0-beta-3
+  date: 2024-08-06
   status: beta
   user_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/1/
   admin_guide_url: https://build.ukp.informatik.tu-darmstadt.de/view/INCEpTION/job/inception-main/de.tudarmstadt.ukp.inception.app$inception-app-webapp/doclinks/2/
@@ -23,6 +23,10 @@
 ###
 ### RELEASE VERSIONS
 ###
+
+- version: "33.4"
+  date: 2024-08-06
+  status: stable
 
 - version: "33.3"
   date: 2024-07-23
