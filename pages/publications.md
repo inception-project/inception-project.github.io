@@ -8,10 +8,17 @@ If you use INCEpTION in scientific work or want to learn more about it, please h
 
 ### Core publications
 
+> Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2024): <br/>
+**Integrating INCEpTION into larger annotation processes.** <br/>
+Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) - System demonstrations <br/>
+To appear <br/>
+Approximate reference version: INCEpTION 34.0 (Oct 02, 2024)
+
 > Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2020): <br/>
 **From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains.** <br/>
 The 58th annual meeting of the Association for Computational Linguistics (ACL 2020), Virtual Conference.<br/>
-([pdf][ACL-2020-PDF]) ([video][ACL-2020-VIDEO]) ([bib][ACL-2020-BIB]) 
+([pdf][ACL-2020-PDF]) ([video][ACL-2020-VIDEO]) ([bib][ACL-2020-BIB]) <br/> 
+Approximate reference version: INCEpTION 0.16.1 (Jun 19, 2020)
 
 [ACL-2020-PDF]: https://www.aclweb.org/anthology/2020.acl-main.624.pdf
 [ACL-2020-VIDEO]: https://slideslive.com/38929059/from-zero-to-hero-humanintheloop-entity-linking-in-low-resource-domains
@@ -20,35 +27,39 @@ The 58th annual meeting of the Association for Computational Linguistics (ACL 20
 > Eckart de Castilho, R., Klie, J.-C., Kumar, N., Boullosa, B., Gurevych, I. (2018): <br/> 
 **Linking Text and Knowledge using the INCEpTION annotation platform.** <br/> 
 Proceedings of the 14th eScience IEEE International Conference, Amsterdam, Netherlands. <br/>
-([pdf][ESCIENCE-2018-PDF]) ([bib][ESCIENCE-2018-BIB])
+([pdf][ESCIENCE-2018-PDF]) ([bib][ESCIENCE-2018-BIB]) <br/> 
+Approximate reference version: INCEpTION 𝜶 0.5.3 (Oct 19, 2018)
 
 [ESCIENCE-2018-PDF]: {{ site.url }}/publications/ESCIENCE-2018.pdf
 [ESCIENCE-2018-BIB]: {{ site.url }}/publications/ESCIENCE-2018.bib
 
 
-> Boullosa, B., Eckart de Castilho, R., Kumar, N.,  Klie, J.-C., Gurevych, I. (2018): <br/> 
-**Integrating Knowledge-Supported Search into the INCEpTION Annotation Platform.** <br/> 
-Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 127-132, Brussels, Belgium. <br/>
-([pdf][EMNLP-2018-PDF]) ([bib][EMNLP-2018-BIB])
-
-[EMNLP-2018-PDF]: {{ site.url }}/publications/D18-2022.pdf
-[EMNLP-2018-BIB]: {{ site.url }}/publications/D18-2022.bib
-
-
 > Eckart de Castilho, R., Klie, J.-C., Kumar, N., Boullosa, B., Gurevych, I. (2018): <br/>
 **INCEpTION - Corpus-based Data Science from Scratch.** <br/>
 In: Digital Infrastructures for Research (DI4R) 2018, 9-11 October 2018, Lisbon, Portugal. <br/>
-([pdf][DI4R-2018-PDF]) ([bib][DI4R-2018-BIB]) ([poster][DI4R-2018-POSTER])
+([pdf][DI4R-2018-PDF]) ([bib][DI4R-2018-BIB]) ([poster][DI4R-2018-POSTER]) <br/> 
+Approximate reference  version: INCEpTION 𝜶 0.5.3 (Oct 19, 2018)
 
 [DI4R-2018-PDF]: {{ site.url }}/publications/DI4R-2018.pdf
 [DI4R-2018-BIB]: {{ site.url }}/publications/DI4R-2018.bib
 [DI4R-2018-POSTER]: {{ site.url }}/publications/INCEpTION-DI4R-Poster.pdf
 
 
+> Boullosa, B., Eckart de Castilho, R., Kumar, N.,  Klie, J.-C., Gurevych, I. (2018): <br/> 
+**Integrating Knowledge-Supported Search into the INCEpTION Annotation Platform.** <br/> 
+Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing (EMNLP), p. 127-132, Brussels, Belgium. <br/>
+([pdf][EMNLP-2018-PDF]) ([bib][EMNLP-2018-BIB]) <br/> 
+Approximate reference  version: INCEpTION 𝜶 0.4.2 (Aug 14, 2018)
+
+[EMNLP-2018-PDF]: {{ site.url }}/publications/D18-2022.pdf
+[EMNLP-2018-BIB]: {{ site.url }}/publications/D18-2022.bib
+
+
 > Klie, J.-C. (2018): <br/>
 **INCEpTION: Interactive Machine-assisted Annotation.** <br/>
 Proceedings of the First Biennial Conference on Design of Experimental Search & Information Retrieval Systems (DESIRES), Bertinoro, Italy. <br/>
-([pdf][DESIRES-2018-PDF]) ([bib][DESIRES-2018-BIB])
+([pdf][DESIRES-2018-PDF]) ([bib][DESIRES-2018-BIB]) <br/> 
+Approximate reference  version: INCEpTION 𝜶 0.4.0 (Jul 6, 2018)
 
 [DESIRES-2018-PDF]: {{ site.url }}/publications/DESIRES-2018.pdf
 [DESIRES-2018-BIB]: {{ site.url }}/publications/DESIRES-2018.bib
@@ -57,7 +68,8 @@ Proceedings of the First Biennial Conference on Design of Experimental Search & 
 > Klie, J.-C., Bugert, M., Boullosa, B., Eckart de Castilho, R. and Gurevych, I. (2018): <br/>
 **The INCEpTION Platform: Machine-Assisted and Knowledge-Oriented Interactive Annotation.** <br/>
 In Proceedings of System Demonstrations of the 27th International Conference on Computational Linguistics (COLING 2018), Santa Fe, New Mexico, USA <br/>
-([pdf][COLING-2018-PDF]) ([bib][COLING-2018-BIB]) ([flyer][COLING-2018-FLYER])
+([pdf][COLING-2018-PDF]) ([bib][COLING-2018-BIB]) ([flyer][COLING-2018-FLYER]) <br/>
+Approximate reference  version: INCEpTION 𝜶 0.3.3 (Jun 27, 2018)
 
 [COLING-2018-PDF]: {{ site.url }}/publications/INCEpTION-COLING2018-Demo.pdf
 [COLING-2018-FLYER]: {{ site.url }}/publications/INCEpTION-COLING2018-Flyer.pdf
@@ -99,7 +111,8 @@ Genomics & Informatics, Vol. 17, Issue 2, Korea Genome Organization. <br/>
 > Eckart de Castilho, R., Klie, J.-C., Winchenbach, U., Gurevych, I. (2019): <br/> 
 **Beyond WebAnno: The INCEpTION Text Annotation Platform** <br/> 
 CLARIN Annual Conference 2019 Bazaar <br/>
-([poster][CAC-2019-POSTER])
+([poster][CAC-2019-POSTER]) <br/> 
+Approximate reference version: INCEpTION 0.12.0 (Sep 30, 2019)
 
 [CAC-2019-POSTER]: {{ site.url }}/publications/CAC-2019-Poster.pdf
 
@@ -126,7 +139,7 @@ May 12th to 17th, 2019 at Schloss Dagstuhl – Leibniz Center for Informatics, W
 [SD-LLOD-19]: https://datathon2019.linguistic-lod.org
 
 > Invited paper talk at **The 2nd Workshop on Data Science with Human-in-the-loop** (DaSH-LA)<br/>
-June 11 2021, Online, Colocated with NAACL 2021 <br/>
+June 11 2021, Online, Co-located with NAACL 2021 <br/>
 ([website][DaSH-LA])
 
 [DaSH-LA]: https://sites.google.com/view/dash-la2021
