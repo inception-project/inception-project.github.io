@@ -18,8 +18,8 @@ and implement a data model for identifying, analyzing, and citing
 uniquely instances of text reuse in ancient Greek literature.
 
 <p style="text-align: center">
-<a href="http://videolectures.net/clarinannualconference2019_berti_named_entity/">
-<img src="http://videolectures.net/clarinannualconference2019_berti_named_entity/thumb.jpg" border="0"/>
+<a href="https://videolectures.net/videos/clarinannualconference2019_berti_named_entity">
+<img src="https://videolectures.net/videos/clarinannualconference2019_berti_named_entity/thumb.jpg" border="0"/>
 <br/>Named Entity Annotation for Ancient Greek with INCEpTION
 <br/>talk by Monica Berti recorded at the CLARIN Annual Conference 2019
 </a>

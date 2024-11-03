@@ -9,7 +9,7 @@ hidden: false
 Technische Universität Darmstadt, Germany.*
 
 
-The PO-EMO project aimed to annotate poetry for the emotional impact it has on readers. In contrast to classical theories of emotions in NLP, we annotated poetry with aesthetic rather than utilitarian emotions, because the former are more suitable for arts. We also annotated from a reader perspective, as the emotions experienced when processing poetry may be highly subjective. 
+The [PO-EMO project][1] aimed to annotate poetry for the emotional impact it has on readers. In contrast to classical theories of emotions in NLP, we annotated poetry with aesthetic rather than utilitarian emotions, because the former are more suitable for arts. We also annotated from a reader perspective, as the emotions experienced when processing poetry may be highly subjective. 
 
 The project works with historically balanced classical poetry data in two languages: English and German. The data range from the 16th to early 20th century. 
 
@@ -22,3 +22,6 @@ For annotation of the data, two to three annotators worked with the extracted po
   Proceedings of the 12th Language Resources and Evaluation Conference (LREC),
   Marseille, France
   [[PDF](https://aclanthology.org/2020.lrec-1.205)].
+
+[1]: https://github.com/tnhaider/poetry-emotion
+  
