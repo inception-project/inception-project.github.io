@@ -13,7 +13,7 @@ TAC fosters innovation by offering large datasets, unified evaluation procedures
 Within TAC, specific challenges, or *tracks,* are organized around different NLP problems. 
 These tracks not only focus on real-world end-user tasks but also include evaluations of critical components required for solving these tasks.
 
-One such track, the RUFEERS track, is aimed at extracting information about entities, events, and relations in a way that can be used as input for knowledge bases. 
+One such track, the [RUFEERS][1] track, is aimed at extracting information about entities, events, and relations in a way that can be used as input for knowledge bases. 
 This track addresses real-world needs, such as disaster relief and technical support, where systems must accurately recognize a wide range of entity, event, and relation types—often with limited training data. 
 The challenge for participating systems lies in identifying mentions of approximately 55 event types, 30 relation types, and 350 entity types, spanning diverse topics, in news articles.
 
@@ -26,7 +26,5 @@ INCEpTION was used to prepare the gold-standard data for the following tasks wit
 
 Key reasons for choosing INCEpTION as the annotation tool to prepare the task data were the ability to support custom annotation layers and being able to link data against knowledge bases.
 
-
-##### References
 
 [1]: https://tac.nist.gov/2024/RUFEERS/

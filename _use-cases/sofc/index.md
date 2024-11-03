@@ -9,7 +9,7 @@ hidden: false
 
 **Source**: *This use-case was kindly contributed by [Annemarie Friedrich](https://sites.google.com/view/annemariefriedrich/home) and [Heike Adel](https://sites.google.com/view/heikeadel/home), Bosch Center for Artificial Intelligence, Renningen, Germany*
 
-The SOFC-Exp corpus contains 45 scientific publications about solid oxide fuel cells (SOFCs), published between 2013 and 2019 as open-access articles all with a CC-BY license. Materials science domain experts used INCEpTION to manually annotate the dataset the following information:
+The [SOFC-Exp corpus][1] contains 45 scientific publications about solid oxide fuel cells (SOFCs), published between 2013 and 2019 as open-access articles all with a CC-BY license. Materials science domain experts used INCEpTION to manually annotate the dataset the following information:
 
 * Mentions of relevant experiments have been marked using a graph structure corresponding to instances of an Experiment frame. We assume that an Experiment frame is introduced to the discourse by mentions of words such as report, test or measure (also called the frame-evoking elements). The nodes corresponding to the respective tokens are the heads of the graphs representing the Experiment frame.
 * The Experiment frame related to SOFC-Experiments defines a set of 16 possible participant slots. Participants are annotated as dependents of links between the frame-evoking element and the participant node.
@@ -24,3 +24,4 @@ The dataset, along with detailed annotation guidelines, is publicly available in
   ACL 2020. 
   [[PDF](https://www.aclweb.org/anthology/2020.acl-main.116/)]
 
+[1]: https://github.com/boschresearch/sofc-exp_textmining_resources
