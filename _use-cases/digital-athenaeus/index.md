@@ -19,7 +19,7 @@ uniquely instances of text reuse in ancient Greek literature.
 
 <p style="text-align: center">
 <a href="https://videolectures.net/videos/clarinannualconference2019_berti_named_entity">
-<img src="https://videolectures.net/videos/clarinannualconference2019_berti_named_entity/thumb.jpg" border="0"/>
+<img src="https://www.clarin.eu/sites/default/files/summary-2.jpeg" border="0"/>
 <br/>Named Entity Annotation for Ancient Greek with INCEpTION
 <br/>talk by Monica Berti recorded at the CLARIN Annual Conference 2019
 </a>
