@@ -11,8 +11,11 @@ If you use INCEpTION in scientific work or want to learn more about it, please h
 > Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2024): <br/>
 **Integrating INCEpTION into larger annotation processes.** <br/>
 Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP) - System demonstrations <br/>
-To appear <br/>
+([pdf][EMNLP-2024-PDF]) ([bib][EMNLP-2024-BIB]) <br/> 
 Approximate reference version: INCEpTION 34.0 (Oct 02, 2024)
+
+[EMNLP-2024-PDF]: https://aclanthology.org/2024.emnlp-demo.12.pdf
+[EMNLP-2024-BIB]: https://aclanthology.org/2024.emnlp-demo.12.bib
 
 > Klie, J.-C., Eckart de Castilho, R. and Gurevych, I. (2020): <br/>
 **From Zero to Hero: Human-In-The-Loop Entity Linking in Low Resource Domains.** <br/>
