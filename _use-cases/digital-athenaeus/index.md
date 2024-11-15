@@ -54,7 +54,7 @@ in separate lines. <a href="#figure1">Figure 1</a> shows an example of a TSV fil
 annotated named entities and corresponding lemmata (Ath., *Deipn*. 1.7):
 
 <figure id="figure1">
-  <img src="image1.jpeg" alt="my alt text"/>
+  <img src="image1.jpeg" alt="Data example"/>
   <figcaption>Figure 1. TSV 3.2 file format (NEs and lemmata in Ath., Deipn. 1.7)</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ one for the named entity tag, and the other for the lemma (Ath.,
 *Deipn*. 1.7):
 
 <figure id="figure2">
-  <img src="image2.jpg" alt="my alt text"/>
+  <img src="image2.jpg" alt="Screenshot"/>
   <figcaption>Figure 2. INCEpTION: pre-annotated data (Ath., Deipn. 1.7)</figcaption>
 </figure>
 
