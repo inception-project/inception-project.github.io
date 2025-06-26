@@ -29,6 +29,10 @@
   date: 2025-06-24
   status: stable
 
+- version: "36.7"
+  date: 2025-06-26
+  status: stable
+
 - version: "36.6"
   date: 2025-06-24
   status: stable
