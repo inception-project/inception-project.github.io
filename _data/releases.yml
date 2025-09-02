@@ -25,8 +25,12 @@
 ### RELEASE VERSIONS
 ###
 
-- version: "37.5"
+- version: "37.6"
   date: 2025-09-02
+  status: stable
+
+- version: "37.5"
+  date: 2025-08-26
   status: stable
 
 - version: "37.4"
