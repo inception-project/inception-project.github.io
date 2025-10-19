@@ -3,10 +3,10 @@
   class: icon-youtube
   title: "Tutorials for WebAnno on YouTube"
 
-- name: Twitter
-  url: https://twitter.com/search?q=%23tap_inception
-  class: icon-twitter
-  title: "Twitter: #tap_inception"
+- name: Bluesky
+  url: https://bsky.app/search?q=%23tap_inception
+#  class: icon-twitter
+  title: "Bluesky: #tap_inception"
 
 #- name: Facebook
 #  url: http://www.facebook.com/phlow.media
