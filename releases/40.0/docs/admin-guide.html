@@ -667,6 +667,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_performing_an_in_place_upgrade">Performing an in-place upgrade</a></li>
 <li><a href="#_upgrade_notes">Upgrade notes</a>
 <ul class="sectlevel2">
+<li><a href="#_inception_40_0">INCEpTION 40.0</a>
+<ul class="sectlevel3">
+<li><a href="#_systemd_changes">systemd changes</a></li>
+</ul>
+</li>
 <li><a href="#_inception_34_0">INCEpTION 34.0</a>
 <ul class="sectlevel3">
 <li><a href="#_database_schema_changes">Database schema changes</a></li>
@@ -1400,8 +1405,10 @@ Change the owner/group of <code>/srv/inception/inception.jar</code> to <code>www
 Description=INCEpTION
 
 [Service]
-ExecStart=/srv/inception/inception.jar
 User=www-data
+WorkingDirectory=/srv/inception
+EnvironmentFile=/srv/inception/inception.conf
+ExecStart=/usr/bin/java $JAVA_OPTS -jar /srv/inception/inception.jar
 
 [Install]
 WantedBy=multi-user.target</code></pre>
@@ -4250,7 +4257,9 @@ If you are not using an external database, INCEpTION is using an embedded databa
 <h2 id="_upgrade_notes"><a class="anchor" href="#_upgrade_notes"></a>Upgrade notes</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>This section summarizes important upgrade notes from the release history of INCEpTION. If you upgrade from any version <code>X</code>, carefully read all the upgrade notes for versions later than <code>X</code>. In particular, if any of the upgrade notes mentions that an intermediate upgrade to that version must be made before going to a higher version, then first perform all required intermediate upgrades in order.</p>
+<p>This section summarizes important upgrade notes from the release history of INCEpTION.
+If you upgrade from any version <code>X</code>, carefully read all the upgrade notes for versions later than <code>X</code>.
+In particular, if any of the upgrade notes mentions that an intermediate upgrade to that version must be made before going to a higher version, then first perform all required intermediate upgrades in order.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -4265,6 +4274,77 @@ It is a good idea to back up your installation and data before an upgrade. Also 
 </td>
 </tr>
 </table>
+</div>
+<div class="sect2">
+<h3 id="_inception_40_0"><a class="anchor" href="#_inception_40_0"></a>INCEpTION 40.0</h3>
+<div class="sect3">
+<h4 id="_systemd_changes"><a class="anchor" href="#_systemd_changes"></a>systemd changes</h4>
+<div class="paragraph">
+<p>Spring Boot 4.0 has removed the shell script prepended to the standalone JAR, so it can no longer be simply started as a shell command.
+Unfortunately, we relied on this script in our documentation on how to deploy INCEpTION with systemd.
+Consequently, you have to make a few minor changes now:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Edit your service file which is typically at <code>/etc/systemd/system/inception.service</code>.</p>
+</li>
+<li>
+<p>Add the <code>WorkingDirectory</code> as the path where INCEpTION is installed.</p>
+</li>
+<li>
+<p>Add the <code>EnvironmentFile</code> as well, but only if you actually have an <code>inception.conf</code> file.</p>
+</li>
+<li>
+<p>Also insert <code>/usr/bin/java -jar</code> into the <code>ExecStart</code> line.</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-bash" data-lang="bash">[Unit]
+Description=INCEpTION
+
+[Service]
+User=www-data
+WorkingDirectory=/srv/inception
+EnvironmentFile=/srv/inception/inception.conf
+ExecStart=/usr/bin/java $JAVA_OPTS -jar /srv/inception/inception.jar
+
+[Install]
+WantedBy=multi-user.target</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If INCEpTION or Java is installed in other paths, adjust accordingly.</p>
+</div>
+<div class="paragraph">
+<p>Note that the <code>inception.conf</code> is interpreted differently by systemd than it was previously by Spring Boot.
+If your file only contains lines in the following format, it should continue to work.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>JAVA_OPTS="-Djava.awt.headless=true -Dinception.home=/srv/inception"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>However, if you relied e.g. on extending variables over multiple assignments like this:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>JAVA_OPTS="-Dinception.home=/srv/inception"
+JAVA_OPTS="-Djava.awt.headless=true $JAVA_OPTS"</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>then you need to flatten that out into:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>JAVA_OPTS="-Djava.awt.headless=true -Dinception.home=/srv/inception"</pre>
+</div>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_inception_34_0"><a class="anchor" href="#_inception_34_0"></a>INCEpTION 34.0</h3>
@@ -7324,7 +7404,7 @@ Tune the balance between more randomness (high &gt;= 1.0) and less randomness (l
 <div id="footer">
 <div id="footer-text">
 Version 40.0<br>
-Last updated 2026-03-17 07:31:52 +0100
+Last updated 2026-03-17 09:54:12 +0100
 </div>
 </div>
 </body>
