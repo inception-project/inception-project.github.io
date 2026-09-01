@@ -1,0 +1,474 @@
+# Papers that used INCEpTION for their own annotation.
+#
+# GENERATED FILE -- do not edit by hand; regenerate it instead.
+#
+# Selection: every paper in the survey published in 2025-2026
+# (the year of the last update and the year before it). The window is fixed
+# here at generation time, not computed when the site builds, so a rebuild
+# years from now still renders these rows instead of an empty page.
+#
+# 57 of 123 papers in the survey fall in the window.
+
+updated: "2026-09-01"
+window_from: 2025
+window_to: 2026
+count: 57
+total_in_survey: 123
+
+papers:
+  - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-cl4health-16"
+    domain: "Biomedical & clinical"
+    material: "English synthetic patient-caretaker diabetes dialogues"
+    languages: ["English"]
+    tasks: ["Relation extraction"]
+  - title: "Developing the German Medical Text Corpus (GeMTeX): Legal Compliance and Semantic Enrichment"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-122"
+    domain: "Biomedical & clinical"
+    material: "German clinical documents from six university hospitals"
+    languages: ["German"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition", "Other"]
+  - title: "Med2Story Referential: A Domain-Specific Extension of ISO 24617-9 for Clinical Narratives Annotation"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-isa-01"
+    domain: "Biomedical & clinical"
+    material: "European Portuguese clinical reports (AML, fictitious patients)"
+    languages: ["Portuguese"]
+    tasks: ["Named entity recognition", "Coreference & anaphora", "Relation extraction"]
+  - title: "Medical-FLAVORS-AECC: Spanish Oncological Metaphors Dataset"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-cl4health-15"
+    domain: "Biomedical & clinical"
+    material: "Peninsular Spanish cancer forum posts (AECC)"
+    languages: ["Spanish"]
+    tasks: ["Word sense & lexical semantics", "Entity linking & normalisation"]
+  - title: "MultiGraSCCo: A Multilingual Anonymization Benchmark with Annotations of Personal Identifiers"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-529"
+    domain: "Biomedical & clinical"
+    material: "German synthetic clinical notes (GraSCCo) translated into 10 languages"
+    languages: ["German"]
+    tasks: ["Named entity recognition", "Translation & parallel alignment"]
+  - title: "Temporal Structure in Clinical Narratives in Portuguese: Insights from Cross-Document Annotation"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-clinicalnlp-34"
+    domain: "Biomedical & clinical"
+    material: "European Portuguese medical reports (Acute Myeloid Leukemia, IPO-Porto)"
+    languages: ["Portuguese"]
+    tasks: ["Event extraction", "Relation extraction", "Coreference & anaphora"]
+  - title: "The German Medical Text Corpus: Early 2026 Update"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-cmlc-16"
+    domain: "Biomedical & clinical"
+    material: "German clinical routine documents from university hospitals"
+    languages: ["German"]
+    tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "RAGE: Roman and Greek Emotions"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-073"
+    domain: "Classics & ancient languages"
+    material: "Ancient Greek and Latin literature"
+    languages: ["Ancient Greek", "Latin"]
+    tasks: ["Sentiment, emotion & appraisal", "Semantic roles & frames", "Entity linking & normalisation"]
+  - title: "Fables-DTR: A Corpus of Fables Annotated for Discourse and Temporal Relations"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-145"
+    domain: "Digital humanities & literature"
+    material: "Aesop's fables in English, European Portuguese, Polish"
+    languages: ["English", "Polish", "Portuguese"]
+    tasks: ["Discourse & rhetorical structure", "Event extraction", "Relation extraction"]
+  - title: "GOLEMcoref: A Multilingual Coreference Dataset of Fiction"
+    year: 2026
+    venue: "ACL 2026"
+    url: "https://aclanthology.org/2026.acl-short.39/"
+    domain: "Digital humanities & literature"
+    material: "Fiction in Bahasa Indonesia, Chinese, Dutch, English, Italian, Korean, Spanish"
+    languages: ["Bahasa Indonesia", "Chinese", "Dutch", "English", "Italian", "Korean", "Spanish"]
+    tasks: ["Coreference & anaphora"]
+  - title: "Speaking on Their Behalf: Detecting Indirect Speech in Historical Danish and Norwegian Texts"
+    year: 2026
+    venue: "EACL 2026"
+    url: "https://aclanthology.org/2026.latechclfl-1.15/"
+    domain: "Digital humanities & literature"
+    material: "19th-century Danish and Norwegian novels"
+    languages: ["Danish", "Norwegian"]
+    tasks: ["Text & span classification", "Discourse & rhetorical structure"]
+  - title: "To Eat and beyond: A FrameNet-Inspired Annotation of Food and Its Uses over Time"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-077"
+    domain: "Digital humanities & literature"
+    material: "Historical English texts (recipes, medicine/science)"
+    languages: ["English"]
+    tasks: ["Semantic roles & frames", "Word sense & lexical semantics", "LLM output evaluation"]
+  - title: "A Learner-Oriented Annotated Resource of French Multiword Expressions for Text Adaptation in Foreign Language Reading"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-readixtsar-14"
+    domain: "Education & learner corpora"
+    material: "French pedagogical corpora (multiword expressions)"
+    languages: ["French"]
+    tasks: ["Terminology & lexicography", "Word sense & lexical semantics"]
+  - title: "Annotating Conversational Phases and Communication Techniques: A Corpus of German Teacher-Parent Counseling Conversations"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-505"
+    domain: "Education & learner corpora"
+    material: "German simulated teacher-parent counseling dialogues (transcripts)"
+    languages: ["German"]
+    tasks: ["Text & span classification", "Discourse & rhetorical structure", "Speech, multimodal & transcription"]
+  - title: "DUO_DE A1: An Annotated Corpus of Online Learning Material for Beginning Learners of German as a Foreign Language"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-dtf-07"
+    domain: "Education & learner corpora"
+    material: "German A1 online language-course learning material"
+    languages: ["German"]
+    tasks: ["Syntax", "Metadata & bibliographic"]
+  - title: "LuxDiagRC: A Diagnostic Reading Comprehension Corpus for Luxembourgish with Linguistic and Cognitive Annotation Layers"
+    year: 2026
+    venue: "EACL 2026"
+    url: "https://aclanthology.org/2026.loreslm-1.46/"
+    domain: "Education & learner corpora"
+    material: "Luxembourgish reading-comprehension texts"
+    languages: ["Luxembourgish"]
+    tasks: ["QA & reading comprehension", "Syntax", "Word sense & lexical semantics"]
+  - title: "EHRI Annotator: A Web-Based Tool for Named Entity Recognition and Linking in Holocaust-Related Texts"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-htres-05"
+    domain: "History & archives"
+    material: "Holocaust testimonies in English, German, Hungarian"
+    languages: ["English", "German", "Hungarian"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition"]
+  - title: "Integrating TEI, NER/NEL, Textometry, and Linked Data for a Semantically Enriched Interview Corpus"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-114"
+    domain: "History & archives"
+    material: "Serbian oral-history interview transcripts"
+    languages: ["Serbian"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition", "Summarisation & simplification"]
+  - title: "Say Again? The Limits of Whisper with Conversation. A Case Study on the KIParla Corpus."
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-speakable-03"
+    domain: "Linguistics & typology"
+    material: "Spoken Italian conversation (KIParla corpus)"
+    languages: ["Italian"]
+    tasks: ["Speech, multimodal & transcription", "Discourse & rhetorical structure"]
+  - title: "UD-CHILDES-BG: a dependency treebank of Bulgarian child and child-directed speech"
+    year: 2026
+    venue: "ACL 2026"
+    url: "https://aclanthology.org/2026.law-main.9/"
+    domain: "Linguistics & typology"
+    material: "Bulgarian child and child-directed speech (CHILDES)"
+    languages: ["Bulgarian"]
+    tasks: ["Syntax"]
+  - title: "UzUDT: Uzbek Universal Dependencies Treebank"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-912"
+    domain: "Linguistics & typology"
+    material: "Uzbek literary texts"
+    languages: ["Uzbek"]
+    tasks: ["Syntax"]
+  - title: "A Novel Dataset and Three Ways to Approach Automatic Metaphor Detection in German Religious Online Forums"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-nonliteral-10"
+    domain: "NLP & computational linguistics"
+    material: "German religious online forum posts"
+    languages: ["German"]
+    tasks: ["Word sense & lexical semantics", "Text & span classification"]
+  - title: "ABCD-LINK: Annotation Bootstrapping for Cross-Document Fine-Grained Links"
+    year: 2026
+    venue: "EACL 2026"
+    url: "https://aclanthology.org/2026.eacl-long.157/"
+    domain: "NLP & computational linguistics"
+    material: "English peer reviews and news articles"
+    languages: ["English"]
+    tasks: ["Relation extraction", "Discourse & rhetorical structure", "Text & span classification"]
+  - title: "CATS: An Annotation Scheme of Causality and Temporal Structure"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-isa-12"
+    domain: "NLP & computational linguistics"
+    material: "Portuguese news texts (Lusa)"
+    languages: ["Portuguese"]
+    tasks: ["Discourse & rhetorical structure", "Event extraction", "Relation extraction"]
+  - title: "ConGA: Guidelines for Contextual Gender Annotation. a Framework for Annotating Gender in Machine Translation"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-320"
+    domain: "NLP & computational linguistics"
+    material: "English-Italian parallel MT output (gENder-IT)"
+    languages: ["English", "Italian"]
+    tasks: ["Translation & parallel alignment", "Named entity recognition", "Coreference & anaphora"]
+  - title: "Cross-Lingual Emotion Recognition in Balinese Text using Multilingual-LLMs under Peer-Collaborations Settings"
+    year: 2026
+    venue: "EACL 2026"
+    url: "https://aclanthology.org/2026.loreslm-1.21/"
+    domain: "NLP & computational linguistics"
+    material: "Balinese text"
+    languages: ["Balinese"]
+    tasks: ["Sentiment, emotion & appraisal"]
+  - title: "Evaluating the Adaptability of Large Language Models to Linguistic Variation"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-183"
+    domain: "NLP & computational linguistics"
+    material: "French multi-genre texts (NEM.fr)"
+    languages: ["French"]
+    tasks: ["Named entity recognition", "LLM output evaluation"]
+  - title: "Is Literal Annotation Enough? Building an Annotation Framework for Metonymic Named Entities in Marathi"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-wildre-04"
+    domain: "NLP & computational linguistics"
+    material: "Marathi news text (Devanagari)"
+    languages: ["Marathi"]
+    tasks: ["Named entity recognition", "Word sense & lexical semantics"]
+  - title: "UniCite: A Dataset and Unified Hierarchical Taxonomy for Multi-Dimensional Citation Analysis"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-nslp-28"
+    domain: "NLP & computational linguistics"
+    material: "English scientific citation contexts (2018-2024 publications)"
+    languages: ["English"]
+    tasks: ["Text & span classification", "Sentiment, emotion & appraisal", "Metadata & bibliographic"]
+  - title: "VEIL: A Benchmark for Value-Preserving Entity Identification Limitation"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-legal-12"
+    domain: "NLP & computational linguistics"
+    material: "English web text (DCLM/Common Crawl paragraphs)"
+    languages: ["English"]
+    tasks: ["Named entity recognition", "Text & span classification", "Coreference & anaphora"]
+  - title: "Developing Annotation Guidelines for CSAM Prevention Interventions: Psychosocial Risk and Protective Factors Grounded in Research and Clinical Practice"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-ws-rapid6mentalai-11"
+    domain: "Psychology & mental health"
+    material: "German therapist-client prevention chat transcripts"
+    languages: ["German"]
+    tasks: ["Text & span classification", "Named entity recognition"]
+  - title: "Empathy Speaks in Metaphors: The Empathy-Metaphor Corpus of Figurative Language in Empathetic Text"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-873"
+    domain: "Psychology & mental health"
+    material: "English acne peer-support forum posts"
+    languages: ["English"]
+    tasks: ["Word sense & lexical semantics", "Sentiment, emotion & appraisal"]
+  - title: "Towards Clinical Applications of NLP: Detecting Emotion Regulation via Emotional Categories and Expression Modes in French Transcriptions"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-660"
+    domain: "Psychology & mental health"
+    material: "French patient interview transcriptions (acquired brain injury)"
+    languages: ["French"]
+    tasks: ["Sentiment, emotion & appraisal", "Text & span classification"]
+  - title: "A Corpus of Persuasion Techniques in Slavic Languages"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-289"
+    domain: "Social science & politics"
+    material: "Bulgarian/Polish parliamentary debates and Russian social media"
+    languages: ["Bulgarian", "Polish", "Russian"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Cross-lingual and cross-country approaches to argument component detection: a comparative study."
+    year: 2026
+    venue: "EACL 2026"
+    url: "https://aclanthology.org/2026.mme-main.9/"
+    domain: "Social science & politics"
+    material: "French and US-English political debate/speech text"
+    languages: ["English", "French"]
+    tasks: ["Stance & argumentation", "Translation & parallel alignment"]
+  - title: "GePaDeSE: A New Resource for Clause-Level Aspect in German Parliamentary Debates"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-290"
+    domain: "Social science & politics"
+    material: "German parliamentary debates (Bundestag speeches)"
+    languages: ["German"]
+    tasks: ["Text & span classification", "Semantic roles & frames"]
+  - title: "The Moralization Corpus: Frame-Based Annotation and Analysis of Moralizing Speech Acts across Diverse Text Genres"
+    year: 2026
+    venue: "LREC 2026"
+    url: "https://lrec.elra.info/lrec2026-main-563"
+    domain: "Social science & politics"
+    material: "German political debates, news articles and online discussions"
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Semantic roles & frames", "Text & span classification"]
+  - title: "Uncovering Temporal Framing in the News"
+    year: 2026
+    venue: "ACL 2026"
+    url: "https://aclanthology.org/2026.acl-long.222/"
+    domain: "Social science & politics"
+    material: "English and German news articles"
+    languages: ["English", "German"]
+    tasks: ["Text & span classification", "Stance & argumentation"]
+  - title: "Whose Pragmatics? Cultural Grounding as a Bottleneck for Stereotype Detection in Egyptian Arabic Social Media"
+    year: 2026
+    venue: "ACL 2026"
+    url: "https://aclanthology.org/2026.stereacult-1.7/"
+    domain: "Social science & politics"
+    material: "Egyptian Arabic social media comments (Facebook/TikTok/Instagram)"
+    languages: ["Arabic"]
+    tasks: ["Sentiment, emotion & appraisal", "Hate speech & toxicity", "LLM output evaluation"]
+  - title: "HARE: an entity and relation centric evaluation framework for histopathology reports"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.findings-emnlp.490/"
+    domain: "Biomedical & clinical"
+    material: "English histopathology reports (hospital and TCGA)"
+    languages: ["English"]
+    tasks: ["Named entity recognition", "Relation extraction", "LLM output evaluation"]
+  - title: "Preliminary Evaluation of an Open-Source LLM for Lay Translation of German Clinical Documents"
+    year: 2025
+    venue: "NAACL 2025"
+    url: "https://aclanthology.org/2025.cl4health-1.15/"
+    domain: "Biomedical & clinical"
+    material: "German clinical documents / tumor board protocols"
+    languages: ["German"]
+    tasks: ["LLM output evaluation", "Summarisation & simplification", "Error annotation & correction"]
+  - title: "The Incremental Process of Building an Annotation Scheme for Clinical Narratives in Portuguese: the Contribution of Human Variation Analysis"
+    year: 2025
+    venue: "LAW XIX (19th Linguistic Annotation Workshop)"
+    url: "https://aclanthology.org/2025.law-1.28/"
+    domain: "Biomedical & clinical"
+    material: "Portuguese synthetic clinical reports (AML patient)"
+    languages: ["Portuguese"]
+    tasks: ["Event extraction", "Relation extraction", "Named entity recognition"]
+  - title: "Mapping Meaning in Latin with Large Language Models: A Multi-Task Evaluation of Preverbed Motion Verbs and Spatial Relation Detection in LLMs"
+    year: 2025
+    venue: "CLiC-it 2025 (11th Italian Conference on Computational Linguistics)"
+    url: "https://aclanthology.org/2025.clicit-1.43/"
+    domain: "Classics & ancient languages"
+    material: "Classical Latin (3rd c. BCE - 2nd c. CE literary texts)"
+    languages: ["Latin"]
+    tasks: ["Relation extraction", "Word sense & lexical semantics", "LLM output evaluation"]
+  - title: "AI-Based Feedback in Counselling Competence Training of Prospective Teachers"
+    year: 2025
+    venue: "arXiv (cs.HC)"
+    url: "https://arxiv.org/pdf/2505.03423"
+    domain: "Education & learner corpora"
+    material: "German simulated teacher-parent counselling conversations"
+    languages: ["German"]
+    tasks: ["Discourse & rhetorical structure", "Text & span classification", "Speech, multimodal & transcription"]
+  - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.emnlp-main.1375/"
+    domain: "Finance & business"
+    material: "German online job advertisements"
+    languages: ["German"]
+    tasks: ["Named entity recognition", "Relation extraction"]
+  - title: "Detecting Legal Citations in United Kingdom Court Judgments"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.emnlp-main.1361/"
+    domain: "Law"
+    material: "English UK court judgments (Cambridge Law Corpus)"
+    languages: ["English"]
+    tasks: ["Named entity recognition", "Metadata & bibliographic"]
+  - title: "Labor Lex: A New Portuguese Corpus and Pipeline for Information Extraction in Brazilian Legal Texts"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.nllp-1.14/"
+    domain: "Law"
+    material: "Brazilian Portuguese labor-court documents"
+    languages: ["Portuguese"]
+    tasks: ["Relation extraction", "Named entity recognition"]
+  - title: "Ontology-conformal recognition of materials entities using language models"
+    year: 2025
+    venue: "Nature Scientific Reports"
+    url: "https://www.nature.com/articles/s41598-025-03619-y"
+    domain: "Life & materials sciences"
+    material: "English materials-science literature (materials mechanics/fatigue)"
+    languages: ["English"]
+    tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Predictive power of semantic information in the use context of multiword terms for their structural disambiguation"
+    year: 2025
+    venue: "European Public & Social Innovation Review"
+    url: "https://doi.org/10.31637/epsir-2025-2070"
+    domain: "Life & materials sciences"
+    material: "English environmental/river multiword terms"
+    languages: ["English"]
+    tasks: ["Terminology & lexicography", "Semantic roles & frames", "Relation extraction"]
+  - title: "Annotating candy speech in German YouTube comments"
+    year: 2025
+    venue: "LAW XIX (19th Linguistic Annotation Workshop)"
+    url: "https://aclanthology.org/2025.law-1.21/"
+    domain: "NLP & computational linguistics"
+    material: "German YouTube comments"
+    languages: ["German"]
+    tasks: ["Sentiment, emotion & appraisal"]
+  - title: "Cheap Annotation of Complex Information: A Study on the Annotation of Information Status in German TEDx Talks"
+    year: 2025
+    venue: "LAW XIX (19th Linguistic Annotation Workshop)"
+    url: "https://aclanthology.org/2025.law-1.25/"
+    domain: "NLP & computational linguistics"
+    material: "German TEDx talk transcripts"
+    languages: ["German"]
+    tasks: ["Coreference & anaphora", "Discourse & rhetorical structure"]
+  - title: "Overview of the CLPsych 2025 Shared Task: Capturing Mental Health Dynamics from Social Media Timelines"
+    year: 2025
+    venue: "NAACL 2025"
+    url: "https://aclanthology.org/2025.clpsych-1.16/"
+    domain: "Psychology & mental health"
+    material: "English social media timelines (Reddit/TalkLife)"
+    languages: ["English"]
+    tasks: ["Text & span classification", "Summarisation & simplification", "Sentiment, emotion & appraisal"]
+  - title: "Expert statements: Where science communication discourse meets peer review discourse"
+    year: 2025
+    venue: "Discourse and Interaction"
+    url: "https://journals.muni.cz/discourse-and-interaction/article/download/39432/34200/74298"
+    domain: "Social science & politics"
+    material: "English science-media-centre expert statements"
+    languages: ["English"]
+    tasks: ["Discourse & rhetorical structure", "Stance & argumentation", "Text & span classification"]
+  - title: "Fine-grained Fallacy Detection with Human Label Variation"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/pdf/2502.13853"
+    domain: "Social science & politics"
+    material: "Italian social media posts (migration, climate change, public health)"
+    languages: ["Italian"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Fine-grained Fallacy Detection with Human Label Variation"
+    year: 2025
+    venue: "NAACL 2025"
+    url: "https://aclanthology.org/2025.naacl-long.34/"
+    domain: "Social science & politics"
+    material: "Italian social media posts on migration, climate change, public health"
+    languages: ["Italian"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Moral Framing in Politics (MFiP): A new resource and models for moral framing"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.emnlp-main.1757/"
+    domain: "Social science & politics"
+    material: "German parliamentary debates"
+    languages: ["German"]
+    tasks: ["Semantic roles & frames", "Text & span classification", "Stance & argumentation"]
+  - title: "NarratEX Dataset: Explaining the Dominant Narratives in News Texts"
+    year: 2025
+    venue: "EMNLP 2025"
+    url: "https://aclanthology.org/2025.findings-emnlp.1112/"
+    domain: "Social science & politics"
+    material: "News articles in Bulgarian, English, Portuguese, Russian"
+    languages: ["Bulgarian", "English", "Portuguese", "Russian"]
+    tasks: ["Text & span classification", "Stance & argumentation"]

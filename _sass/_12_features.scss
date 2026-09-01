@@ -207,3 +207,135 @@ $fp-gap: 2.5rem;
   .fp-cta-item:hover svg,
   .fp-cta-item:focus svg { stroke: $ci-4; }
 }
+
+// "Papers using INCEpTION" listing. A plain grouped list rather than a table:
+// titles are long, and a table would either wrap badly or scroll sideways.
+.paper-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1.5rem 0 2rem;
+
+  a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: .4rem;
+    padding: .3rem .7rem;
+    border: 1px solid $grey-2;
+    border-radius: 3px;
+    font-size: .86rem;
+    text-decoration: none;
+    color: $ci-1;
+
+    &:hover { border-color: $ci-1; }
+    span { font-family: monospace; font-size: .78rem; color: $grey-7; }
+  }
+}
+
+.paper-list {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+
+  li {
+    padding: .7rem 0;
+    border-bottom: 1px solid $grey-1;
+  }
+
+  a { font-weight: 500; }
+}
+
+.paper-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem .5rem;
+  margin-top: .3rem;
+  font-size: .82rem;
+  color: $grey-9;
+
+  .venue {
+    font-family: monospace;
+    font-size: .78rem;
+    color: $ci-1;
+  }
+
+  .material { font-style: italic; }
+
+  .task {
+    padding: 0 .4rem;
+    background: scale-color($ci-1, $lightness: 92%);
+    border-radius: 2px;
+    font-size: .76rem;
+  }
+}
+
+.paper-note {
+  font-size: .87rem;
+  color: $grey-9;
+  max-width: 44rem;
+}
+
+// Filter controls for the papers list. Hidden until the script runs -- see
+// assets/js/paper-filters.js: the list itself is server-rendered and complete
+// without JavaScript, so there must be no dead controls if the script does not
+// load.
+.paper-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+  margin: 1.5rem 0 1.25rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid $grey-2;
+  border-radius: 3px;
+
+  &[hidden] { display: none; }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    margin: 0;
+
+    span {
+      font-size: .78rem;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      color: $grey-9;
+    }
+  }
+
+  select {
+    margin: 0;
+    min-width: 14rem;
+    height: auto;
+    padding: .4rem .5rem;
+  }
+}
+
+.paper-count {
+  margin: 0 0 .35rem;
+  font-family: monospace;
+  font-size: .82rem;
+  color: $grey-9;
+}
+
+.paper-empty {
+  padding: 1.5rem 0;
+  color: $grey-9;
+  font-style: italic;
+
+  &[hidden] { display: none; }
+}
+
+// The list is one flat sequence now that grouping is done by the filter; the
+// per-item domain is shown in the meta line instead of as a heading.
+.paper-meta .domain {
+  padding: 0 .4rem;
+  background: scale-color($ci-4, $lightness: 88%);
+  border-radius: 2px;
+  font-size: .76rem;
+  color: scale-color($ci-4, $lightness: -25%);
+}
+
+.paper-list li[hidden] { display: none; }
