@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="t-in d-in">
+  <title id="t-in">Drive it from your own code</title>
+  <desc id="d-in">An external script calling the project through an API, with event
+    notifications pushed back out to other services.</desc>
+  <!-- Draft. Low detail by design: renders at ~140px wide. -->
+  <style>
+    .box{fill:#fff;stroke:#334D5C;stroke-width:2.5}
+    .core{fill:#334D5C;opacity:.1;stroke:#334D5C;stroke-width:2.5}
+    .ln{fill:#334D5C;opacity:.35}
+    .call{fill:none;stroke:#E27A3F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .hook{fill:none;stroke:#EFC94C;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .node{fill:#fff;stroke:#334D5C;stroke-width:2}
+  </style>
+
+  <!-- your code -->
+  <rect class="box" x="8" y="42" width="40" height="34" rx="4"/>
+  <rect class="ln" x="15" y="52" width="20" height="3.5" rx="1.75"/>
+  <rect class="ln" x="15" y="60" width="26" height="3.5" rx="1.75"/>
+  <rect class="ln" x="15" y="68" width="16" height="3.5" rx="1.75"/>
+
+  <!-- the project -->
+  <rect class="core" x="66" y="38" width="42" height="42" rx="6"/>
+  <circle class="node" cx="87" cy="59" r="8"/>
+
+  <!-- API call in -->
+  <path class="call" d="M50 55 H64 M58 50 l6 5 l-6 5"/>
+
+  <!-- webhook events out -->
+  <path class="hook" d="M110 48 H132 M126 43 l6 5 l-6 5"/>
+  <path class="hook" d="M110 70 H132 M126 65 l6 5 l-6 5"/>
+  <circle class="node" cx="142" cy="48" r="7"/>
+  <circle class="node" cx="142" cy="70" r="7"/>
+</svg>

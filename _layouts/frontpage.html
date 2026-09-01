@@ -22,19 +22,24 @@ format: blog-index
     </div><!-- /.medium-12.columns -->
 </div><!-- /.row -->
 
-<div class="row t30">
-    <div class="medium-8 columns">
-        {% comment %}
-        *
-        * Finally, if there is content, spit it out.
-        *
-        {% endcomment %}
-        <div>
+{% comment %}
+*
+* Front page: the content column keeps the full $row-width (1000px) that the
+* theme's typography was sized for, and the sidebar sits beside it in the
+* margin *outside* that budget -- so it no longer eats a third of the measure
+* the way the old medium-8 / medium-4 split did. Falls back to stacking when
+* there is not enough viewport for both.
+*
+{% endcomment %}
+<div class="frontpage-shell t30">
+    <div class="frontpage-main">
+        {% include frontpage-cta.html %}
+        <div class="frontpage-prose">
             {{ content }}
         </div>
-    </div>
+    </div><!-- /.frontpage-main -->
 
-	<div class="medium-4 columns">
-		{% include sidebar.html %}
-	</div><!-- /.medium-4.columns -->
-</div><!-- /.row -->
+    <div class="frontpage-aside">
+        {% include sidebar.html %}
+    </div><!-- /.frontpage-aside -->
+</div><!-- /.frontpage-shell -->

@@ -8,15 +8,114 @@ layout: frontpage
 title: "Welcome"
 #header:
 header-1:
-    title: A semantic annotation platform offering intelligent assistance and knowledge management
+    title: Multi-layer text annotation with knowledge-base entity linking and machine-assisted suggestions
 ---
 
-The annotation of specific semantic phenomena often require compiling task-specific corpora and
-creating or extending task-specific knowledge bases. Presently, researchers require a broad range
-of skills and tools to address such semantic annotation tasks.
+Build annotated text corpora with your own annotation scheme, link every mention to a real
+knowledge base, and let a recommender that learns as you go do the repetitive part.
 
-In the recently funded INCEpTION project, UKP Lab at TU Darmstadt aims towards building an 
-annotation platform that incorporates all the related tasks into a joint web-based platform. 
+<div class="feature-grid">
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/entity-linking.svg" alt="A mention in text linked to a concept node carrying the identifier Q42">
+    <div>
+      <h3>Annotate against your ontology</h3>
+      <p>Load an ontology or thesaurus in RDF, OWL, OBO, SKOS or Turtle, or query a remote SPARQL
+      endpoint live. Ready-made profiles cover Wikidata, SNOMED&nbsp;CT, the Gene Ontology, the Human
+      Phenotype Ontology and the GND authority file. Annotators get ranked concept suggestions as
+      they type.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/multi-layer.svg" alt="Three annotation planes stacked over one line of text, with a link crossing between them">
+    <div>
+      <h3>Stack as many layers as your scheme needs</h3>
+      <p>Entities, relations, coreference chains, syntax, frames and document labels, all over the
+      same text and edited in one window. Typed features, with slots that link annotations together.
+      Define the whole scheme in the browser.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/recommender.svg" alt="Dashed suggestions becoming accepted annotations beside a rising accuracy curve">
+    <div>
+      <h3>Get suggestions that improve while you work</h3>
+      <p>The recommender trains on what you have already annotated, so it gets better during the
+      session. Active learning asks about the cases it is least sure of. Nothing enters your data
+      until you accept it.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/curation.svg" alt="Two annotator tracks merging into a single gold standard track, with one conflict flagged">
+    <div>
+      <h3>Know your annotations are good</h3>
+      <p>Have several people annotate the same documents, then merge them into a gold standard:
+      agreements merge for you, so you only decide the real disagreements. Inter-annotator
+      agreement is measured in the tool, and the Explorer charts what you actually collected.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/self-hosted.svg" alt="A laptop beside a server rack: the same platform for one person or a whole institution">
+    <div>
+      <h3>Runs where you need it to run</h3>
+      <p>A desktop installer for one person on a laptop, or a server deployment for a whole
+      institution &mdash; on your own hardware, inside your own network and security infrastructure,
+      with your existing single sign-on.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/integration.svg" alt="An external process driving a project through an API, with events pushed back out">
+    <div>
+      <h3>Drive it from your own code</h3>
+      <p>A REST API to create projects, load documents and pull annotations out, plus webhooks that
+      notify your services when a document or project changes. Bring your own models as
+      <a href="https://github.com/inception-project/inception-external-recommender">external
+      recommenders</a>. Annotation becomes a step in your pipeline, not a detour out of it.</p>
+    </div>
+  </div>
+
+  <div class="feature">
+    <img src="{{ site.url }}/images/features/formats.svg" alt="A project exported to several interchange formats and imported back">
+    <div>
+      <h3>Speaks your field's formats</h3>
+      <p>Import plain text, PDF, HTML and TEI. Export to UIMA CAS XMI or JSON with your custom
+      layers intact, or to CoNLL-U for the standard layers &mdash; so the corpus you build stays
+      usable elsewhere.</p>
+    </div>
+  </div>
+
+</div>
+
+Developed by the [UKP Lab](https://www.informatik.tu-darmstadt.de/ukp/) at TU Darmstadt, and used
+across NLP, linguistics, digital humanities, the biomedical and clinical domain, the social
+sciences, education, history, law &mdash; and more.
+
+<div class="fp-cta fp-cta-secondary">
+  <a class="fp-cta-item" href="{{ site.url }}/example-projects/">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M4 6a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/>
+    </svg>
+    <span>
+      <strong>Example projects</strong>
+      <small>Ready-made schemes to start from</small>
+    </span>
+  </a>
+
+  <a class="fp-cta-item" href="{{ site.url }}/use-cases/">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M12 3a7 7 0 0 0-4 12.7V18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.3A7 7 0 0 0 12 3z"/>
+      <path d="M10 21h4"/>
+    </svg>
+    <span>
+      <strong>Use cases</strong>
+      <small>How other projects set this up</small>
+    </span>
+  </a>
+</div>
 
 <img width="100%" src="{{ site.url }}/images/screenshot-annotation.png"/>
 

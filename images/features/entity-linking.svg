@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"
+     aria-labelledby="t-el d-el">
+  <title id="t-el">Entity linking to a knowledge base</title>
+  <desc id="d-el">A mention highlighted in a line of text, connected by an arrow to a
+    node in a small knowledge graph carrying a concept identifier.</desc>
+  <!-- Draft illustration. Palette: $ci-1 #334D5C, $ci-3 #EFC94C, $ci-4 #E27A3F. -->
+  <style>
+    .txt{fill:#BEBEBE}
+    .mention{fill:#EFC94C;opacity:.35}
+    .mention-b{fill:none;stroke:#E27A3F;stroke-width:2}
+    .node{fill:#fff;stroke:#334D5C;stroke-width:2}
+    .node-hit{fill:#334D5C}
+    .edge{stroke:#334D5C;stroke-width:1.5;opacity:.45}
+    .link{stroke:#E27A3F;stroke-width:2;stroke-dasharray:4 3}
+    .iri{font:600 11px/1 ui-monospace,Menlo,monospace;fill:#fff}
+    .lbl{font:400 10px/1 system-ui,sans-serif;fill:#334D5C}
+  </style>
+
+  <!-- line of text; the third word is the mention -->
+  <rect class="txt" x="16" y="30" width="42" height="7" rx="3.5"/>
+  <rect class="txt" x="64" y="30" width="28" height="7" rx="3.5"/>
+  <rect class="mention" x="96" y="24" width="56" height="19" rx="4"/>
+  <rect class="mention-b" x="96" y="24" width="56" height="19" rx="4"/>
+  <rect class="txt" x="158" y="30" width="34" height="7" rx="3.5"/>
+  <rect class="txt" x="198" y="30" width="50" height="7" rx="3.5"/>
+  <rect class="txt" x="16" y="48" width="60" height="7" rx="3.5"/>
+  <rect class="txt" x="82" y="48" width="38" height="7" rx="3.5"/>
+
+  <!-- link from mention down into the graph -->
+  <path class="link" d="M124 46 V 96" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="5"
+            markerHeight="5" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#E27A3F"/>
+    </marker>
+  </defs>
+
+  <!-- knowledge graph -->
+  <line class="edge" x1="124" y1="118" x2="62"  y2="152"/>
+  <line class="edge" x1="124" y1="118" x2="196" y2="150"/>
+  <line class="edge" x1="124" y1="118" x2="132" y2="170"/>
+  <line class="edge" x1="196" y1="150" x2="258" y2="126"/>
+
+  <circle class="node" cx="62"  cy="152" r="13"/>
+  <circle class="node" cx="196" cy="150" r="13"/>
+  <circle class="node" cx="132" cy="170" r="10"/>
+  <circle class="node" cx="258" cy="126" r="10"/>
+
+  <!-- the matched concept, carrying its IRI -->
+  <rect class="node-hit" x="96" y="102" width="56" height="24" rx="12"/>
+  <text class="iri" x="124" y="118" text-anchor="middle">Q42</text>
+</svg>

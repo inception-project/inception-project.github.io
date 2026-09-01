@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="t-sh d-sh">
+  <title id="t-sh">Runs on a laptop or a server</title>
+  <desc id="d-sh">A laptop beside a server rack: the same platform runs for one person
+    locally or for a whole institution on its own hardware.</desc>
+  <!-- Draft. Low detail by design: renders at ~140px wide. -->
+  <style>
+    .case{fill:#fff;stroke:#334D5C;stroke-width:2.5;stroke-linejoin:round}
+    .screen{fill:#334D5C;opacity:.09}
+    .ln{fill:#334D5C;opacity:.4}
+    .hl{fill:#EFC94C;opacity:.75}
+    .led{fill:#E27A3F}
+    .slot{fill:#334D5C;opacity:.28}
+    .link{stroke:#334D5C;stroke-width:2;stroke-dasharray:3 3;opacity:.5}
+  </style>
+
+  <!-- laptop: one person, locally -->
+  <rect class="case" x="10" y="40" width="52" height="34" rx="3"/>
+  <rect class="screen" x="15" y="45" width="42" height="24"/>
+  <rect class="hl" x="19" y="50" width="16" height="4" rx="2"/>
+  <rect class="ln" x="19" y="58" width="30" height="3" rx="1.5"/>
+  <rect class="ln" x="19" y="64" width="22" height="3" rx="1.5"/>
+  <path class="case" d="M4 80 H68 L62 74 H10 Z"/>
+
+  <!-- the same platform, either side -->
+  <line class="link" x1="72" y1="60" x2="90" y2="60"/>
+
+  <!-- server rack: a whole institution, on its own hardware -->
+  <rect class="case" x="98" y="30" width="52" height="18" rx="3"/>
+  <rect class="case" x="98" y="52" width="52" height="18" rx="3"/>
+  <rect class="case" x="98" y="74" width="52" height="18" rx="3"/>
+  <rect class="slot" x="106" y="37" width="22" height="4" rx="2"/>
+  <rect class="slot" x="106" y="59" width="22" height="4" rx="2"/>
+  <rect class="slot" x="106" y="81" width="22" height="4" rx="2"/>
+  <circle class="led" cx="141" cy="39" r="3"/>
+  <circle class="led" cx="141" cy="61" r="3"/>
+  <circle class="led" cx="141" cy="83" r="3"/>
+</svg>

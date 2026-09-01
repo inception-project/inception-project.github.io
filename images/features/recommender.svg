@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="t-rc d-rc">
+  <title id="t-rc">Recommenders that learn while you annotate</title>
+  <desc id="d-rc">Dashed suggestions over text, one accepted with a tick, beside a rising
+    curve showing the model improving during the session.</desc>
+  <!-- Draft. Redrawn at 160x120 so it reads at ~140px wide; the earlier 320-wide
+       version split into two disconnected halves once its captions were removed. -->
+  <style>
+    .acc{fill:#EFC94C;opacity:.55;stroke:#E27A3F;stroke-width:2}
+    .sugg{fill:none;stroke:#E27A3F;stroke-width:2;stroke-dasharray:4 3}
+    .tick{fill:none;stroke:#334D5C;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+    .axis{stroke:#334D5C;stroke-width:1.5;opacity:.35}
+    .curve{fill:none;stroke:#334D5C;stroke-width:2.5}
+    .dot{fill:#334D5C}
+  </style>
+  <rect class="acc"  x="10" y="20" width="46" height="15" rx="3"/>
+  <path class="tick" d="M62 28 l4 5 l7 -10"/>
+  <rect class="sugg" x="10" y="45" width="38" height="15" rx="3"/>
+  <rect class="sugg" x="10" y="70" width="52" height="15" rx="3"/>
+  <rect fill="#334D5C" opacity=".25" x="10" y="96" width="30" height="5" rx="2.5"/>
+  <rect fill="#334D5C" opacity=".25" x="46" y="96" width="20" height="5" rx="2.5"/>
+
+  <line class="axis" x1="92" y1="100" x2="152" y2="100"/>
+  <line class="axis" x1="92" y1="100" x2="92"  y2="24"/>
+  <path class="curve" d="M92 94 C 108 90, 116 52, 130 40 S 146 28, 152 26"/>
+  <circle class="dot" cx="110" cy="74" r="3"/>
+  <circle class="dot" cx="130" cy="40" r="3"/>
+  <circle class="dot" cx="152" cy="26" r="3"/>
+</svg>

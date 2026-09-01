@@ -1,0 +1,209 @@
+// Front page prose. The content column is the full $row-width, which is right
+// for the feature panels but far too wide for running text, so text blocks are
+// capped and centred inside it. Figures, blockquotes and tables opt out and use
+// the whole column; .feature-grid is untouched.
+.frontpage-prose {
+  // Running text keeps a readable measure (~65-75 characters); at the full
+  // 1000px a line runs to ~120 characters and the eye loses the return sweep.
+  // The cap is applied to a centred wrapper rather than to each paragraph, so
+  // the text block sits in the middle of the content column instead of hugging
+  // its left edge.
+  > p, > ul, > ol, > h1, > h2, > h3, > h4, > dl, > blockquote {
+    max-width: 44rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // The blockquote is capped along with the prose now that capped blocks are
+  // centred rather than left-aligned: the theme hangs its large decorative
+  // quote marks off the box corners with absolute positioning, and those only
+  // looked stranded while the narrowed box sat against the left edge of a much
+  // wider column. The auto side margins above override the theme's
+  // `margin: 0 30px 30px 30px` on left/right only, so its bottom spacing
+  // survives.
+
+  // Tables can need the room, so they keep the full column.
+  > table {
+    max-width: none;
+  }
+
+  // A paragraph holding only an image is a figure, not prose: it uses the full
+  // column width, centred.
+  > p:has(> img:only-child) {
+    max-width: none;
+    text-align: center;
+  }
+
+  > p > img:only-child,
+  > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// Feature panels on the front page: a static grid of illustration + short copy.
+// Deliberately no carousel -- panels beyond the first would be hidden behind an
+// interaction most visitors never make, and this needs no JavaScript.
+
+.feature-grid {
+  display: grid;
+  // A panel is image + copy side by side, so it needs room for BOTH. At 20rem
+  // the copy column collapsed to ~110px and the text hyphenated into ribbons.
+  // 30rem keeps at least ~230px of readable copy next to the illustration.
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem 2.25rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+
+  // The illustration is a fixed-size supporting graphic, never the focus. Both
+  // a floor and a ceiling: without the ceiling it ballooned when a panel had
+  // the grid to itself at narrow widths.
+  img {
+    flex: 0 0 auto;
+    width: 140px;
+    height: auto;
+    max-width: 40%;
+    align-self: center;
+  }
+
+  h3 {
+    margin: 0 0 .35rem;
+    font-size: 1.05rem;
+    line-height: 1.25;
+    color: $ci-1;
+  }
+
+  p {
+    margin: 0;
+    font-size: .92rem;
+    line-height: 1.5;
+  }
+
+  // Below this the copy column would be too narrow beside the image, so put
+  // the illustration above the text instead -- still size-capped so it does not
+  // balloon on a phone.
+  @media only screen and (max-width: 40em) {
+    flex-direction: column;
+    align-items: flex-start;
+    img { width: 120px; max-width: 120px; }
+  }
+}
+
+
+// Front page shell: content column at the theme's $row-width, sidebar beside it
+// in the margin and NOT counted against that width. $row-width is 1000px and
+// the sidebar is 20rem, so the shell needs both plus the gap before it can sit
+// side by side; below that it stacks.
+$fp-aside-width: 20rem;
+$fp-gap: 2.5rem;
+
+.frontpage-shell {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: $fp-gap;
+  // Wider than .row on purpose: the sidebar lives outside the content measure.
+  max-width: $row-width + $fp-aside-width + $fp-gap;
+  margin: 0 auto;
+  padding: 0 0.9375rem; // matches Foundation's column gutter
+}
+
+.frontpage-main {
+  flex: 1 1 $row-width;
+  max-width: $row-width;
+  min-width: 0; // let the flex item shrink instead of overflowing
+}
+
+.frontpage-aside {
+  flex: 0 0 $fp-aside-width;
+  max-width: $fp-aside-width;
+
+  iframe { width: 100%; }
+}
+
+// Keep the sidebar alongside for as long as the content column can still hold
+// one full-width feature panel with readable copy beside its illustration.
+// The sidebar plus gap and gutters costs ~341px; at 56em that still leaves
+// ~443px of content, so only stack below that.
+@media only screen and (max-width: 56em) {
+  .frontpage-shell { flex-direction: column; align-items: center; }
+  .frontpage-main  { flex-basis: auto; width: 100%; }
+  .frontpage-aside { flex-basis: auto; margin: 0 auto; }
+}
+
+// Primary calls to action, side by side directly under the page heading. These
+// used to live at the top of the sidebar, which is fine on a wide screen but
+// pushed them below the entire page once the sidebar stacked.
+.fp-cta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+.fp-cta-item {
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+  padding: .9rem 1.1rem;
+  border: 1px solid $grey-3;
+  border-radius: 3px;
+  background: #fff;
+  color: $ci-1;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    border-color: $ci-1;
+    background: scale-color($ci-1, $lightness: 95%);
+    color: $ci-1;
+  }
+
+  svg {
+    flex: 0 0 1.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: none;
+    stroke: $ci-4;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  span { display: flex; flex-direction: column; line-height: 1.3; }
+  strong { font-size: 1rem; }
+  small { font-size: .78rem; color: $grey-9; }
+}
+
+// Secondary calls to action, below the feature panels: the reader has just been
+// pitched, and these answer "did anyone actually get this working?" They are
+// deliberately quieter than the download/demo pair at the top -- putting all
+// four in one row would dilute the two that matter for conversion.
+.fp-cta-secondary {
+  max-width: 44rem;      // share the prose measure
+  margin-left: auto;
+  margin-right: auto;
+
+  .fp-cta-item {
+    padding: .75rem 1rem;
+    background: transparent;
+    border-color: $grey-2;
+  }
+
+  svg {
+    flex-basis: 1.4rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    stroke: $grey-7;
+  }
+
+  strong { font-size: .94rem; }
+
+  .fp-cta-item:hover svg,
+  .fp-cta-item:focus svg { stroke: $ci-4; }
+}

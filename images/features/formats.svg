@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="t-fm d-fm">
+  <title id="t-fm">Round-trips your formats</title>
+  <desc id="d-fm">A project document exchanged in both directions with several interchange formats.</desc>
+  <!-- Draft. Deliberately low detail: renders at ~175px wide. -->
+  <style>
+    .doc{fill:#fff;stroke:#334D5C;stroke-width:2.5}
+    .ln{fill:#334D5C;opacity:.3}
+    .hl{fill:#EFC94C;opacity:.6}
+    .chip{fill:#334D5C;opacity:.1;stroke:#334D5C;stroke-width:1.5;stroke-opacity:.5}
+    .arr{fill:none;stroke:#E27A3F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+  <rect class="doc" x="12" y="26" width="52" height="68" rx="4"/>
+  <rect class="ln" x="20" y="38" width="36" height="4" rx="2"/>
+  <rect class="hl" x="20" y="48" width="24" height="8" rx="2"/>
+  <rect class="ln" x="20" y="62" width="36" height="4" rx="2"/>
+  <rect class="ln" x="20" y="72" width="28" height="4" rx="2"/>
+  <path class="arr" d="M72 48 H96 M90 42 l6 6 l-6 6"/>
+  <path class="arr" d="M96 72 H72 M78 66 l-6 6 l6 6"/>
+  <rect class="chip" x="106" y="30" width="44" height="16" rx="3"/>
+  <rect class="chip" x="106" y="52" width="44" height="16" rx="3"/>
+  <rect class="chip" x="106" y="74" width="44" height="16" rx="3"/>
+</svg>

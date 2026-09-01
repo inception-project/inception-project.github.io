@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img"
+     aria-labelledby="t-cu d-cu">
+  <title id="t-cu">Double annotation, curation and agreement</title>
+  <desc id="d-cu">Two annotator tracks merge into a single gold track; matching
+    annotations merge automatically and one conflicting pair is flagged for adjudication.</desc>
+  <!-- Draft illustration. Palette: $ci-1 #334D5C, $ci-3 #EFC94C, $ci-4 #E27A3F, $ci-5 #DF4949. -->
+  <style>
+    .track{fill:none;stroke:#334D5C;stroke-width:1;opacity:.3}
+    .agree{fill:#334D5C;opacity:.55}
+    .conflict{fill:#DF4949;opacity:.75}
+    .gold{fill:#EFC94C;opacity:.75;stroke:#E27A3F;stroke-width:1.5}
+    .flow{fill:none;stroke:#334D5C;stroke-width:1.25;opacity:.5}
+    .flow-c{fill:none;stroke:#DF4949;stroke-width:1.5;stroke-dasharray:3 3}
+    .cap{font:500 12px/1 system-ui,sans-serif;fill:#334D5C;opacity:.85}
+    .bang{font:700 11px/1 system-ui,sans-serif;fill:#DF4949}
+  </style>
+
+  <text class="cap" x="16" y="28">annotator A</text>
+  <line class="track" x1="16" y1="38" x2="230" y2="38"/>
+  <rect class="agree"    x="30"  y="32" width="34" height="13" rx="3"/>
+  <rect class="agree"    x="86"  y="32" width="26" height="13" rx="3"/>
+  <rect class="conflict" x="140" y="32" width="40" height="13" rx="3"/>
+
+  <text class="cap" x="16" y="80">annotator B</text>
+  <line class="track" x1="16" y1="90" x2="230" y2="90"/>
+  <rect class="agree"    x="30"  y="84" width="34" height="13" rx="3"/>
+  <rect class="agree"    x="86"  y="84" width="26" height="13" rx="3"/>
+  <rect class="conflict" x="150" y="84" width="30" height="13" rx="3"/>
+
+  <!-- agreed annotations flow straight through; the conflict is diverted -->
+  <path class="flow"   d="M47 46  V 82  M47 98  V 161"/>
+  <path class="flow"   d="M99 46  V 82  M99 98  V 161"/>
+  <path class="flow-c" d="M162 46 V 76  M164 98 C 176 116, 214 118, 232 122"/>
+  <text class="bang" x="240" y="126">!</text>
+
+  <text class="cap" x="16" y="160">gold standard</text>
+  <line class="track" x1="16" y1="170" x2="230" y2="170"/>
+  <rect class="gold" x="30" y="163" width="34" height="14" rx="3"/>
+  <rect class="gold" x="86" y="163" width="26" height="14" rx="3"/>
+</svg>
