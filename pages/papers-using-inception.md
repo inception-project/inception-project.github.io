@@ -60,9 +60,9 @@ we will add it.
   other venues, which means this is <em>the papers we found</em> rather than everything ever
   published — work in venues we did not search is missing. The language shown is the language of
   the annotated data, not of the paper.
-  {{ data.count }} of {{ data.total_in_survey }} papers in the underlying survey fall within the
-  {{ data.window_from }}&ndash;{{ data.window_to }} window shown here.
-  Last updated {{ data.updated }}.
+  Spotted a mistake in an entry?
+  <a href="https://github.com/inception-project/inception/issues">Please let us know</a> and we
+  will correct it.
 </p>
 
 <script src="{{ site.url }}/assets/js/paper-filters.js" defer></script>
