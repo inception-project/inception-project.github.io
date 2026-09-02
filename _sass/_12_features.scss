@@ -311,6 +311,12 @@ $fp-gap: 2.5rem;
     height: auto;
     padding: .4rem .5rem;
   }
+
+  // The script hides options that would yield no papers, and this theme resets
+  // [hidden] -- hence the same explicit rule on .paper-filters, .paper-empty and
+  // the list items. Options are chrome-rendered so CSS does not reach them
+  // everywhere; the script also sets `disabled`, which every browser honours.
+  option[hidden] { display: none; }
 }
 
 .paper-count {

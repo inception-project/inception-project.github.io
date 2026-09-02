@@ -6,14 +6,11 @@
 # (the year of the last update and the year before it). The window is fixed
 # here at generation time, not computed when the site builds, so a rebuild
 # years from now still renders these rows instead of an empty page.
-#
-# 57 of 123 papers in the survey fall in the window.
 
-updated: "2026-09-01"
+updated: "2026-09-02"
 window_from: 2025
 window_to: 2026
-count: 57
-total_in_survey: 123
+count: 122
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -24,6 +21,14 @@ papers:
     material: "English synthetic patient-caretaker diabetes dialogues"
     languages: ["English"]
     tasks: ["Relation extraction"]
+  - title: "Automated epilepsy and seizure type phenotyping with transformer-based language models"
+    year: 2026
+    venue: "npj Digital Medicine"
+    url: "https://doi.org/10.1038/s41746-026-03103-5"
+    domain: "Biomedical & clinical"
+    material: "309 free-text English clinical progress notes from epilepsy clinic visits at the University of Pennsylvania, labelled with epilepsy and seizure types"
+    languages: ["English"]
+    tasks: ["Text & span classification"]
   - title: "Developing the German Medical Text Corpus (GeMTeX): Legal Compliance and Semantic Enrichment"
     year: 2026
     venue: "LREC 2026"
@@ -72,6 +77,14 @@ papers:
     material: "German clinical routine documents from university hospitals"
     languages: ["German"]
     tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Automatic detection of complex quotation patterns in Aggadic literature"
+    year: 2026
+    venue: "Cogent Arts & Humanities"
+    url: "https://doi.org/10.1080/23311983.2026.2657191"
+    domain: "Classics & ancient languages"
+    material: "Hebrew Aggadic/Midrashic rabbinic literature of Late Antiquity, with biblical quotations linked to book, chapter and verse"
+    languages: ["Hebrew"]
+    tasks: ["Entity linking & normalisation", "Text & span classification"]
   - title: "RAGE: Roman and Greek Emotions"
     year: 2026
     venue: "LREC 2026"
@@ -80,6 +93,38 @@ papers:
     material: "Ancient Greek and Latin literature"
     languages: ["Ancient Greek", "Latin"]
     tasks: ["Sentiment, emotion & appraisal", "Semantic roles & frames", "Entity linking & normalisation"]
+  - title: "The Biblical Heritage in Ancient Latin Christian Literature: Advancing Intertextual Mapping Through Sentence Embeddings"
+    year: 2026
+    venue: "Umanistica Digitale"
+    url: "https://doi.org/10.60923/issn.2532-8816/22160"
+    domain: "Classics & ancient languages"
+    material: "Augustine of Hippo's Latin commentary De Genesi ad litteram, with intertextual references mapped to Jerome's Vulgate and pre-Vulgate (Vetus Latina) biblical versions"
+    languages: ["Latin"]
+    tasks: ["Entity linking & normalisation", "Relation extraction", "Text & span classification"]
+  - title: "A Dataset for Named Entity Recognition and Relation Extraction from Art-historical Image Descriptions"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2602.19133"
+    domain: "Digital humanities & literature"
+    material: "German and English art-historical image descriptions from 13 museum catalogues, auction listings and scholarly databases (FRAME dataset)"
+    languages: ["English", "German"]
+    tasks: ["Named entity recognition", "Relation extraction", "Coreference & anaphora", "Entity linking & normalisation"]
+  - title: "Decoding the conqueror's gaze: A computational approach to Ennio Flaiano's (post)colonialism"
+    year: 2026
+    venue: "Computational Humanities Research"
+    url: "https://doi.org/10.1017/chr.2026.10026"
+    domain: "Digital humanities & literature"
+    material: "Ennio Flaiano's Italian colonial novel Tempo di uccidere (1947), 5,793 sentence-level segments labelled for narrative focalization"
+    languages: ["Italian"]
+    tasks: ["Discourse & rhetorical structure", "Text & span classification"]
+  - title: "Detecting Literary Evaluations: Can Large Language Models Compete with Human Annotators?"
+    year: 2026
+    venue: "DHd 2026 Nicht nur Text, nicht nur Daten (DHd2026)"
+    url: "https://zenodo.org/records/18696396"
+    domain: "Digital humanities & literature"
+    material: "35 German-language fictional narratives published between 1800 and 2015 (corpus \"Evaluative Structures in Narrative Fiction\"), 10 sampled for LLM comparison"
+    languages: ["German"]
+    tasks: ["LLM output evaluation", "Sentiment, emotion & appraisal"]
   - title: "Fables-DTR: A Corpus of Fables Annotated for Discourse and Temporal Relations"
     year: 2026
     venue: "LREC 2026"
@@ -96,6 +141,14 @@ papers:
     material: "Fiction in Bahasa Indonesia, Chinese, Dutch, English, Italian, Korean, Spanish"
     languages: ["Bahasa Indonesia", "Chinese", "Dutch", "English", "Italian", "Korean", "Spanish"]
     tasks: ["Coreference & anaphora"]
+  - title: "Implicit Messages of Narratives and Evaluative Text Structures: A Network-Based Approach"
+    year: 2026
+    venue: "Scientific Study of Literature"
+    url: "https://doi.org/10.61645/ssol.207"
+    domain: "Digital humanities & literature"
+    material: "35 German-language literary narratives (Kleist, Thomas Mann, Hesse, Joseph Roth and others), 77,068 tokens annotated for literary evaluations, encodings and oppositions"
+    languages: ["German"]
+    tasks: ["Sentiment, emotion & appraisal", "Relation extraction", "Discourse & rhetorical structure"]
   - title: "Speaking on Their Behalf: Detecting Indirect Speech in Historical Danish and Norwegian Texts"
     year: 2026
     venue: "EACL 2026"
@@ -160,6 +213,54 @@ papers:
     material: "Serbian oral-history interview transcripts"
     languages: ["Serbian"]
     tasks: ["Entity linking & normalisation", "Named entity recognition", "Summarisation & simplification"]
+  - title: "Knowledge Graphs Generation from Cultural Heritage Texts: Combining LLMs and Ontological Engineering for Scholarly Debates"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2511.10354"
+    domain: "History & archives"
+    material: "English Wikipedia articles about cultural-heritage items of disputed authenticity (documents, artifacts), annotated with item metadata, scholarly agents and authenticity opinions as a gold standard for LLM knowledge-graph extraction"
+    languages: ["English"]
+    tasks: ["Relation extraction", "Entity linking & normalisation", "Stance & argumentation", "Metadata & bibliographic"]
+  - title: "Nicht nur Namen und Orte: Warum historische Annotation mehr kann (und soll)"
+    year: 2026
+    venue: "DHd 2026 Nicht nur Text, nicht nur Daten (DHd2026)"
+    url: "https://zenodo.org/records/18702863"
+    domain: "History & archives"
+    material: "Early New High German historical records: Bernese Turmbücher and property/tower-book documents from the Ökonomien des Raums and The Flow projects, plus English medieval court rolls"
+    languages: ["English", "German"]
+    tasks: ["Named entity recognition", "Relation extraction", "Event extraction"]
+  - title: "Automatic Annotation of Legal References (Allegationes) in the Liber Extra's Ordinary Gloss"
+    year: 2026
+    venue: "Umanistica Digitale"
+    url: "https://doi.org/10.60923/issn.2532-8816/22163"
+    domain: "Law"
+    material: "The medieval Latin Ordinary Gloss to the Liber Extra (canon-law decretals); an expert annotated legal references (allegationes) in 12 of 185 titles, 4578 annotations"
+    languages: ["Latin"]
+    tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Legal Experts Disagree With Rationale Extraction Techniques for Explaining ECtHR Case Outcome Classification"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2601.12419"
+    domain: "Law"
+    material: "English European Court of Human Rights case documents, where legal experts judged whether machine-extracted rationale highlights support the violation outcome, and wrote their own gold rationales"
+    languages: ["English"]
+    tasks: ["LLM output evaluation", "Stance & argumentation"]
+  - title: "Mining Legal Arguments to Study Judicial Formalism"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2512.11374"
+    domain: "Law"
+    material: "272 Czech Supreme Court and Supreme Administrative Court decisions (the MADON dataset), with 9,183 paragraphs labelled for eight legal argument types plus holistic formalism labels"
+    languages: ["Czech"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Patterns of multimodal evaluation: How written language and emojis interact in Instagram comments"
+    year: 2026
+    venue: "Patterns in Language and Communication"
+    url: "https://doi.org/10.1515/9783111199740-009"
+    domain: "Linguistics & typology"
+    material: "A manually tagged subcorpus of 29,373 German Instagram comments on body-positivity posts (#bodylove, #bodyacceptance, #bodypositivity) from 2020-2021, covering written language and emojis"
+    languages: ["German"]
+    tasks: ["Sentiment, emotion & appraisal", "Discourse & rhetorical structure", "Speech, multimodal & transcription"]
   - title: "Say Again? The Limits of Whisper with Conversation. A Case Study on the KIParla Corpus."
     year: 2026
     venue: "LREC 2026"
@@ -224,6 +325,14 @@ papers:
     material: "Balinese text"
     languages: ["Balinese"]
     tasks: ["Sentiment, emotion & appraisal"]
+  - title: "ELEXIS-Ro – Adding Romanian to the ELEXIS Corpus"
+    year: 2026
+    venue: "Computational Linguistics in Bulgaria"
+    url: "https://doi.org/10.47810/jclib.2.2026.02"
+    domain: "NLP & computational linguistics"
+    material: "The Romanian component of the ELEXIS multilingual parallel corpus, machine-translated from English and validated for lemmas, POS and morphological features"
+    languages: ["English", "Multilingual", "Romanian"]
+    tasks: ["Error annotation & correction", "Syntax", "Terminology & lexicography"]
   - title: "Evaluating the Adaptability of Large Language Models to Linguistic Variation"
     year: 2026
     venue: "LREC 2026"
@@ -232,6 +341,14 @@ papers:
     material: "French multi-genre texts (NEM.fr)"
     languages: ["French"]
     tasks: ["Named entity recognition", "LLM output evaluation"]
+  - title: "GSAP-ERE: Fine-Grained Scholarly Entity and Relation Extraction Focused on Machine Learning"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2511.09411"
+    domain: "NLP & computational linguistics"
+    material: "Full text of 100 English machine-learning publications, annotated with 10 scholarly entity types and 18 relation types (63K entity and 35K relation mentions)"
+    languages: ["English"]
+    tasks: ["Relation extraction", "Named entity recognition"]
   - title: "Is Literal Annotation Enough? Building an Annotation Framework for Metonymic Named Entities in Marathi"
     year: 2026
     venue: "LREC 2026"
@@ -288,6 +405,22 @@ papers:
     material: "Bulgarian/Polish parliamentary debates and Russian social media"
     languages: ["Bulgarian", "Polish", "Russian"]
     tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "CitiLink-Minutes: A Multilayer Annotated Dataset of Municipal Meeting Minutes"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2602.12137"
+    domain: "Social science & politics"
+    material: "120 European Portuguese municipal council meeting minutes (2021-2024) from six Portuguese municipalities, over one million tokens"
+    languages: ["Portuguese"]
+    tasks: ["Metadata & bibliographic", "Named entity recognition", "Text & span classification", "Relation extraction"]
+  - title: "ClaimPT: A Portuguese Dataset of Annotated Claims in News Articles"
+    year: 2026
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2601.19490"
+    domain: "Social science & politics"
+    material: "European Portuguese news articles, annotated for claim vs non-claim plus claim span, object, claimer, time, stance and topic, with attribute and identity links"
+    languages: ["Portuguese"]
+    tasks: ["Stance & argumentation", "Named entity recognition", "Coreference & anaphora", "Metadata & bibliographic", "Text & span classification"]
   - title: "Cross-lingual and cross-country approaches to argument component detection: a comparative study."
     year: 2026
     venue: "EACL 2026"
@@ -320,6 +453,14 @@ papers:
     material: "English and German news articles"
     languages: ["English", "German"]
     tasks: ["Text & span classification", "Stance & argumentation"]
+  - title: "ValuesML: A new multilingual dataset for values detection in news and political manifestos"
+    year: 2026
+    venue: "Behavior Research Methods"
+    url: "https://doi.org/10.3758/s13428-026-03092-z"
+    domain: "Social science & politics"
+    material: "News articles and political party manifestos in nine languages (Bulgarian, Dutch, English, French, German, Greek, Hebrew, Italian, Turkish), 2648 texts and 74,231 sentences"
+    languages: ["Bulgarian", "Dutch", "English", "French", "German", "Greek", "Hebrew", "Italian", "Multilingual", "Turkish"]
+    tasks: ["Stance & argumentation", "Sentiment, emotion & appraisal", "Text & span classification"]
   - title: "Whose Pragmatics? Cultural Grounding as a Bottleneck for Stereotype Detection in Egyptian Arabic Social Media"
     year: 2026
     venue: "ACL 2026"
@@ -328,6 +469,29 @@ papers:
     material: "Egyptian Arabic social media comments (Facebook/TikTok/Instagram)"
     languages: ["Arabic"]
     tasks: ["Sentiment, emotion & appraisal", "Hate speech & toxicity", "LLM output evaluation"]
+  - title: "A knowledge graph-based post-stroke gait assessment system: A pilot study"
+    year: 2025
+    venue: "Medical Engineering & Physics"
+    url: "https://doi.org/10.1016/j.medengphy.2025.104449"
+    domain: "Biomedical & clinical"
+    material: "English clinical and biomechanical literature on post-stroke gait deviations, their causes and compensatory mechanisms, annotated to build a gait-analysis knowledge graph"
+    languages: ["English"]
+    tasks: ["Event extraction", "Relation extraction", "Named entity recognition"]
+  - title: "A Study of a Supporting Application in Patient-Centered Breast Cancer Care"
+    year: 2025
+    url: "https://tohoku.repo.nii.ac.jp/records/2003948"
+    domain: "Biomedical & clinical"
+    material: "Japanese hospital medical records (progress notes, nursing records, discharge summaries) for three breast cancer cases, tagged for patient-centered information"
+    languages: ["Japanese"]
+    tasks: ["Text & span classification"]
+  - title: "From text to data: Open-source large language models in extracting cancer related medical attributes from German pathology reports"
+    year: 2025
+    venue: "International Journal of Medical Informatics"
+    url: "https://doi.org/10.1016/j.ijmedinf.2025.106022"
+    domain: "Biomedical & clinical"
+    material: "522 German-language cancer pathology reports from University Medical Center Hamburg-Eppendorf, annotated by oncology-trained professionals for tumour attributes (grading, TNM status, vascular/perineural invasion, UICC stage)"
+    languages: ["German"]
+    tasks: ["Named entity recognition"]
   - title: "HARE: an entity and relation centric evaluation framework for histopathology reports"
     year: 2025
     venue: "EMNLP 2025"
@@ -336,6 +500,13 @@ papers:
     material: "English histopathology reports (hospital and TCGA)"
     languages: ["English"]
     tasks: ["Named entity recognition", "Relation extraction", "LLM output evaluation"]
+  - title: "Operationalizing Empathic and Supportive Communication in Natural Language Processing"
+    year: 2025
+    url: "https://doi.org/10.48565/bonndoc-498"
+    domain: "Biomedical & clinical"
+    material: "63 transcribed German breaking-bad-news role-play conversations between medical students and standardised patients, annotated for appraisal-theoretic empathic opportunities, responses and SPIKES protocol steps"
+    languages: ["German"]
+    tasks: ["Sentiment, emotion & appraisal", "Speech, multimodal & transcription", "Discourse & rhetorical structure"]
   - title: "Preliminary Evaluation of an Open-Source LLM for Lay Translation of German Clinical Documents"
     year: 2025
     venue: "NAACL 2025"
@@ -352,6 +523,22 @@ papers:
     material: "Portuguese synthetic clinical reports (AML patient)"
     languages: ["Portuguese"]
     tasks: ["Event extraction", "Relation extraction", "Named entity recognition"]
+  - title: "Towards Early Maternal Morbidity Risk Identification by Concept Extraction from Clinical Notes in Spanish Using Fine-Tuned Transformer-Based Models"
+    year: 2025
+    venue: "Applied System Innovation"
+    url: "https://doi.org/10.3390/asi8030078"
+    domain: "Biomedical & clinical"
+    material: "200 de-identified Spanish-language maternal electronic health record notes from a high-obstetric-risk referral clinic in Colombia (births 2015-2019), annotated with UMLS semantic types"
+    languages: ["Spanish"]
+    tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Linked Ancient Greek and Latin (LAGL) and Wikidata: Structuring and Reusing Data of Classical Literature"
+    year: 2025
+    venue: "Journal of Open Humanities Data"
+    url: "https://doi.org/10.5334/johd.423"
+    domain: "Classics & ancient languages"
+    material: "Ancient Greek and Latin sources (Athenaeus' Deipnosophists, the Suda lexicon and others), token-level annotation of named entities and of bibliographic citations of 1,236 Classical authors and works"
+    languages: ["Ancient Greek", "Latin"]
+    tasks: ["Named entity recognition", "Metadata & bibliographic", "Entity linking & normalisation"]
   - title: "Mapping Meaning in Latin with Large Language Models: A Multi-Task Evaluation of Preverbed Motion Verbs and Spatial Relation Detection in LLMs"
     year: 2025
     venue: "CLiC-it 2025 (11th Italian Conference on Computational Linguistics)"
@@ -360,6 +547,44 @@ papers:
     material: "Classical Latin (3rd c. BCE - 2nd c. CE literary texts)"
     languages: ["Latin"]
     tasks: ["Relation extraction", "Word sense & lexical semantics", "LLM output evaluation"]
+  - title: "CLARIAH-EUS: A Strategic Network Helping Basque Country Researchers to Participate in European Research Infrastructures"
+    year: 2025
+    venue: "Linköping Electronic Conference Proceedings"
+    url: "https://doi.org/10.3384/ecp216.13"
+    domain: "Digital humanities & literature"
+    material: "Basque learner texts in the HABE-IXA corpus, labelled with language errors for the CORPErrore resource"
+    languages: ["Basque"]
+    tasks: ["Error annotation & correction"]
+  - title: "Grammatik in der Interaktion – eine Fallstudie zu den interaktionalen Funktionen des Indefinitpronomens man in Lessings Dramen"
+    year: 2025
+    venue: "Diskursgrammatik"
+    url: "https://doi.org/10.1515/9783110731811-008"
+    domain: "Digital humanities & literature"
+    material: "German Baroque-to-Classical drama texts (Gryphius, Lessing, Goethe, Schiller), here two Lessing comedies, annotated for person-referring pronouns and the interactional functions of indefinite man"
+    languages: ["German"]
+    tasks: ["Other", "Coreference & anaphora"]
+  - title: "LLMs as chainsaws: evaluating open-weights generative LLMs for extracting fauna and flora from multilingual travelogues"
+    year: 2025
+    url: "https://www.clinjournal.org/clinj/article/view/199"
+    domain: "Digital humanities & literature"
+    material: "58 OCR'd literary-historical travelogues from the 18th to 20th centuries in English, French, Dutch and German (~5,000 tokens each), annotated with PERSON, LOCATION, ORGANISATION, FAUNA, FLORA, BIOME, landform, weather and myth entities"
+    languages: ["Dutch", "English", "French", "German"]
+    tasks: ["Named entity recognition"]
+  - title: "Semantic Roles of 'Heart' in the Prose Version of the Middle High German Die Lilie"
+    year: 2025
+    venue: "Metaphor Papers"
+    url: "https://doi.org/10.46586/mp.438.521"
+    domain: "Digital humanities & literature"
+    material: "The Middle High German devotional prose text Die Lilie (late 13th century), from the Reference Corpus Middle High German 2.1 — all 29 occurrences of the lemma hërze 'heart'"
+    languages: ["Middle High German"]
+    tasks: ["Semantic roles & frames", "Word sense & lexical semantics"]
+  - title: "Tracing Sensory Events: A Frame-Based Approach to Automatically Capture and Diachronically Analyse Olfactory and Gustatory Information from Texts"
+    year: 2025
+    url: "https://doi.org/10.15168/11572_448351"
+    domain: "Digital humanities & literature"
+    material: "English and Italian historical texts (17th-20th century) describing smell and taste events, annotated with olfactory and gustatory frame elements (Odeuropa)"
+    languages: ["English", "Italian"]
+    tasks: ["Semantic roles & frames", "Event extraction", "Coreference & anaphora", "Named entity recognition"]
   - title: "AI-Based Feedback in Counselling Competence Training of Prospective Teachers"
     year: 2025
     venue: "arXiv (cs.HC)"
@@ -368,6 +593,49 @@ papers:
     material: "German simulated teacher-parent counselling conversations"
     languages: ["German"]
     tasks: ["Discourse & rhetorical structure", "Text & span classification", "Speech, multimodal & transcription"]
+  - title: "Development and Validation of an AWE System “Write On with Cambi!”"
+    year: 2025
+    url: "https://files.portal.cambiumast.com/corporate-site/documents/CAI-Development-and-Validation-of-Write-on-With-Cambi.pdf"
+    domain: "Education & learner corpora"
+    material: "US student essays in grades 3-8 (opinion, argumentative, informative and explanatory writing), labelled for compositional elements and conventions errors"
+    tasks: ["Stance & argumentation", "Error annotation & correction", "Text & span classification"]
+  - title: "Fine-Tuning Large Language Models with Greek Learner Corpus Data: Towards Enhanced Grammatical Error Detection"
+    year: 2025
+    url: "https://www.researchgate.net/publication/397315996_Fine-Tuning_Large_Language_Models_with_Greek_Learner_Corpus_Data_Towards_Enhanced_Grammatical_Error_Detection"
+    domain: "Education & learner corpora"
+    material: "Essays by learners of Greek as a second language from the Greek Learner Corpus II (GLCII), annotated with grammatical error types"
+    languages: ["Greek"]
+    tasks: ["Error annotation & correction"]
+  - title: "It-Sr-NER: il corpus parallelo serbo-italiano per l'apprendimento del serbo come lingua straniera"
+    year: 2025
+    venue: "Филолог – часопис за језик књижевност и културу"
+    url: "https://doi.org/10.21618/fil2531153p"
+    domain: "Education & learner corpora"
+    material: "The It-Sr-NER Serbian-Italian parallel corpus: 10,000 aligned sentences from classical and modern Serbian and Italian literature, with named entities linked to Wikidata"
+    languages: ["Italian", "Serbian"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition", "Translation & parallel alignment"]
+  - title: "LLM-Human Alignment in Evaluating Teacher Questioning Practices: Beyond Ratings to Explanation"
+    year: 2025
+    venue: "AIMeCon 2025"
+    url: "https://aclanthology.org/2025.aimecon-main.26/"
+    domain: "Education & learner corpora"
+    material: "German mathematics lesson transcripts from the Global Teaching Insights (GTI) classroom observation study, with rater highlights of teacher questioning practices"
+    languages: ["German"]
+    tasks: ["LLM output evaluation", "Text & span classification", "Speech, multimodal & transcription"]
+  - title: "Standards-aligned annotations reveal organizational patterns in argumentative essays at scale"
+    year: 2025
+    venue: "Frontiers in Education"
+    url: "https://doi.org/10.3389/feduc.2025.1569529"
+    domain: "Education & learner corpora"
+    material: "Nearly 20,000 English argumentative essays written by US grade 6-8 students across nine assessment prompts, annotated sentence by sentence for organisational elements (Introduction, Controlling Idea, Conclusion)"
+    languages: ["English"]
+    tasks: ["Discourse & rhetorical structure", "Stance & argumentation", "Text & span classification"]
+  - title: "Supporting teaching and learning through an AI-enhanced interactive chat activity"
+    year: 2025
+    url: "https://www.researchgate.net/publication/396248192_Supporting_teaching_and_learning_through_an_AI-enhanced_interactive_chat_activity"
+    domain: "Education & learner corpora"
+    material: "Written science explanations from 1,460 US students in grades 6-8 about sound-wave propagation, scored for Knowledge Integration level with spans marked for 17 disciplinary idea types"
+    tasks: ["Text & span classification"]
   - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
     year: 2025
     venue: "EMNLP 2025"
@@ -376,6 +644,44 @@ papers:
     material: "German online job advertisements"
     languages: ["German"]
     tasks: ["Named entity recognition", "Relation extraction"]
+  - title: "Strategic Transparency or Deliberate Ambiguity? A Corpus-Assisted Multimodal Analysis of Airline CSR Communication on LinkedIn"
+    year: 2025
+    url: "https://iris.unimore.it/handle/11380/1387709"
+    domain: "Finance & business"
+    material: "220 English-language LinkedIn posts from Delta Air Lines, British Airways, ITA Airways and China Southern Airlines, screened for CSR-related content and transparency signal strength"
+    languages: ["English"]
+    tasks: ["Text & span classification"]
+  - title: "Fine-grained Named-Entity Recognition for the East-India Company domain"
+    year: 2025
+    venue: "Anthology of Computers and the Humanities"
+    url: "https://doi.org/10.63744/DRbhWNTzqNzR"
+    domain: "History & archives"
+    material: "Early modern Dutch archival texts of the Dutch East India Company (VOC), 15 fine-grained entity tags and 8,000 mentions"
+    languages: ["Dutch"]
+    tasks: ["Named entity recognition"]
+  - title: "NER4all or Context is All You Need: Using LLMs for low-effort, high-performance NER on historical texts. A humanities informed approach"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2502.04351"
+    domain: "History & archives"
+    material: "55 OCR'd pages of the 1921 German Baedeker travel guide to Berlin and surroundings, annotated with PER, ORG and LOC"
+    languages: ["German"]
+    tasks: ["Named entity recognition"]
+  - title: "The Basel Land Records Ground Truth: An Annotated Dataset for Information Extraction on German-Language Administrative Records"
+    year: 2025
+    venue: "Journal of Open Humanities Data"
+    url: "https://doi.org/10.5334/johd.387"
+    domain: "History & archives"
+    material: "829 excerpts (50,000+ tokens) from the Historical Land Records of Basel, 1400-1700, in premodern German, with nested entity, event and relation annotations"
+    languages: ["German"]
+    tasks: ["Named entity recognition", "Event extraction", "Relation extraction"]
+  - title: "Context-Aware Citation Networks: A Human–AI Dataset, Analysis, and Tool"
+    year: 2025
+    venue: "Frontiers in Artificial Intelligence and Applications"
+    url: "https://doi.org/10.3233/FAIA251584"
+    domain: "Law"
+    material: "European Court of Human Rights case law (Grand Chamber, Chamber and Committee judgments and decisions), with each citation instance in the THE LAW section labelled for Complaint Article and Judicial Consideration"
+    tasks: ["Metadata & bibliographic", "Text & span classification", "Relation extraction"]
   - title: "Detecting Legal Citations in United Kingdom Court Judgments"
     year: 2025
     venue: "EMNLP 2025"
@@ -384,6 +690,14 @@ papers:
     material: "English UK court judgments (Cambridge Law Corpus)"
     languages: ["English"]
     tasks: ["Named entity recognition", "Metadata & bibliographic"]
+  - title: "Digital Transformation in Legal History Through Automatic Machine Learning Annotation"
+    year: 2025
+    venue: "ERCIM News"
+    url: "https://ercim-news.ercim.eu/en141/special/digital-transformation-in-legal-history-through-automatic-machine-learning-annotation"
+    domain: "Law"
+    material: "Medieval Latin canon law: legal references (allegationes) in the Glossa Ordinaria to the Liber Extra, 12 of 185 titles annotated by a domain expert (4,578 annotations)"
+    languages: ["Latin"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition", "Metadata & bibliographic"]
   - title: "Labor Lex: A New Portuguese Corpus and Pipeline for Information Extraction in Brazilian Legal Texts"
     year: 2025
     venue: "EMNLP 2025"
@@ -392,6 +706,14 @@ papers:
     material: "Brazilian Portuguese labor-court documents"
     languages: ["Portuguese"]
     tasks: ["Relation extraction", "Named entity recognition"]
+  - title: "Representing Normative Regulations in OWL DL for Automated Compliance Checking Supported by Text Annotation"
+    year: 2025
+    venue: "arxiv cs.AI"
+    url: "https://arxiv.org/abs/2504.05951"
+    domain: "Law"
+    material: "Normative building-construction regulations (Russian Building Code examples), annotated against the ifcOWL ontology"
+    languages: ["Russian"]
+    tasks: ["Semantic roles & frames", "Relation extraction", "Terminology & lexicography"]
   - title: "Ontology-conformal recognition of materials entities using language models"
     year: 2025
     venue: "Nature Scientific Reports"
@@ -408,6 +730,58 @@ papers:
     material: "English environmental/river multiword terms"
     languages: ["English"]
     tasks: ["Terminology & lexicography", "Semantic roles & frames", "Relation extraction"]
+  - title: "Aborder l'énonciation sur corpus oral : approches et outils"
+    year: 2025
+    url: "https://hal.science/hal-05022301v1"
+    domain: "Linguistics & typology"
+    material: "The PluriDiRe corpus — 36 dyadic spoken French conversations drawn from C-Oral-Rom, annotated for direct reported speech (150 occurrences) on two layers, cues and segments"
+    languages: ["French"]
+    tasks: ["Discourse & rhetorical structure", "Speech, multimodal & transcription"]
+  - title: "Annotating Compositionality Scores for Irish Noun Compounds is Hard Work"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2502.10061"
+    domain: "Linguistics & typology"
+    material: "Irish noun compounds in the Dúchas Irish Folklore Collection (1937-1939 school transcriptions) and the Universal Dependencies Irish Dependency Treebank, scored for compositionality, domain specificity, familiarity and confidence"
+    tasks: ["Word sense & lexical semantics", "Terminology & lexicography"]
+  - title: "Avvakum Im(personal): A Categorization Approach to Information Structure and Coreference in the Historical Russian Text from the 17th Century"
+    year: 2025
+    venue: "Junge Slavistik im Dialog"
+    url: "https://doi.org/10.38072/2750-9605/p54"
+    domain: "Linguistics & typology"
+    material: "The Life of Archpriest Avvakum, a 17th-century Old Russian text, annotated for third-person plural impersonal (3PL-IMP) constructions and givenness"
+    languages: ["Russian"]
+    tasks: ["Syntax", "Coreference & anaphora", "Discourse & rhetorical structure"]
+  - title: "Complex Nominals in Thai: A Framework for Universal Dependencies Annotation"
+    year: 2025
+    url: "https://so03.tci-thaijo.org/index.php/liberalarts/article/view/286958"
+    domain: "Linguistics & typology"
+    material: "100 Thai sentences containing four types of complex nominal (complement clauses, relative clauses, reduced relatives and synthetic compounds), annotated in Universal Dependencies"
+    languages: ["Thai"]
+    tasks: ["Syntax"]
+  - title: "Semplificazione e inclusione nell'italiano istituzionale. Un primo studio sul corpus ALIAS"
+    year: 2025
+    venue: "Italiano LinguaDue"
+    url: "https://doi.org/10.54103/2037-3597/29087"
+    domain: "Linguistics & typology"
+    material: "The ALIAS corpus of Italian institutional texts on university alias careers (regulations, web pages, forms), plus student rewritings, annotated for gender-fair language strategies"
+    languages: ["Italian"]
+    tasks: ["Other", "Text & span classification", "Summarisation & simplification"]
+  - title: "The ELEXIS-WSD Parallel Sense-Annotated Corpus and South Slavic Languages: Subcorpora for Croatian, Serbian, and Slovene"
+    year: 2025
+    venue: "South Slavic Languages in the Digital Environment JuDig"
+    url: "https://doi.org/10.18485/judig.2025.1.ch3"
+    domain: "Linguistics & typology"
+    material: "Croatian, Serbian and Slovene subcorpora of the ELEXIS-WSD parallel sense-annotated corpus (2,024 sentences per language), with named entities linked to Wikidata"
+    languages: ["Croatian", "Serbian", "Slovene"]
+    tasks: ["Word sense & lexical semantics", "Entity linking & normalisation", "Named entity recognition", "Syntax", "Translation & parallel alignment"]
+  - title: "Annotate Rhetorical Relations with INCEpTION: A Comparison with Automatic Approaches"
+    year: 2025
+    url: "https://arxiv.org/abs/2510.03808"
+    domain: "NLP & computational linguistics"
+    material: "English cricket news reports: 10 articles segmented into 57 elementary discourse units and labelled with RST relations"
+    languages: ["English"]
+    tasks: ["Discourse & rhetorical structure", "Text & span classification"]
   - title: "Annotating candy speech in German YouTube comments"
     year: 2025
     venue: "LAW XIX (19th Linguistic Annotation Workshop)"
@@ -416,6 +790,14 @@ papers:
     material: "German YouTube comments"
     languages: ["German"]
     tasks: ["Sentiment, emotion & appraisal"]
+  - title: "AraEventCoref: An Arabic Event Coreference Dataset and LLM Benchmarks"
+    year: 2025
+    venue: "ACM Transactions on Asian and Low-Resource Language Information Processing"
+    url: "https://doi.org/10.1145/3743047"
+    domain: "NLP & computational linguistics"
+    material: "50 Arabic news articles from the SANAD dataset (Arabiya and Khaleej sources) in the political and cultural domains"
+    languages: ["Arabic"]
+    tasks: ["Coreference & anaphora", "Event extraction"]
   - title: "Cheap Annotation of Complex Information: A Study on the Annotation of Information Status in German TEDx Talks"
     year: 2025
     venue: "LAW XIX (19th Linguistic Annotation Workshop)"
@@ -424,6 +806,67 @@ papers:
     material: "German TEDx talk transcripts"
     languages: ["German"]
     tasks: ["Coreference & anaphora", "Discourse & rhetorical structure"]
+  - title: "CoMuMDR: Code-mixed Multi-modal Multi-domain corpus for Discourse paRsing in conversations"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2506.08504"
+    domain: "NLP & computational linguistics"
+    material: "Code-mixed Hindi-English (Hinglish) call-centre conversations with audio and transcripts, annotated with nine discourse relations over elementary discourse units"
+    languages: ["English", "Hindi"]
+    tasks: ["Discourse & rhetorical structure", "Speech, multimodal & transcription"]
+  - title: "Directionality in translation: Throwing new light on an old question"
+    year: 2025
+    venue: "SKASE Journal of Translation and Interpretation"
+    url: "https://doi.org/10.33542/JTI2025-S-2"
+    domain: "NLP & computational linguistics"
+    material: "Keystroke-logged English/German translation processes (L1>L2 and L2>L1) by translation students, rendered as linear representations and annotated for cohesive items, editing operations and translation phases"
+    languages: ["English", "German"]
+    tasks: ["Translation & parallel alignment", "Coreference & anaphora", "Error annotation & correction"]
+  - title: "Enhancing Pragmatic Processing: A Two-Dimension Approach to Detecting Intentions in Spanish"
+    year: 2025
+    url: "https://doi.org/10.26342/2025-74-18"
+    domain: "NLP & computational linguistics"
+    material: "Spanish tweets from three topics, annotated for global and segment-level communicative intentions (the INTENT-ES corpus); 454 tweets in the segment-intention agreement round"
+    languages: ["Spanish"]
+    tasks: ["Text & span classification"]
+  - title: "Graph Embeddings to Empower Entity Retrieval"
+    year: 2025
+    venue: "Information Retrieval Research"
+    url: "https://doi.org/10.54195/irrj.19877"
+    domain: "NLP & computational linguistics"
+    material: "English DBpedia-Entity search queries, annotated by experts with both named entities and concepts linked to Wikidata (the new \"Radboud annotations\")"
+    languages: ["English"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition"]
+  - title: "MERLIN: A Testbed for Multilingual Multimodal Entity Recognition and Linking"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2510.14307"
+    domain: "NLP & computational linguistics"
+    material: "BBC news article titles with their accompanying images, in Hindi, Japanese, Indonesian, Vietnamese and Tamil (from the M3LS dataset), linked to Wikidata"
+    languages: ["Hindi", "Indonesian", "Japanese", "Vietnamese"]
+    tasks: ["Entity linking & normalisation", "Named entity recognition", "Speech, multimodal & transcription"]
+  - title: "On Complex Argumentation Structures in Tweets"
+    year: 2025
+    url: "https://journals.openedition.org/aad/9361"
+    domain: "NLP & computational linguistics"
+    material: "German-language tweet pairs (source tweets and replies) on controversial political topics, annotated for argumentation structure"
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Discourse & rhetorical structure"]
+  - title: "SocCor: A Multimodal-based Multilingual Soccer Corpus for Text Data Analytics"
+    year: 2025
+    venue: "KONVENS 2025"
+    url: "https://aclanthology.org/2025.konvens-1.8/"
+    domain: "NLP & computational linguistics"
+    material: "Multilingual UEFA EURO 2024 media coverage — livetickers, match reports and ASR-transcribed live commentary in German, French, Spanish, English, Italian, Dutch and Turkish"
+    languages: ["Dutch", "English", "French", "German", "Italian", "Multilingual", "Spanish", "Turkish"]
+    tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Empathy Cause Identification: Towards Unveiling Empathic Triggers in Online Interactions"
+    year: 2025
+    url: "https://indigo.uic.edu/articles/thesis/Empathy_Cause_Identification_Towards_Unveiling_Empathic_Triggers_in_Online_Interactions/29337452"
+    domain: "Psychology & mental health"
+    material: "English acne-support forum threads from the AcnEmpathize dataset, with the sentence causing empathy in each empathic reply marked and linked to the post it responds to"
+    languages: ["English"]
+    tasks: ["Sentiment, emotion & appraisal", "Relation extraction"]
   - title: "Overview of the CLPsych 2025 Shared Task: Capturing Mental Health Dynamics from Social Media Timelines"
     year: 2025
     venue: "NAACL 2025"
@@ -432,6 +875,37 @@ papers:
     material: "English social media timelines (Reddit/TalkLife)"
     languages: ["English"]
     tasks: ["Text & span classification", "Summarisation & simplification", "Sentiment, emotion & appraisal"]
+  - title: "Reflection Before Action: Designing a Framework for Quantifying Thought Patterns for Increased Self-awareness in Personal Decision Making"
+    year: 2025
+    venue: "arXiv (cs.HC)"
+    url: "https://arxiv.org/abs/2510.04364"
+    domain: "Psychology & mental health"
+    material: "English pre-decision reflections written by participants in conversation with a conversational agent about big life decisions (having children, buying versus renting a house)"
+    languages: ["English"]
+    tasks: ["Text & span classification"]
+  - title: "Die Rolle der Diskursgrammatik bei der Detektion und Analyse sprachlicher Praktiken"
+    year: 2025
+    venue: "Diskursgrammatik"
+    url: "https://doi.org/10.1515/9783110731811-010"
+    domain: "Social science & politics"
+    material: "German moralising language across genres from DeReKo — newspaper commentaries, letters to the editor, interviews, court reports, Bundestag plenary protocols, non-fiction and Wikipedia discussion posts"
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Semantic roles & frames", "Sentiment, emotion & appraisal"]
+  - title: "Division, not reconciliation: Mapping news media polarisation during Australia's indigenous voice to parliament referendum"
+    year: 2025
+    venue: "Media International Australia"
+    url: "https://doi.org/10.1177/1329878X251380961"
+    domain: "Social science & politics"
+    material: "354 Australian news articles from 26 mainstream and fringe outlets covering the 2023 Indigenous Voice to Parliament referendum"
+    tasks: ["Stance & argumentation", "Sentiment, emotion & appraisal", "Text & span classification", "Named entity recognition"]
+  - title: "Entity Framing and Role Portrayal in the News"
+    year: 2025
+    venue: "arXiv (cs.CL)"
+    url: "https://arxiv.org/abs/2502.14718"
+    domain: "Social science & politics"
+    material: "1,378 news articles in Bulgarian, English, Hindi, European Portuguese and Russian on the Ukraine-Russia War and Climate Change, with 5,800+ entity mentions labelled for role archetypes"
+    languages: ["Bulgarian", "English", "Hindi", "Portuguese", "Russian"]
+    tasks: ["Text & span classification", "Named entity recognition", "Stance & argumentation"]
   - title: "Expert statements: Where science communication discourse meets peer review discourse"
     year: 2025
     venue: "Discourse and Interaction"
@@ -442,20 +916,27 @@ papers:
     tasks: ["Discourse & rhetorical structure", "Stance & argumentation", "Text & span classification"]
   - title: "Fine-grained Fallacy Detection with Human Label Variation"
     year: 2025
-    venue: "arXiv (cs.CL)"
-    url: "https://arxiv.org/pdf/2502.13853"
-    domain: "Social science & politics"
-    material: "Italian social media posts (migration, climate change, public health)"
-    languages: ["Italian"]
-    tasks: ["Stance & argumentation", "Text & span classification"]
-  - title: "Fine-grained Fallacy Detection with Human Label Variation"
-    year: 2025
     venue: "NAACL 2025"
     url: "https://aclanthology.org/2025.naacl-long.34/"
     domain: "Social science & politics"
     material: "Italian social media posts on migration, climate change, public health"
     languages: ["Italian"]
     tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Formen und Funktionen von Moralisierungen in der Gesundheitskommunikation"
+    year: 2025
+    url: "https://doi.org/10.33675/2025-82538659"
+    domain: "Social science & politics"
+    material: "German Bundestag plenary debates from 2020 on the blood-donation ban for homosexual and transgender people, annotated for moralisation practices (72 instances across eight speeches)"
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
+  - title: "Heroes, Villains, and Victims: Character Narratives in the WPS Agenda of the UNSC"
+    year: 2025
+    venue: "KONVENS 2025"
+    url: "https://aclanthology.org/2025.konvens-2.5/"
+    domain: "Social science & politics"
+    material: "54 English-language speeches from UN Security Council open debates on the Women, Peace and Security agenda, 2000-2019"
+    languages: ["English"]
+    tasks: ["Text & span classification", "Named entity recognition", "Semantic roles & frames"]
   - title: "Moral Framing in Politics (MFiP): A new resource and models for moral framing"
     year: 2025
     venue: "EMNLP 2025"
@@ -472,3 +953,18 @@ papers:
     material: "News articles in Bulgarian, English, Portuguese, Russian"
     languages: ["Bulgarian", "English", "Portuguese", "Russian"]
     tasks: ["Text & span classification", "Stance & argumentation"]
+  - title: "PAPEA: A modular pipeline for the automation of protest event analysis"
+    year: 2025
+    venue: "Political Science Research and Methods"
+    url: "https://doi.org/10.1017/psrm.2025.10013"
+    domain: "Social science & politics"
+    material: "German local newspaper articles reporting protests in Bremen, Dresden, Leipzig and Stuttgart, 2000-2020 (Leipziger Volkszeitung, Sächsische Zeitung, Weser-Kurier, Stuttgarter Zeitung)"
+    languages: ["German"]
+    tasks: ["Event extraction", "Text & span classification"]
+  - title: "Taxonomic Trace Links in Requirements Engineering"
+    year: 2025
+    url: "https://urn.kb.se/resolve?urn=urn:nbn:se:bth-28451"
+    domain: "Software & security"
+    material: "Requirements from Swedish road and railway infrastructure projects (Trafikverket), labelled with classes from a construction-domain taxonomy to build a traceability ground truth"
+    languages: ["Swedish"]
+    tasks: ["Text & span classification"]
