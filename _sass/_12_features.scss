@@ -308,6 +308,11 @@ $fp-gap: 2.5rem;
   select {
     margin: 0;
     min-width: 14rem;
+    // Capped so a facet with long labels cannot size its <select> well past
+    // its neighbours and leave the panel ragged. The closed control truncates;
+    // the open dropdown is drawn by the browser and still shows each option in
+    // full.
+    max-width: 20rem;
     height: auto;
     padding: .4rem .5rem;
   }

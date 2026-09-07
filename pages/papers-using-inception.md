@@ -15,24 +15,39 @@ we will add it.
 
 {% assign domains = data.papers | map: "domain" | uniq | sort %}
 {% comment %}
-  `compact` drops the empty string this idiom otherwise yields. A paper with no
-  identified language has no `languages` key at all, so `map` returns nil for
-  it and the join/split round-trip turns that into "" -- which rendered as a
-  second, blank, empty-valued <option> that silently cleared the filter when
-  picked. It was invisible until the counts made it print as " (0)".
+  Liquid has no `flatten`, so the join/split round-trip is how a list-valued
+  field becomes a list of distinct values.
+
+  `compact` drops the empty string the idiom otherwise yields for a paper that
+  has no `languages` key: `map` returns nil for it, which the round-trip turns
+  into "", rendering a blank <option> that silently clears the filter.
+
+  Joined on "|" rather than "," because a label may itself contain a comma,
+  which would split one value into two fragments. See the tasks below.
 {% endcomment %}
-{% assign languages = data.papers | map: "languages" | compact | join: "," | split: "," | uniq | sort %}
+{% assign languages = data.papers | map: "languages" | compact | join: "|" | split: "|" | uniq | sort %}
+{% comment %}
+  Multi-valued like languages, so the same round-trip and `compact` apply.
+
+  The "|" delimiter matters: some task labels contain a comma, and splitting on
+  "," tears those in half. That fails in two directions and neither looks like
+  an error -- it renders fragments as if they were real options, and since
+  `contains` on an array tests exact membership, each fragment counts zero
+  while the labels it came from get no working option at all. No label contains
+  "|", and the <li> attribute below is already joined on it.
+{% endcomment %}
+{% assign tasks = data.papers | map: "tasks" | compact | join: "|" | split: "|" | uniq | sort %}
 
 {% comment %}
   The counts are rendered here so they are right before any JavaScript runs,
-  and recomputed by paper-filters.js whenever the other filter changes -- a
-  static "English (41)" contradicts the visible list the moment a field is
-  picked. The bare name is kept in data-label so the script can rebuild
-  "Name (n)" without parsing its own output back apart.
+  and recomputed by paper-filters.js whenever another filter changes -- a
+  static count contradicts the visible list the moment a filter is picked. The
+  bare name is kept in data-label so the script can rebuild "Name (n)" without
+  parsing its own output back apart.
 
-  A language count is "papers annotating this language", NOT a share of the
-  total: a paper may annotate several, so these sum to more than 122. The
-  domain counts do partition the list.
+  A count is "papers carrying this label". Only the single-valued facets
+  partition the list; where a paper may carry several labels the counts sum to
+  more than the number of papers.
 {% endcomment %}
 <div class="paper-filters" data-paper-filters hidden>
   <label>
@@ -49,13 +64,20 @@ we will add it.
       {% for l in languages %}{% assign n = 0 %}{% for p in data.papers %}{% if p.languages contains l %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}<option value="{{ l }}" data-label="{{ l }}">{{ l }} ({{ n }})</option>{% endfor %}
     </select>
   </label>
+  <label>
+    <span>Task</span>
+    <select data-filter="task">
+      <option value="">All tasks</option>
+      {% for t in tasks %}{% assign n = 0 %}{% for p in data.papers %}{% if p.tasks contains t %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}<option value="{{ t }}" data-label="{{ t }}">{{ t }} ({{ n }})</option>{% endfor %}
+    </select>
+  </label>
   <p class="paper-count" data-paper-count></p>
 </div>
 
 <ul class="paper-list" data-paper-list>
   {% assign sorted = data.papers | sort: "title" %}
   {% for p in sorted %}
-  <li data-domain="{{ p.domain }}" data-languages="{{ p.languages | join: '|' }}">
+  <li data-domain="{{ p.domain }}" data-languages="{{ p.languages | join: '|' }}" data-tasks="{{ p.tasks | join: '|' }}">
     {% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
     <div class="paper-meta">
       {% if p.venue %}<span class="venue">{{ p.venue }}</span>{% endif %}

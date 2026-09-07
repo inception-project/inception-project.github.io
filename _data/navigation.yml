@@ -33,6 +33,11 @@
 - title: Publications
   url: "/publications/"
   side: left
+  dropdown:
+  - title: "Papers about INCEpTION"
+    url: "/publications/"
+  - title: "Papers using INCEpTION"
+    url: "/papers-using-inception/"
 
 - title: GitHub
   url: "http://github.com/inception-project"
