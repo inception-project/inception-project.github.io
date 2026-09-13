@@ -10,7 +10,7 @@
 updated: "2026-09-13"
 window_from: 2025
 window_to: 2026
-count: 187
+count: 188
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -1426,6 +1426,14 @@ papers:
     material: "54 English-language speeches from UN Security Council open debates on the Women, Peace and Security agenda, 2000-2019"
     languages: ["English"]
     tasks: ["Text & span classification", "Named entity recognition", "Semantic roles & frames"]
+  - title: "In Vielfalt geeint? Europäische Identitätskonstruktionen im bundesdeutschen Diskurs seit 1990"
+    year: 2025
+    venue: "Dissertation, Universität Trier, Fachbereich II — Germanistische Linguistik"
+    url: "https://ubt.opus.hbz-nrw.de/frontdoor/index/index/docId/2776"
+    domain: "Social science & politics"
+    material: "German: 186 German Bundestag plenary speeches (the Euro-PARL sub-corpus) from debates on ratifying European integration treaties between 1992 and 2021, drawn from a larger German press and plenary-protocol corpus (Bild, FAZ, Süddeutsche Zeitung, taz, Der Spiegel, Die Zeit)."
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
   - title: "Moral Framing in Politics (MFiP): A new resource and models for moral framing"
     year: 2025
     venue: "EMNLP 2025"
