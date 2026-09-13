@@ -7,10 +7,10 @@
 # here at generation time, not computed when the site builds, so a rebuild
 # years from now still renders these rows instead of an empty page.
 
-updated: "2026-09-07"
+updated: "2026-09-13"
 window_from: 2025
 window_to: 2026
-count: 174
+count: 187
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -84,6 +84,14 @@ papers:
     material: "German synthetic clinical notes (GraSCCo) translated into 10 languages"
     languages: ["Arabic", "English", "French", "German", "Italian", "Persian", "Polish", "Russian", "Turkish", "Ukrainian"]
     tasks: ["Named entity recognition", "Translation & parallel alignment"]
+  - title: "On-Premise Medical Information Extraction from German Doctor’s Letters under Clinical Constraints"
+    year: 2026
+    venue: "PhD dissertation, Department of Computational Linguistics, Heidelberg University"
+    url: "https://doi.org/10.11588/heidok.00038580"
+    domain: "Biomedical & clinical"
+    material: "German clinical routine text: CARDIO:DE, 500 de-identified German doctor's letters (discharge letters) from the Cardiology Department of Heidelberg University Hospital, annotated with nine medication entity classes and seven medication relation classes (27,155 annotations in v1.1; 83,869 entities and 59,810 relations reported overall)."
+    languages: ["German"]
+    tasks: ["Named entity recognition", "Relation extraction", "Text & span classification"]
   - title: "Temporal Structure in Clinical Narratives in Portuguese: Insights from Cross-Document Annotation"
     year: 2026
     venue: "LREC 2026"
@@ -212,6 +220,14 @@ papers:
     material: "19th-century Danish and Norwegian novels"
     languages: ["Danish", "Norwegian"]
     tasks: ["Text & span classification", "Discourse & rhetorical structure"]
+  - title: "Structuring cultural heritage content and context: integrating llms in ontology-driven knowledge graph extraction"
+    year: 2026
+    venue: "PhD thesis, Università di Bologna (Dottorato in Patrimonio Culturale nell'Ecosistema Digitale, ciclo 38)"
+    url: "https://doi.org/10.48676/unibo/amsdottorato/13084"
+    domain: "Digital humanities & literature"
+    material: "English Wikipedia articles about historical forgeries, hoaxes and authenticity debates: a 581-article corpus, of which a pilot set of seven articles (Donation of Constantine, Eremin Letter, Getty Kouros, Historia Augusta, Life of Homer, Marriage Charter of Empress Theophanu, Protocols of the Elders of Sion) was annotated, yielding 45 CH items, 235 entities, 215 interpretation acts, 132 evidences, 115 features and 308 Wikidata alignments."
+    languages: ["English"]
+    tasks: ["Entity linking & normalisation", "Relation extraction", "Stance & argumentation", "Event extraction", "Metadata & bibliographic"]
   - title: "To Eat and beyond: A FrameNet-Inspired Annotation of Food and Its Uses over Time"
     year: 2026
     venue: "LREC 2026"
@@ -260,6 +276,14 @@ papers:
     material: "German short answers written by middle- and high-school students (Gemeinschaftsschule and Gymnasium) in Schleswig-Holstein, Germany, collected in Moodle formative assessments across chemistry, biology, mathematics and physics; the new ALICE-LP dataset covering 118 questions."
     languages: ["German"]
     tasks: ["Text & span classification", "Error annotation & correction"]
+  - title: "Designing and Customizing AI Adaptive Dialogs in Middle School Science Classrooms"
+    year: 2026
+    venue: "PhD dissertation, UC Berkeley"
+    url: "https://escholarship.org/uc/item/3ck7194w"
+    domain: "Education & learner corpora"
+    material: "English written science explanations by middle-school students in US classrooms, collected as responses to adaptive dialog prompts."
+    languages: ["English"]
+    tasks: ["Text & span classification"]
   - title: "DUO_DE A1: An Annotated Corpus of Online Learning Material for Beginning Learners of German as a Foreign Language"
     year: 2026
     venue: "LREC 2026"
@@ -292,6 +316,14 @@ papers:
     material: "Luxembourgish reading-comprehension texts"
     languages: ["Luxembourgish"]
     tasks: ["QA & reading comprehension", "Syntax", "Word sense & lexical semantics"]
+  - title: "Outiller la description linguistique de la continuité référentielle dans un corpus d'écrits scolaires français et italien avec une perspective didactique. (Tooling the linguistic description of referential continuity in a corpus of French and Italian school writings through NLP-based annotation, from a didactic perspective)"
+    year: 2026
+    venue: "PhD thesis, Université Grenoble Alpes / Università di Milano-Bicocca"
+    url: "https://hal.science/tel-05683427v2"
+    domain: "Education & learner corpora"
+    material: "French and Italian primary-school pupils' written texts from the longitudinal Scolinter corpus (built on Scoledit): a study sub-corpus of 148 French and 150 Italian texts (CE1-CM2 / Years 1-5), plus 140 French and 20 Italian texts annotated by student pairs in a teaching lab and 15 full French texts annotated in expert working sessions."
+    languages: ["French", "Italian"]
+    tasks: ["Coreference & anaphora"]
   - title: "EHRI Annotator: A Web-Based Tool for Named Entity Recognition and Linking in Holocaust-Related Texts"
     year: 2026
     venue: "LREC 2026"
@@ -340,6 +372,22 @@ papers:
     material: "Early New High German historical records: Bernese Turmbücher and property/tower-book documents from the Ökonomien des Raums and The Flow projects, plus English medieval court rolls"
     languages: ["Early New High German"]
     tasks: ["Named entity recognition", "Relation extraction", "Event extraction"]
+  - title: "Old Swedish Entities: Developing Named Entity Recognition for Medieval Charters Written in Old Swedish"
+    year: 2026
+    venue: "Linnaeus University, MA thesis in Digital Humanities (VT26)"
+    url: "https://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-148739"
+    domain: "History & archives"
+    material: "Old Swedish medieval charters from the Swedish National Archives' Svenskt Diplomatariums huvudkartotek (SDHK): 230 charters written 1380-1382 were automatically annotated and manually verified into a corpus of 417 charters, with an expert-annotated test set of 75 charters from 1375-1382."
+    languages: ["Swedish"]
+    tasks: ["Named entity recognition", "Error annotation & correction"]
+  - title: "Relation Extraction for Dutch Maritime History"
+    year: 2026
+    venue: "Thesis"
+    url: "https://studenttheses.uu.nl/handle/20.500.12932/52429"
+    domain: "History & archives"
+    material: "Early Modern Dutch VOC (Dutch East India Company) archival records from the 17th and 18th centuries"
+    languages: ["Early Modern Dutch"]
+    tasks: ["Relation extraction", "Named entity recognition"]
   - title: "Automatic Annotation of Legal References (Allegationes) in the Liber Extra's Ordinary Gloss"
     year: 2026
     venue: "Umanistica Digitale"
@@ -636,6 +684,14 @@ papers:
     material: "German parliamentary debates (Bundestag speeches)"
     languages: ["German"]
     tasks: ["Text & span classification", "Semantic roles & frames"]
+  - title: "Humor and Political Discourse: a Corpus-Based Study of Italian Politicians on X"
+    year: 2026
+    venue: "PhD thesis, Università degli Studi di Bergamo / Università degli Studi di Pavia"
+    url: "https://doi.org/10.13122/bianco-antonio_phd2026-03-16"
+    domain: "Social science & politics"
+    material: "Italian tweets posted by 38 Italian politicians (23 men, 15 women) on X, 7,552 tweets in total, annotated for humorous value, communicative function (e.g. aggressive), type of humor (e.g. mock-impoliteness) and humor markers (e.g. repetition) by three annotators."
+    languages: ["Italian"]
+    tasks: ["Sentiment, emotion & appraisal", "Text & span classification", "Discourse & rhetorical structure"]
   - title: "Protests in Germany 2000–2020. A dataset based on local protest event data in Bremen, Dresden, Leipzig, and Stuttgart"
     year: 2026
     venue: "German Politics"
@@ -730,6 +786,14 @@ papers:
     material: "German clinical documents (e.g. discharge summaries and findings reports) collected at six German university hospital data integration centres for the GeMTeX reference corpus, with over 40,000 patient broad consents obtained."
     languages: ["German"]
     tasks: ["Named entity recognition", "Entity linking & normalisation"]
+  - title: "Development of Automated Gait Assessment and Intelligent Virtual Reality Based Gait Training Systems for Post-Stroke Rehabilitation"
+    year: 2025
+    venue: "PhD thesis in Exercise Sciences, University of Auckland"
+    url: "https://researchspace.auckland.ac.nz/handle/2292/74298"
+    domain: "Biomedical & clinical"
+    material: "English clinical gait-analysis literature, specifically a curated deviation-cause table of post-stroke gait deviations and their causes, annotated to populate a gait knowledge graph (the downstream evaluation used a twenty-patient post-stroke gait dataset)."
+    languages: ["English"]
+    tasks: ["Relation extraction", "Event extraction", "Named entity recognition"]
   - title: "Extending CARDIO:DE: Additional annotation guidelines and evaluation of NLP approaches for clinical applications"
     year: 2025
     venue: "International Journal of Medical Informatics"
@@ -947,6 +1011,22 @@ papers:
     material: "220 English-language LinkedIn posts from Delta Air Lines, British Airways, ITA Airways and China Southern Airlines, screened for CSR-related content and transparency signal strength"
     languages: ["English"]
     tasks: ["Text & span classification"]
+  - title: "Superquestions and some ways to answer them"
+    year: 2025
+    venue: "Journal of Argumentation in Context"
+    url: "https://doi.org/10.1075/jaic.24002.dag"
+    domain: "Finance & business"
+    material: "English earnings conference call Q&A transcripts"
+    languages: ["English"]
+    tasks: ["Discourse & rhetorical structure", "Stance & argumentation", "Text & span classification"]
+  - title: "Extracción de Información utilizando Modelos Generativos en Documentos del Pasado Reciente"
+    year: 2025
+    venue: "Universidad de la República, Facultad de Ingeniería (Montevideo), MSc thesis in Data Science and Machine Learning"
+    url: "https://hdl.handle.net/20.500.12008/52674"
+    domain: "History & archives"
+    material: "Spanish (Uruguayan) archival documents — the 'fichas' (index cards) of the OCOA from the Berrutti archive of the Uruguayan dictatorship, held as microfilm scans; 1,000 manually curated transcriptions were produced and 515 documents were labelled with entities, relations and events."
+    languages: ["Spanish"]
+    tasks: ["Event extraction", "Named entity recognition", "Relation extraction"]
   - title: "Fine-grained Named-Entity Recognition for the East-India Company domain"
     year: 2025
     venue: "Anthology of Computers and the Humanities"
@@ -1135,6 +1215,14 @@ papers:
     material: "Code-mixed Hindi-English (Hinglish) call-centre conversations with audio and transcripts, annotated with nine discourse relations over elementary discourse units"
     languages: ["English", "Hindi"]
     tasks: ["Discourse & rhetorical structure", "Speech, multimodal & transcription"]
+  - title: "Context Matters - Analysis and Integration of Contextual Factors for Stance Classification Models"
+    year: 2025
+    venue: "Doctoral thesis, Technische Universität Darmstadt"
+    url: "https://doi.org/10.26083/tuprints-00030740"
+    domain: "NLP & computational linguistics"
+    material: "German tweets about Covid-19 governmental containment measures: 200 tweets labelled by four experts plus 140 unique tweets per student for 21 German-speaking social-science students, labelled Unrelated / Comment / Support / Refute."
+    languages: ["German"]
+    tasks: ["Stance & argumentation", "Text & span classification"]
   - title: "Directionality in translation: Throwing new light on an old question"
     year: 2025
     venue: "SKASE Journal of Translation and Interpretation"
@@ -1190,6 +1278,14 @@ papers:
     material: "English scientific abstracts on coastal areas: 600 abstracts sampled from a 64,000-paper Scopus collection (1980-2023) matching 'coastal areas' or 'littoral', of which 215 were manually annotated and 416 form the released CoastRED corpus."
     languages: ["English"]
     tasks: ["Relation extraction", "Named entity recognition", "Entity linking & normalisation"]
+  - title: "Small is Beautiful : addressing resource scarcity, language variation, and transfer challenges for automatic detection of Harmful language"
+    year: 2025
+    venue: "PhD thesis, Sorbonne Université"
+    url: "https://doi.org/10.70675/5a649ef5za082z43d8z906azd8051be91d15"
+    domain: "NLP & computational linguistics"
+    material: "NArabizi, the romanised North African Arabic (Algerian dialect) with French code-switching found in web forums: the NArabizi Treebank of 1,287 sentences, extended with 2,169 named entity mentions (PER, LOC, ORG, COMP, OTH, PERderiv, PERderivA)."
+    languages: ["Arabic", "French"]
+    tasks: ["Named entity recognition", "Syntax"]
   - title: "SocCor: A Multimodal-based Multilingual Soccer Corpus for Text Data Analytics"
     year: 2025
     venue: "KONVENS 2025"
@@ -1206,6 +1302,14 @@ papers:
     material: "English climate science publications retrieved from Semantic Scholar (25 papers annotated)"
     languages: ["English"]
     tasks: ["Named entity recognition", "Entity linking & normalisation", "Relation extraction"]
+  - title: "Towards streamlining reproducibility studies in academic research"
+    year: 2025
+    venue: "MSc in Business Analytics thesis, Athens University of Economics and Business"
+    url: "https://doi.org/10.26219/heal.aueb.444"
+    domain: "NLP & computational linguistics"
+    material: "English-language scientific research papers (PDFs of academic articles) processed for research-artifact mentions; annotations from the Research Artifact Analysis tool are mapped onto UIMA CAS files produced in INCEpTION. The thesis itself is written in English with a Greek abstract."
+    languages: ["English", "Greek"]
+    tasks: ["Other", "Metadata & bibliographic", "OCR, layout & document structure"]
   - title: "Empathy Cause Identification: Towards Unveiling Empathic Triggers in Online Interactions"
     year: 2025
     url: "https://indigo.uic.edu/articles/thesis/Empathy_Cause_Identification_Towards_Unveiling_Empathic_Triggers_in_Online_Interactions/29337452"
