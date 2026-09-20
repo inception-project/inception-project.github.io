@@ -7,10 +7,10 @@
 # here at generation time, not computed when the site builds, so a rebuild
 # years from now still renders these rows instead of an empty page.
 
-updated: "2026-09-13"
+updated: "2026-09-20"
 window_from: 2025
 window_to: 2026
-count: 188
+count: 191
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -508,6 +508,14 @@ papers:
     material: "English peer reviews and news articles"
     languages: ["English"]
     tasks: ["Relation extraction", "Discourse & rhetorical structure", "Text & span classification"]
+  - title: "AraMIP: Extending MIPVU Towards Metaphor Identification in Arabic"
+    year: 2026
+    venue: "arXiv cs.CL 2026"
+    url: "https://arxiv.org/abs/2609.17235"
+    domain: "NLP & computational linguistics"
+    material: "Arabic sentences (Modern Standard Arabic), a 300-sentence pilot corpus of 5277 words"
+    languages: ["Arabic"]
+    tasks: ["Word sense & lexical semantics", "Text & span classification"]
   - title: "CATS: An Annotation Scheme of Causality and Temporal Structure"
     year: 2026
     venue: "LREC 2026"
@@ -580,6 +588,14 @@ papers:
     material: "Russian movie scripts (released 1992-2012, genres crime, comedy, drama, thriller) taken from a Kaggle movie-scripts dataset; a subset of 10 scripts was manually annotated, from which 1,543 transitive declarative sentences were extracted."
     languages: ["Russian"]
     tasks: ["OCR, layout & document structure", "Text & span classification"]
+  - title: "Relation Extraction from Text of Various Domains: A Serbian Case Study"
+    year: 2026
+    venue: "Computational Linguistics in Bulgaria 2026"
+    url: "https://dcl.bas.bg/clib/wp-content/uploads/2026/09/CLIB2026_PROCEEDINGS_v1.0.pdf#page=164"
+    domain: "NLP & computational linguistics"
+    material: "Serbian text across several domains, including literary texts, from the TeslaNER+ dataset"
+    languages: ["Serbian"]
+    tasks: ["Relation extraction", "Named entity recognition"]
   - title: "UniCite: A Dataset and Unified Hierarchical Taxonomy for Multi-Dimensional Citation Analysis"
     year: 2026
     venue: "LREC 2026"
@@ -654,12 +670,12 @@ papers:
     tasks: ["Stance & argumentation", "Named entity recognition", "Coreference & anaphora", "Metadata & bibliographic", "Text & span classification"]
   - title: "Comparing and Modeling Argumentation in German Political Communication across Arenas"
     year: 2026
-    venue: "arXiv (cs.CL)"
-    url: "https://arxiv.org/abs/2608.00288"
+    venue: "KONVENS 2026"
+    url: "https://www.korpuslab.uni-hamburg.de/en/konvens2026/86.pdf"
     domain: "Social science & politics"
-    material: "German political discourse: Bundestag plenary speeches, health committee protocols and government press conferences on COVID-19 (2020-2023)"
+    material: "German political language: plenary speeches, committee meetings and press conferences on COVID-19, a 17k-sentence corpus"
     languages: ["German"]
-    tasks: ["Stance & argumentation", "Discourse & rhetorical structure", "Text & span classification"]
+    tasks: ["Stance & argumentation", "Discourse & rhetorical structure"]
   - title: "Contextualized Prompting For Stance Detection On Social Media"
     year: 2026
     venue: "arXiv (cs.CL)"
@@ -957,6 +973,14 @@ papers:
     material: "The It-Sr-NER Serbian-Italian parallel corpus: 10,000 aligned sentences from classical and modern Serbian and Italian literature, with named entities linked to Wikidata"
     languages: ["Italian", "Serbian"]
     tasks: ["Entity linking & normalisation", "Named entity recognition", "Translation & parallel alignment"]
+  - title: "Learning Trajectories Toward Energy Understanding: Linking Cognitive, Metacognitive, and Affective Perspectives to Enable Adaptive Feedback"
+    year: 2025
+    venue: "Doctoral dissertation, Kiel University"
+    url: "https://macau.uni-kiel.de/servlets/MCRFileNodeServlet/macau_derivate_00009891/Dissertation_Wyrwich.pdf"
+    domain: "Education & learner corpora"
+    material: "German student responses and interviews from physics education in Schleswig-Holstein, Germany"
+    languages: ["German"]
+    tasks: ["Text & span classification"]
   - title: "LLM-Human Alignment in Evaluating Teacher Questioning Practices: Beyond Ratings to Explanation"
     year: 2025
     venue: "AIMeCon 2025"
