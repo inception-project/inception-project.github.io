@@ -7,10 +7,10 @@
 # here at generation time, not computed when the site builds, so a rebuild
 # years from now still renders these rows instead of an empty page.
 
-updated: "2026-09-20"
+updated: "2026-09-22"
 window_from: 2025
 window_to: 2026
-count: 191
+count: 192
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -564,6 +564,14 @@ papers:
     material: "French multi-genre texts (NEM.fr)"
     languages: ["French"]
     tasks: ["Named entity recognition", "LLM output evaluation"]
+  - title: "Extending ISO-Space to Annotate Spatial Information in Route Descriptions"
+    year: 2026
+    venue: "17th International Conference on Spatial Information Theory (COSIT 2026)"
+    url: "https://doi.org/10.4230/LIPIcs.COSIT.2026.12"
+    domain: "NLP & computational linguistics"
+    material: "English natural-language route descriptions: 48 sampled from four walking and hiking corpora (Walkingmaps, Slowways, Soleway, Summitpost)"
+    languages: ["English"]
+    tasks: ["Relation extraction", "Named entity recognition"]
   - title: "GSAP-ERE: Fine-Grained Scholarly Entity and Relation Extraction Focused on Machine Learning"
     year: 2026
     venue: "arXiv (cs.CL)"
