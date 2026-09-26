@@ -7,10 +7,10 @@
 # here at generation time, not computed when the site builds, so a rebuild
 # years from now still renders these rows instead of an empty page.
 
-updated: "2026-09-22"
+updated: "2026-09-26"
 window_from: 2025
 window_to: 2026
-count: 192
+count: 194
 
 papers:
   - title: "A Synthetic Conversational Dataset for Type 2 Diabetes Management"
@@ -44,6 +44,14 @@ papers:
     material: "309 free-text English clinical progress notes from epilepsy clinic visits at the University of Pennsylvania, labelled with epilepsy and seizure types"
     languages: ["English"]
     tasks: ["Text & span classification"]
+  - title: "Automatic extraction of clinically relevant parameters for tumor board decision support"
+    year: 2026
+    venue: "GMS Medizinische Informatik, Biometrie und Epidemiologie, Vol. 22 (2026)"
+    url: "https://doi.org/10.3205/mibe000311"
+    domain: "Biomedical & clinical"
+    material: "German clinical documents (radiology and pathology reports) for liver-tumour cases: 743 pseudonymised documents from 134 patients, annotated for clinically relevant parameters"
+    languages: ["German"]
+    tasks: ["Named entity recognition"]
   - title: "Developing the German Medical Text Corpus (GeMTeX): Legal Compliance and Semantic Enrichment"
     year: 2026
     venue: "LREC 2026"
@@ -436,6 +444,14 @@ papers:
     material: "Brazilian Portuguese legal documents: 560 public documents spanning bills, case law (jurisprudência) and laws, annotated with 9 categories and 23 fine-grained entity types, extending the legislative-only UlyssesNER-Br corpus."
     languages: ["Portuguese"]
     tasks: ["Named entity recognition", "Error annotation & correction"]
+  - title: "Annotation guidelines for the GerMAn corpus (German metaphor annotation)"
+    year: 2026
+    venue: "Register Aspects of Language in Situation (REALIS), Vol. 4 (2026)"
+    url: "https://doi.org/10.71717/ckjf7z30"
+    domain: "Linguistics & typology"
+    material: "German texts from six registers (parliament speeches, sermons, debating-competition debates, light fiction, newspaper commentaries, TEDx talks), about 185,000 words, annotated for metaphor types and their backgrounds following MIPVU"
+    languages: ["German"]
+    tasks: ["Word sense & lexical semantics", "Syntax"]
   - title: "L'oralité du discours représenté: entre unité énonciative et unités prosodiques"
     year: 2026
     venue: "HAL preprint (hal-05022564), from the IXe colloque interdisciplinaire Ci-Dit"
