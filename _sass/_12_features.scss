@@ -180,6 +180,19 @@ $fp-gap: 2.5rem;
   small { font-size: .78rem; color: $grey-9; }
 }
 
+// Logo pair "INCEpTION -> Eclipse Foundation" in place of a single icon.
+.fp-cta-item .fp-cta-logos {
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  gap: .3rem;
+
+  img { height: 1.75rem; width: auto; border-radius: 2px; }
+  img.fp-cta-logo-wide { height: 1.65rem; border-radius: 0; }
+
+  svg { flex-basis: 1rem; width: 1rem; height: 1rem; stroke: $grey-7; }
+}
+
 // Secondary calls to action, below the feature panels: the reader has just been
 // pitched, and these answer "did anyone actually get this working?" They are
 // deliberately quieter than the download/demo pair at the top -- putting all
@@ -350,3 +363,24 @@ $fp-gap: 2.5rem;
 }
 
 .paper-list li[hidden] { display: none; }
+
+// Site-wide notice between the page title and the content
+// (_includes/eclipse-banner.html). A full-width strip, placed below the page
+// title rather than under the navigation so it reads as part of the page
+// rather than as site chrome that visitors learn to skip.
+.site-banner {
+  margin-top: 1.25rem;
+  background: scale-color($ci-3, $lightness: 75%);
+  border-top: 1px solid scale-color($ci-3, $lightness: 20%);
+  border-bottom: 1px solid scale-color($ci-3, $lightness: 20%);
+  padding: .8rem 0;
+  font-size: 1rem;
+  text-align: center;
+  color: $text-color;
+
+  a {
+    font-weight: bold;
+    color: $ci-1;
+    white-space: nowrap;
+  }
+}

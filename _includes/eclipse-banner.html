@@ -1,0 +1,16 @@
+{% comment %}
+Site-wide notice inviting visitors to support the Eclipse Foundation proposal.
+Links to the explanation page rather than straight to the proposal, since
+commenting needs an Eclipse account and comments are moderated. Hidden on the
+explanation page itself.
+{% endcomment %}
+{% unless page.url == "/eclipse/" %}
+<div class="site-banner">
+  <div class="row">
+    <div class="small-12 columns">
+      <strong>INCEpTION has been proposed as an Eclipse Foundation project.</strong>
+      <a href="{{ site.url }}/eclipse/">Here is how you can support it&nbsp;&rarr;</a>
+    </div>
+  </div>
+</div>
+{% endunless %}
