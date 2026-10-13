@@ -25,6 +25,10 @@
 ### RELEASE VERSIONS
 ###
 
+- version: "42.1"
+  date: 2026-10-13
+  status: stable
+
 - version: "42.0"
   date: 2026-09-29
   status: stable
