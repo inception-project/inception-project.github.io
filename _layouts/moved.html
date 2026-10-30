@@ -1,0 +1,21 @@
+---
+# Sends a page to the same path on the new website, keeping the #fragment, and
+# tells search engines where the content went.
+#
+# layout: moved
+# sitemap: false
+# permalink: /old-location/
+---
+{% assign target = site.new_site_url | append: page.url %}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>INCEpTION has moved</title>
+<link rel="canonical" href="{{ target }}">
+<script>location.replace("{{ site.new_site_url }}" + location.pathname + location.search + location.hash);</script>
+<noscript><meta http-equiv="refresh" content="0;url={{ target }}"></noscript>
+</head>
+<body>
+<p>INCEpTION has moved: <a href="{{ target }}">{{ target }}</a></p>
+</body>
+</html>

@@ -1,6 +1,12 @@
 # inception-project.github.io
 
-This repository hosts the code for the [INCEpTION website](https://inception-project.github.io/).
+INCEpTION is now developed at the Eclipse Foundation and its website has moved to
+<https://eclipse-inception.github.io>. This repository only hosts what remains at the old address:
+
+* a landing page announcing the move and listing related projects (`index.md`)
+* redirects from old URLs to the same path on the new site (`pages/404.html` catches everything,
+  `pages/moved/` holds pages that also tell search engines where the content went)
+* the images that other sites and READMEs embed from here (`images/`)
 
 ## Development
 

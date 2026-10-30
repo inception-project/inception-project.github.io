@@ -8,7 +8,7 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "INCEpTION"
+title: "Eclipse INCEpTION™"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
@@ -22,6 +22,10 @@ description: "Multi-layer text annotation with knowledge-base entity linking and
 # This URL is the main adresse. Don't include a slash at the end.
 #
 url: "https://inception-project.github.io"
+
+# Where the INCEpTION website lives now. Used by the 404 page and the moved layout.
+new_site_url: "https://eclipse-inception.github.io"
+
 baseurl: ""
 plugins:
     - jekyll-sitemap
@@ -241,14 +245,3 @@ sass:
 #   / /___/ /_/ / / /  __/ /__/ /_/ / /_/ / / / /
 #   \____/\____/_/_/\___/\___/\__/_/\____/_/ /_/ 
 # 
-collections:
-    use-cases:
-        output: true
-        layout: article
-        sidebar: left
-        permalink: /use-cases/:path/
-    example-projects:
-        output: true
-        layout: article
-        sidebar: left
-        permalink: /example-projects/:path/
